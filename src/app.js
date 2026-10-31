@@ -5,7 +5,7 @@ const STORAGE = {
   images: 'lexiloop-images-v1',
 };
 
-const DATA_VERSION = '20261031-lesson9-v2';
+const DATA_VERSION = '20261031-lesson9-v3';
 
 const MODES = [
   { id: 'text', label: 'Text recognition', short: 'Text', description: 'Four meanings, two directions.' },
@@ -19,6 +19,7 @@ const MODES = [
 
 const ui = {
   selectedChapters: new Set(),
+  showChapterModal: false,
   imageFilter: 'all',
   sessionSettings: {
     modes: ['text'],
@@ -236,7 +237,6 @@ function shell(content) {
 
 function renderHome() {
   const total = totals();
-  const selectedCount = ui.selectedChapters.size;
   return `<section class="hero-grid">
     <div class="hero-copy">
       <div class="eyebrow">A visual vocabulary studio</div>
@@ -250,49 +250,105 @@ function renderHome() {
     <div class="metric"><span class="metric-label">Mastered</span><strong>${total.mastered}<small>/${total.words}</small></strong><span class="metric-note">words in box 4–5</span></div>
     <div class="metric"><span class="metric-label">Accuracy</span><strong>${total.accuracy}<small>%</small></strong><span class="metric-note">across all sessions</span></div>
     <div class="metric"><span class="metric-label">Sessions</span><strong>${total.sessions}</strong><span class="metric-note">keep the chain warm</span></div>
-    <div class="metric metric-accent"><span class="metric-label">Selected</span><strong>${selectedCount}<small> chapters</small></strong><span class="metric-note">ready for a session</span></div>
+    <div class="metric metric-accent"><span class="metric-label">Material</span><strong>${appData.chapters.length}<small> lessons</small></strong><span class="metric-note">${total.words} total words</span></div>
   </section>
   <section class="section-block chapter-section">
-    <div class="section-heading"><div><div class="eyebrow">Choose your material</div><h2>Chapters</h2></div><div class="section-actions"><button class="text-button" data-action="select-all">${selectedCount === appData.chapters.length ? 'Clear all' : 'Select all'}</button><button class="button button-small" data-route="#settings">+ Import chapter</button></div></div>
+    <div class="section-heading"><div><div class="eyebrow">Course overview</div><h2>Lessons</h2></div><div class="section-actions"><button class="button button-small" data-route="#settings">+ Import chapter</button></div></div>
     <div class="chapter-list">${appData.chapters.map(renderChapterCard).join('')}</div>
   </section>`;
 }
 
 function renderChapterCard(chapter, index) {
   const stats = chapterStats(chapter);
-  const selected = ui.selectedChapters.has(chapter.id);
   const accent = ['yellow', 'coral', 'blue', 'mint'][index % 4];
-  return `<article class="chapter-card ${selected ? 'is-selected' : ''}">
-    <label class="chapter-select"><input type="checkbox" data-chapter-select="${escapeAttr(chapter.id)}" ${selected ? 'checked' : ''}/><span class="checkmark"></span><span class="chapter-index">${String(index + 1).padStart(2, '0')}</span></label>
+  return `<article class="chapter-card">
+    <div class="chapter-select"><span class="chapter-index">${String(index + 1).padStart(2, '0')}</span></div>
     <div class="chapter-card-main"><div class="chapter-heading"><div><h3>${escapeHtml(chapter.title)}</h3><p>${escapeHtml(chapter.description || `${chapter.entries.length} words to revisit.`)}</p></div><span class="chapter-count">${chapter.entries.length} words</span></div><div class="progress-line"><span class="progress-fill ${accent}" style="width:${Math.max(stats.percent, 4)}%"></span></div><div class="chapter-footer"><span>${stats.percent}% mastered</span><span>${stats.last ? `Last score ${stats.last.score}% · ${formatDate(stats.last.endedAt)}` : 'Ready when you are'}</span></div></div>
     <button class="chapter-arrow" data-action="chapter-practice" data-chapter="${escapeAttr(chapter.id)}" aria-label="Practice ${escapeAttr(chapter.title)}">↗</button>
   </article>`;
 }
 
+function eligibleEntriesForChapter(chapterId, modes) {
+  const activeModes = modes.length ? modes : ['text'];
+  return appData.entries.filter((entry) => entry.chapterId === chapterId && activeModes.some((mode) => canUseMode(entry, mode)));
+}
+
+function renderChapterModal(effectiveModes) {
+  if (!ui.showChapterModal) return '';
+  const eligibleChapters = appData.chapters.filter((chapter) => eligibleEntriesForChapter(chapter.id, effectiveModes).length > 0);
+  const selectedEligible = eligibleChapters.filter((chapter) => ui.selectedChapters.has(chapter.id));
+  const allSelected = eligibleChapters.length > 0 && selectedEligible.length === eligibleChapters.length;
+  const totalEligibleWords = selectedEligible.reduce((sum, chapter) => sum + eligibleEntriesForChapter(chapter.id, effectiveModes).length, 0);
+  return `<div class="modal-backdrop" data-action="close-chapter-modal">
+    <div class="modal-sheet panel" role="dialog" aria-modal="true" aria-labelledby="modal-lesson-title" data-modal-sheet>
+      <div class="modal-header">
+        <div>
+          <span class="panel-kicker">03 · Choose lessons</span>
+          <h2 id="modal-lesson-title">Which lessons do you want to practice?</h2>
+        </div>
+        <button class="modal-close" data-action="close-chapter-modal" aria-label="Close">×</button>
+      </div>
+      <div class="modal-quick-bar">
+        <label class="modal-all-toggle ${allSelected ? 'is-selected' : ''}">
+          <input type="checkbox" data-action="toggle-all-chapters" ${allSelected ? 'checked' : ''} />
+          <span class="checkmark"></span>
+          <div>
+            <strong>All eligible lessons</strong>
+            <small>${eligibleChapters.length} of ${appData.chapters.length} lessons match your selected mode${effectiveModes.length === 1 ? '' : 's'}</small>
+          </div>
+        </label>
+      </div>
+      <div class="modal-chapter-list">
+        ${appData.chapters.map((chapter, index) => {
+          const matchingCount = eligibleEntriesForChapter(chapter.id, effectiveModes).length;
+          const disabled = matchingCount === 0;
+          const checked = !disabled && ui.selectedChapters.has(chapter.id);
+          return `<label class="modal-chapter-item ${checked ? 'is-selected' : ''} ${disabled ? 'is-disabled' : ''}">
+            <input type="checkbox" data-chapter-select="${escapeAttr(chapter.id)}" ${checked ? 'checked' : ''} ${disabled ? 'disabled' : ''} />
+            <span class="checkmark"></span>
+            <span class="chapter-index">${String(index + 1).padStart(2, '0')}</span>
+            <div class="modal-chapter-copy">
+              <strong>${escapeHtml(chapter.title)}</strong>
+              <small>${disabled ? 'No words for selected mode' : `${matchingCount} eligible word${matchingCount === 1 ? '' : 's'}`}</small>
+            </div>
+          </label>`;
+        }).join('')}
+      </div>
+      <div class="modal-footer">
+        <div class="modal-summary"><strong>${selectedEligible.length} lesson${selectedEligible.length === 1 ? '' : 's'}</strong> · ${totalEligibleWords} words in pool</div>
+        <div class="modal-actions">
+          <button class="button button-quiet button-small" data-action="close-chapter-modal">Back</button>
+          <button class="button button-primary" data-action="confirm-chapter-modal" ${selectedEligible.length ? '' : 'disabled'}>Start session <span>↗</span></button>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
 function renderPracticeSetup() {
   const s = ui.sessionSettings;
-  const selectedPool = entriesForSelected();
-  const activeModes = s.modes.filter((modeId) => selectedPool.some((entry) => canUseMode(entry, modeId)));
+  const activeModes = s.modes.filter((modeId) => appData.entries.some((entry) => canUseMode(entry, modeId)));
   const effectiveModes = activeModes.length ? activeModes : ['text'];
-  return `<section class="setup-header"><div class="eyebrow">Session builder</div><h1>Set the frame.<br /><em>Then get moving.</em></h1><p>Choose a quick 10-question check-in or settle into a 30-question round.</p></section>
+  return `<section class="setup-header"><div class="eyebrow">Session builder</div><h1>Set the frame.<br /><em>Then get moving.</em></h1><p>Choose your recall mode and session shape, then pick your lessons on start.</p></section>
   <section class="setup-layout">
     <div class="setup-main panel">
       <div class="panel-heading"><div><span class="panel-kicker">01 · Mode</span><h2>How do you want to recall?</h2></div><span class="panel-count">${effectiveModes.length} selected</span></div>
       <div class="mode-grid">${MODES.map((mode) => {
-        const enabled = selectedPool.some((entry) => canUseMode(entry, mode.id));
+        const enabled = appData.entries.some((entry) => canUseMode(entry, mode.id));
         const selected = effectiveModes.includes(mode.id) && enabled;
         return `<label class="mode-card ${selected ? 'is-selected' : ''} ${!enabled ? 'is-disabled' : ''}"><input type="checkbox" data-mode-toggle="${mode.id}" ${selected ? 'checked' : ''} ${!enabled ? 'disabled' : ''}/><span class="mode-check">${selected ? '✓' : ''}</span><span class="mode-icon">${mode.id === 'text' ? 'Aa' : mode.id === 'spelling' ? '⌁' : mode.id === 'conjugation' ? '↻' : '▣'}</span><strong>${mode.label}</strong><small>${mode.description}</small></label>`;
       }).join('')}</div>
       <div class="setup-divider"></div>
       <div class="panel-heading compact"><div><span class="panel-kicker">02 · Shape</span><h2>Give it a rhythm.</h2></div></div>
       <div class="setting-grid">
-        <div class="field"><span>Session length</span><div class="session-length-options" role="radiogroup" aria-label="Session length"><label class="session-length-option ${s.questionCount === 10 ? 'is-selected' : ''}"><input type="radio" name="question-count" data-session-setting="questionCount" value="10" ${s.questionCount === 10 ? 'checked' : ''}/><span class="session-length-number">10</span><span><strong>Quick test</strong><small>Focused reset</small></span></label><label class="session-length-option ${s.questionCount === 30 ? 'is-selected' : ''}"><input type="radio" name="question-count" data-session-setting="questionCount" value="30" ${s.questionCount === 30 ? 'checked' : ''}/><span class="session-length-number">30</span><span><strong>Extended test</strong><small>Deeper practice</small></span></label></div></div>
+        <div class="field"><span>Session length</span><div class="session-length-options" role="radiogroup" aria-label="Session length"><label class="session-length-option ${s.questionCount === 10 ? 'is-selected' : ''}"><input type="radio" name="question-count" data-session-setting="questionCount" value="10" ${s.questionCount === 10 ? 'checked' : ''}/><span class="session-length-number">10</span><span class="session-length-copy"><strong>Quick test</strong><small>Focused reset</small></span></label><label class="session-length-option ${s.questionCount === 30 ? 'is-selected' : ''}"><input type="radio" name="question-count" data-session-setting="questionCount" value="30" ${s.questionCount === 30 ? 'checked' : ''}/><span class="session-length-number">30</span><span class="session-length-copy"><strong>Extended test</strong><small>Deeper practice</small></span></label></div></div>
         <label class="field"><span>Text direction</span><select data-session-setting="direction"><option value="mixed" ${s.direction === 'mixed' ? 'selected' : ''}>Mixed directions</option><option value="forward" ${s.direction === 'forward' ? 'selected' : ''}>German → English</option><option value="reverse" ${s.direction === 'reverse' ? 'selected' : ''}>English → German</option></select></label>
       </div>
       <div class="toggle-list"><label class="toggle-row"><span><strong>Shuffle the deck</strong><small>Keep the order unpredictable.</small></span><input type="checkbox" data-session-setting="shuffle" ${s.shuffle ? 'checked' : ''}/><span class="toggle"></span></label><label class="toggle-row"><span><strong>Only weak or wrong words</strong><small>Stay with boxes 1–2 and recent misses.</small></span><input type="checkbox" data-session-setting="weakOnly" ${s.weakOnly ? 'checked' : ''}/><span class="toggle"></span></label><label class="toggle-row"><span><strong>Ignore case in spelling</strong><small>Accents still count; case does not.</small></span><input type="checkbox" data-session-setting="ignoreCase" ${s.ignoreCase ? 'checked' : ''}/><span class="toggle"></span></label></div>
+      <div class="setup-inline-start"><button class="button button-primary button-wide" data-action="open-chapter-modal">Choose lessons &amp; start <span>↗</span></button></div>
     </div>
-    <aside class="setup-side panel"><div class="panel-kicker">Your material</div><h3>${ui.selectedChapters.size} chapter${ui.selectedChapters.size === 1 ? '' : 's'} selected</h3><div class="selected-chapters">${appData.chapters.filter((chapter) => ui.selectedChapters.has(chapter.id)).map((chapter) => `<span class="chip"><span class="status-dot"></span>${escapeHtml(chapter.title)}</span>`).join('') || '<span class="muted">Select a chapter on Home first.</span>'}</div><div class="setup-side-note"><span class="note-mark">✦</span><p>Weak words appear more often. Every correct answer nudges a card forward.</p></div><button class="button button-primary button-wide" data-action="begin-session">Begin session <span>↗</span></button><button class="text-button button-wide" data-route="#home">← Adjust chapters</button></aside>
-  </section>`;
+    <aside class="setup-side panel"><div class="panel-kicker">Ready to begin</div><h3>${effectiveModes.length} mode${effectiveModes.length === 1 ? '' : 's'} · ${s.questionCount} questions</h3><div class="selected-chapters">${effectiveModes.map((id) => `<span class="chip"><span class="status-dot"></span>${escapeHtml(MODES.find((m) => m.id === id)?.label || id)}</span>`).join('')}</div><div class="setup-side-note"><span class="note-mark">✦</span><p>Press start to choose all lessons or pick specific chapters for this session.</p></div><button class="button button-primary button-wide" data-action="open-chapter-modal">Begin session <span>↗</span></button></aside>
+  </section>${renderChapterModal(effectiveModes)}`;
 }
 
 function distractorsFor(entry, mapFn, correctValue, count = 3) {
@@ -744,8 +800,21 @@ function insertCharIntoInput(input, char) {
 function handleAction(actionElement) {
   const action = actionElement.dataset.action;
   if (action === 'start-practice') { activeView = 'practice'; window.location.hash = '#practice'; render(); return; }
+  if (action === 'open-chapter-modal') {
+    const activeModes = ui.sessionSettings.modes.filter((modeId) => appData.entries.some((entry) => canUseMode(entry, modeId)));
+    const effectiveModes = activeModes.length ? activeModes : ['text'];
+    const eligibleIds = appData.chapters.filter((chapter) => eligibleEntriesForChapter(chapter.id, effectiveModes).length > 0).map((chapter) => chapter.id);
+    if (!eligibleIds.some((id) => ui.selectedChapters.has(id))) {
+      ui.selectedChapters = new Set(eligibleIds);
+    }
+    ui.showChapterModal = true;
+    render();
+    return;
+  }
+  if (action === 'close-chapter-modal') { ui.showChapterModal = false; render(); return; }
+  if (action === 'confirm-chapter-modal') { ui.showChapterModal = false; startSession(); return; }
   if (action === 'begin-session') { startSession(); return; }
-  if (action === 'chapter-practice') { ui.selectedChapters = new Set([actionElement.dataset.chapter]); startSession(); return; }
+  if (action === 'chapter-practice') { ui.selectedChapters = new Set([actionElement.dataset.chapter]); ui.showChapterModal = false; startSession(); return; }
   if (action === 'select-all') { ui.selectedChapters = ui.selectedChapters.size === appData.chapters.length ? new Set() : new Set(appData.chapters.map((chapter) => chapter.id)); render(); return; }
   if (action === 'choice') { answerQuestion(actionElement.dataset.choice); return; }
   if (action === 'submit-spelling') { answerQuestion(document.querySelector('#spelling-answer')?.value || ''); return; }
@@ -767,12 +836,22 @@ function handleAction(actionElement) {
 
 document.addEventListener('click', (event) => {
   const route = event.target.closest('[data-route]');
-  if (route) { event.preventDefault(); activeView = route.dataset.route.slice(1); window.location.hash = route.dataset.route; if (activeView === 'practice' && practice) {} render(); return; }
+  if (route) { event.preventDefault(); ui.showChapterModal = false; activeView = route.dataset.route.slice(1); window.location.hash = route.dataset.route; render(); return; }
+  if (event.target.matches('.modal-backdrop')) { ui.showChapterModal = false; render(); return; }
   const action = event.target.closest('[data-action]');
-  if (action) handleAction(action);
+  if (action && action.dataset.action !== 'toggle-all-chapters' && !action.matches('.modal-backdrop')) handleAction(action);
 });
 
 document.addEventListener('change', (event) => {
+  const toggleAll = event.target.closest('[data-action="toggle-all-chapters"]');
+  if (toggleAll) {
+    const activeModes = ui.sessionSettings.modes.filter((modeId) => appData.entries.some((entry) => canUseMode(entry, modeId)));
+    const effectiveModes = activeModes.length ? activeModes : ['text'];
+    const eligibleIds = appData.chapters.filter((chapter) => eligibleEntriesForChapter(chapter.id, effectiveModes).length > 0).map((chapter) => chapter.id);
+    ui.selectedChapters = toggleAll.checked ? new Set(eligibleIds) : new Set();
+    render();
+    return;
+  }
   const chapter = event.target.closest('[data-chapter-select]');
   if (chapter) { if (event.target.checked) ui.selectedChapters.add(chapter.dataset.chapterSelect); else ui.selectedChapters.delete(chapter.dataset.chapterSelect); render(); return; }
   const mode = event.target.closest('[data-mode-toggle]');
