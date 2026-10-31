@@ -1,0 +1,58 @@
+{
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Lektion 1: Name, Herkunft & Länder",
+      "file": "chapter-01.json",
+      "description": "23 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch02",
+      "title": "Lektion 2: Familie & Freunde",
+      "file": "chapter-02.json",
+      "description": "40 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch03",
+      "title": "Lektion 3: Essen & Trinken",
+      "file": "chapter-03.json",
+      "description": "68 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch04",
+      "title": "Lektion 4: Meine Wohnung",
+      "file": "chapter-04.json",
+      "description": "53 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch05",
+      "title": "Lektion 5: Dinge, Materialien & Formen",
+      "file": "chapter-05.json",
+      "description": "79 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch06",
+      "title": "Lektion 6: Büro & Alltagsgegenstände",
+      "file": "chapter-06.json",
+      "description": "30 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch07",
+      "title": "Lektion 7: Hobbys & Freizeit",
+      "file": "chapter-07.json",
+      "description": "42 German words and verbs with English meanings."
+    },
+    {
+      "id": "ch08",
+      "title": "Lektion 8: Kein Problem. Ich habe Zeit!",
+      "file": "chapter-08.json",
+      "description": "80 German words, phrases, and verbs with English meanings."
+    },
+    {
+      "id": "ch09",
+      "title": "Lektion 9: Ich möchte was essen, Onkel Harry.",
+      "file": "chapter-09.json",
+      "description": "87 German food words, phrases, grammar entries, and verbs with English meanings."
+    }
+  ]
+}

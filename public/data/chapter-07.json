@@ -1,0 +1,364 @@
+{
+  "id": "ch07",
+  "title": "Lektion 7: Hobbys & Freizeit",
+  "entries": [
+    {
+      "word": "das Hobby",
+      "translation": "hobby",
+      "article": "das",
+      "noun": "Hobby",
+      "plural": "die Hobbys",
+      "category": "hobbies & leisure",
+      "example": "Mein Hobby ist Musik."
+    },
+    {
+      "word": "die Freizeit",
+      "translation": "free time / leisure time",
+      "article": "die",
+      "noun": "Freizeit",
+      "plural": "die Freizeiten",
+      "category": "hobbies & leisure",
+      "example": "In meiner Freizeit lese ich gern."
+    },
+    {
+      "word": "der Freund",
+      "translation": "friend (male)",
+      "article": "der",
+      "noun": "Freund",
+      "plural": "die Freunde",
+      "category": "people & leisure",
+      "example": "Mein Freund spielt gern Fußball."
+    },
+    {
+      "word": "die Freundin",
+      "translation": "friend (female)",
+      "article": "die",
+      "noun": "Freundin",
+      "plural": "die Freundinnen",
+      "category": "people & leisure",
+      "example": "Meine Freundin singt gern."
+    },
+    {
+      "word": "der Spaß",
+      "translation": "fun",
+      "article": "der",
+      "noun": "Spaß",
+      "plural": "die Späße",
+      "category": "hobbies & leisure",
+      "example": "Das macht Spaß!"
+    },
+    {
+      "word": "das Kompliment",
+      "translation": "compliment",
+      "article": "das",
+      "noun": "Kompliment",
+      "plural": "die Komplimente",
+      "category": "people & leisure",
+      "example": "Danke für das Kompliment!"
+    },
+    {
+      "word": "das Auge",
+      "translation": "eye",
+      "article": "das",
+      "noun": "Auge",
+      "plural": "die Augen",
+      "category": "body & leisure",
+      "example": "Ihre Augen sind blau."
+    },
+    {
+      "word": "die Gitarre",
+      "translation": "guitar",
+      "article": "die",
+      "noun": "Gitarre",
+      "plural": "die Gitarren",
+      "category": "music & leisure",
+      "example": "Ich habe eine Gitarre."
+    },
+    {
+      "word": "das Schach",
+      "translation": "chess",
+      "article": "das",
+      "noun": "Schach",
+      "plural": "–",
+      "category": "sports & games",
+      "example": "Wir spielen Schach."
+    },
+    {
+      "word": "der Ski",
+      "translation": "ski",
+      "article": "der",
+      "noun": "Ski",
+      "plural": "die Skier",
+      "category": "sports & leisure",
+      "example": "Ich habe neue Skier."
+    },
+    {
+      "word": "das Tennis",
+      "translation": "tennis",
+      "article": "das",
+      "noun": "Tennis",
+      "plural": "–",
+      "category": "sports & games",
+      "example": "Sie spielt Tennis."
+    },
+    {
+      "word": "der Fußball",
+      "translation": "football / soccer",
+      "article": "der",
+      "noun": "Fußball",
+      "plural": "die Fußbälle",
+      "category": "sports & games",
+      "example": "Der Fußball ist im Garten."
+    },
+    {
+      "word": "das Rad (Fahrrad)",
+      "translation": "bicycle / bike",
+      "article": "das",
+      "noun": "Rad (Fahrrad)",
+      "plural": "die Räder (Fahrräder)",
+      "category": "sports & leisure",
+      "example": "Ich fahre mit dem Rad."
+    },
+    {
+      "word": "die Musik",
+      "translation": "music",
+      "article": "die",
+      "noun": "Musik",
+      "plural": "–",
+      "category": "music & leisure",
+      "example": "Ich höre gern Musik."
+    },
+    {
+      "word": "die Natur",
+      "translation": "nature",
+      "article": "die",
+      "noun": "Natur",
+      "plural": "–",
+      "category": "nature & leisure",
+      "example": "Ich liebe die Natur."
+    },
+    {
+      "word": "der Ausflug",
+      "translation": "excursion / day trip",
+      "article": "der",
+      "noun": "Ausflug",
+      "plural": "die Ausflüge",
+      "category": "travel & leisure",
+      "example": "Wir machen einen Ausflug."
+    },
+    {
+      "word": "das Buch",
+      "translation": "book",
+      "article": "das",
+      "noun": "Buch",
+      "plural": "die Bücher",
+      "category": "reading & leisure",
+      "example": "Das Buch ist sehr interessant."
+    },
+    {
+      "word": "das Kino",
+      "translation": "cinema / movie theater",
+      "article": "das",
+      "noun": "Kino",
+      "plural": "die Kinos",
+      "category": "entertainment",
+      "example": "Wir gehen heute ins Kino."
+    },
+    {
+      "word": "das Theater",
+      "translation": "theater",
+      "article": "das",
+      "noun": "Theater",
+      "plural": "–",
+      "category": "entertainment",
+      "example": "Das Theater ist heute ausverkauft."
+    },
+    {
+      "word": "das Auto",
+      "translation": "car",
+      "article": "das",
+      "noun": "Auto",
+      "plural": "die Autos",
+      "category": "travel & leisure",
+      "example": "Wir fahren mit dem Auto."
+    },
+    {
+      "word": "das Feuerzeug",
+      "translation": "lighter",
+      "article": "das",
+      "noun": "Feuerzeug",
+      "plural": "die Feuerzeuge",
+      "category": "everyday objects",
+      "example": "Das Feuerzeug liegt auf dem Tisch."
+    },
+    {
+      "word": "der Lieblingsfilm",
+      "translation": "favorite movie",
+      "article": "der",
+      "noun": "Lieblingsfilm",
+      "plural": "die Lieblingsfilme",
+      "category": "entertainment",
+      "example": "Das ist mein Lieblingsfilm."
+    },
+    {
+      "word": "kochen",
+      "translation": "to cook",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Ich koche gern.",
+      "conjugation": {"ich": "koche", "du": "kochst", "er/sie/es": "kocht", "wir": "kochen", "ihr": "kocht", "Sie/sie": "kochen"}
+    },
+    {
+      "word": "tanzen",
+      "translation": "to dance",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Wir tanzen zusammen.",
+      "conjugation": {"ich": "tanze", "du": "tanzt", "er/sie/es": "tanzt", "wir": "tanzen", "ihr": "tanzt", "Sie/sie": "tanzen"}
+    },
+    {
+      "word": "singen",
+      "translation": "to sing",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Sie singt ein Lied.",
+      "conjugation": {"ich": "singe", "du": "singst", "er/sie/es": "singt", "wir": "singen", "ihr": "singt", "Sie/sie": "singen"}
+    },
+    {
+      "word": "lesen",
+      "translation": "to read",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Ich lese ein Buch.",
+      "conjugation": {"ich": "lese", "du": "liest", "er/sie/es": "liest", "wir": "lesen", "ihr": "lest", "Sie/sie": "lesen"}
+    },
+    {
+      "word": "Freunde treffen",
+      "translation": "to meet friends",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Am Samstag treffe ich Freunde.",
+      "conjugation": {"ich": "treffe Freunde", "du": "triffst Freunde", "er/sie/es": "trifft Freunde", "wir": "treffen Freunde", "ihr": "trefft Freunde", "Sie/sie": "treffen Freunde"}
+    },
+    {
+      "word": "im Internet surfen",
+      "translation": "to surf the internet",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Ich surfe im Internet.",
+      "conjugation": {"ich": "surfe im Internet", "du": "surfst im Internet", "er/sie/es": "surft im Internet", "wir": "surfen im Internet", "ihr": "surft im Internet", "Sie/sie": "surfen im Internet"}
+    },
+    {
+      "word": "schwimmen",
+      "translation": "to swim",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Im Sommer schwimme ich gern.",
+      "conjugation": {"ich": "schwimme", "du": "schwimmst", "er/sie/es": "schwimmt", "wir": "schwimmen", "ihr": "schwimmt", "Sie/sie": "schwimmen"}
+    },
+    {
+      "word": "fotografieren",
+      "translation": "to take photos",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Sie fotografiert die Natur.",
+      "conjugation": {"ich": "fotografiere", "du": "fotografierst", "er/sie/es": "fotografiert", "wir": "fotografieren", "ihr": "fotografiert", "Sie/sie": "fotografieren"}
+    },
+    {
+      "word": "Ski fahren",
+      "translation": "to ski",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Im Winter fahre ich Ski.",
+      "conjugation": {"ich": "fahre Ski", "du": "fährst Ski", "er/sie/es": "fährt Ski", "wir": "fahren Ski", "ihr": "fahrt Ski", "Sie/sie": "fahren Ski"}
+    },
+    {
+      "word": "Rad fahren",
+      "translation": "to ride a bike / cycle",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Wir fahren am Wochenende Rad.",
+      "conjugation": {"ich": "fahre Rad", "du": "fährst Rad", "er/sie/es": "fährt Rad", "wir": "fahren Rad", "ihr": "fahrt Rad", "Sie/sie": "fahren Rad"}
+    },
+    {
+      "word": "Gitarre spielen",
+      "translation": "to play guitar",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Ich spiele Gitarre.",
+      "conjugation": {"ich": "spiele Gitarre", "du": "spielst Gitarre", "er/sie/es": "spielt Gitarre", "wir": "spielen Gitarre", "ihr": "spielt Gitarre", "Sie/sie": "spielen Gitarre"}
+    },
+    {
+      "word": "Tennis spielen",
+      "translation": "to play tennis",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Sie spielt Tennis.",
+      "conjugation": {"ich": "spiele Tennis", "du": "spielst Tennis", "er/sie/es": "spielt Tennis", "wir": "spielen Tennis", "ihr": "spielt Tennis", "Sie/sie": "spielen Tennis"}
+    },
+    {
+      "word": "Fußball spielen",
+      "translation": "to play football / soccer",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Die Kinder spielen Fußball.",
+      "conjugation": {"ich": "spiele Fußball", "du": "spielst Fußball", "er/sie/es": "spielt Fußball", "wir": "spielen Fußball", "ihr": "spielt Fußball", "Sie/sie": "spielen Fußball"}
+    },
+    {
+      "word": "Schach spielen",
+      "translation": "to play chess",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Wir spielen Schach.",
+      "conjugation": {"ich": "spiele Schach", "du": "spielst Schach", "er/sie/es": "spielt Schach", "wir": "spielen Schach", "ihr": "spielt Schach", "Sie/sie": "spielen Schach"}
+    },
+    {
+      "word": "malen",
+      "translation": "to paint",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Meine Schwester malt gern.",
+      "conjugation": {"ich": "male", "du": "malst", "er/sie/es": "malt", "wir": "malen", "ihr": "malt", "Sie/sie": "malen"}
+    },
+    {
+      "word": "backen",
+      "translation": "to bake",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Wir backen einen Kuchen.",
+      "conjugation": {"ich": "backe", "du": "bäckst", "er/sie/es": "bäckt", "wir": "backen", "ihr": "backt", "Sie/sie": "backen"}
+    },
+    {
+      "word": "Musik hören",
+      "translation": "to listen to music",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Ich höre Musik.",
+      "conjugation": {"ich": "höre Musik", "du": "hörst Musik", "er/sie/es": "hört Musik", "wir": "hören Musik", "ihr": "hört Musik", "Sie/sie": "hören Musik"}
+    },
+    {
+      "word": "spazieren gehen",
+      "translation": "to go for a walk",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Wir gehen im Park spazieren.",
+      "conjugation": {"ich": "gehe spazieren", "du": "gehst spazieren", "er/sie/es": "geht spazieren", "wir": "gehen spazieren", "ihr": "geht spazieren", "Sie/sie": "gehen spazieren"}
+    },
+    {
+      "word": "Ausflüge machen",
+      "translation": "to go on excursions / day trips",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Im Sommer machen wir Ausflüge.",
+      "conjugation": {"ich": "mache Ausflüge", "du": "machst Ausflüge", "er/sie/es": "macht Ausflüge", "wir": "machen Ausflüge", "ihr": "macht Ausflüge", "Sie/sie": "machen Ausflüge"}
+    },
+    {
+      "word": "schlafen",
+      "translation": "to sleep",
+      "partOfSpeech": "verb",
+      "category": "Freizeitverben",
+      "example": "Am Wochenende schlafe ich lange.",
+      "conjugation": {"ich": "schlafe", "du": "schläfst", "er/sie/es": "schläft", "wir": "schlafen", "ihr": "schlaft", "Sie/sie": "schlafen"}
+    }
+  ]
+}

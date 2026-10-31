@@ -1,0 +1,438 @@
+{
+  "source": "Wikimedia Commons",
+  "items": [
+    {
+      "path": "chapter-01/apple.webp",
+      "word": "apple",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASanta_Maria_de_Huerta_Almacen.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Willtron\" title=\"User:Willtron\">Willtron</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Santa_Maria_de_Huerta_Almacen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/book.webp",
+      "word": "book",
+      "source": "https://commons.wikimedia.org/wiki/File%3ALiji_2.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Snowyowls\" title=\"User:Snowyowls\">user:snowyowls</a>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Liji_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/cat.webp",
+      "word": "cat",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASix_weeks_old_cat_%28aka%29.jpg",
+      "creator": "<p>André Karwath aka <a href=\"//commons.wikimedia.org/wiki/User:Aka\" title=\"User:Aka\">Aka</a>\n</p>",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Six_weeks_old_cat_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/dog.webp",
+      "word": "dog",
+      "source": "https://commons.wikimedia.org/wiki/File%3ACane_corso_g%C5%82owa_profil_493o.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Pleple2000\" title=\"User:Pleple2000\">Pleple2000</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cane_corso_g%C5%82owa_profil_493o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/flower.webp",
+      "word": "flower",
+      "source": "https://commons.wikimedia.org/wiki/File%3AFlower_jtca001.jpg",
+      "creator": "Sam Oth (<a href=\"//commons.wikimedia.org/wiki/User:World_Trekker\" title=\"User:World Trekker\">User:World Trekker</a>)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flower_jtca001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/house.webp",
+      "word": "house",
+      "source": "https://commons.wikimedia.org/wiki/File%3ARanch_style_home_in_Salinas%2C_California.JPG",
+      "creator": "<a href=\"https://en.wikipedia.org/wiki/User:BrendelSignature\" class=\"extiw\" title=\"en:User:BrendelSignature\">BrendelSignature</a> at <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ranch_style_home_in_Salinas%2C_California.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/mountain.webp",
+      "word": "mountain",
+      "source": "https://commons.wikimedia.org/wiki/File%3AHimalayas.jpg",
+      "creator": "NASA",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Himalayas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/bicycle.webp",
+      "word": "bicycle",
+      "source": "https://commons.wikimedia.org/wiki/File%3AAfrican_boy_transporting_fodder_by_bicycle_edit.jpg",
+      "creator": "<b><a href=\"https://en.wikipedia.org/wiki/User:Muhammad_Mahdi_Karim\" class=\"extiw\" title=\"w:User:Muhammad Mahdi Karim\">Muhammad Mahdi Karim</a></b>",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/African_boy_transporting_fodder_by_bicycle_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/coffee.webp",
+      "word": "coffee",
+      "source": "https://commons.wikimedia.org/wiki/File%3ARoasted_coffee_beans.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:MarkSweep\" title=\"User:MarkSweep\">MarkSweep</a>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Roasted_coffee_beans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/tree.webp",
+      "word": "tree",
+      "source": "https://commons.wikimedia.org/wiki/File%3AIced-tree-limbs-in-sun.jpg",
+      "creator": "Unknown creator",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Iced-tree-limbs-in-sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/bread.webp",
+      "word": "bread",
+      "source": "https://commons.wikimedia.org/wiki/File%3AAssorted_bread.jpg",
+      "creator": "<p>The original uploader was <a href=\"https://en.wikipedia.org/wiki/de:User:Klaus_H%C3%B6pfner\" class=\"extiw\" title=\"w:de:User:Klaus Höpfner\">Klaus Höpfner</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>.<br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Helge Höpfner</bdi></i></span>)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Assorted_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/car.webp",
+      "word": "car",
+      "source": "https://commons.wikimedia.org/wiki/File%3AKeyhole_Nebula_-_Hubble_1999.jpg",
+      "creator": "NASA, The Hubble Heritage Team (AURA/STScI)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Keyhole_Nebula_-_Hubble_1999.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/bird.webp",
+      "word": "bird",
+      "source": "https://commons.wikimedia.org/wiki/File%3AMelanerpes-erythrocephalus-003.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Mdf\" title=\"User:Mdf\">Mdf</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Melanerpes-erythrocephalus-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/sun.webp",
+      "word": "sun",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASun_behind_the_Heel_Stone.jpg",
+      "creator": "<a href=\"https://en.wikipedia.org/wiki/User:Solipsist\" class=\"extiw\" title=\"en:User:Solipsist\">Andrew Dunn</a>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sun_behind_the_Heel_Stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-01/school.webp",
+      "word": "school",
+      "source": "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C_Tower_School_--_2019_--_4021.jpg",
+      "creator": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/D%C3%BClmen%2C_Tower_School_--_2019_--_4021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-02/train.webp",
+      "word": "train",
+      "source": "https://commons.wikimedia.org/wiki/File%3ATrain_wreck_at_Montparnasse_1895.jpg",
+      "creator": "<div class=\"fn value\">\nPhoto credited to the firm Levy &amp; fils by <a rel=\"nofollow\" class=\"external text\" href=\"http://people.csail.mit.edu/sparis/siggraph06_gallery/memorial/\">this site</a>. (It is credited to a photographer \"Kuhn\" by another publisher <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.delcampe.net/page/item/id,109520428,var,75-PARIS-MONTPARNASSE-A-TRAIN-IN-THE-STREET-OCTOBER-22-1895-dapes-Kuhn,language,F.html\">[1]</a>.)</div>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Train_wreck_at_Montparnasse_1895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-02/phone.webp",
+      "word": "phone",
+      "source": "https://commons.wikimedia.org/wiki/File%3AMobile_phone_PHS_Japan_1997-2003.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marus (page does not exist)\">Marus</a>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mobile_phone_PHS_Japan_1997-2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-02/guitar.webp",
+      "word": "guitar",
+      "source": "https://commons.wikimedia.org/wiki/File%3AClassical_Guitar_two_views.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Martin_M%C3%B6ller&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Martin Möller (page does not exist)\">Martin Möller</a>",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Classical_Guitar_two_views.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "chapter-02/cake.webp",
+      "word": "cake",
+      "source": "https://commons.wikimedia.org/wiki/File:Pound_layer_cake.jpg",
+      "creator": "Scheinwerfermann",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://commons.wikimedia.org/wiki/File:Pound_layer_cake.jpg"
+    },
+    {
+      "path": "chapter-02/orange.webp",
+      "word": "orange",
+      "source": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+      "creator": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg"
+    },
+    {
+      "path": "chapter-02/river.webp",
+      "word": "river",
+      "source": "https://commons.wikimedia.org/wiki/File:Rafting_on_the_Belá_river.JPG",
+      "creator": "Pudelek (Marcin Szala)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Rafting_on_the_Belá_river.JPG"
+    },
+    {
+      "path": "chapter-02/beach.webp",
+      "word": "beach",
+      "source": "https://commons.wikimedia.org/wiki/File:Playa_El_Sol,_Viña_del_Mar_20200121_24.jpg",
+      "creator": "Carlos Figueroa",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Playa_El_Sol,_Viña_del_Mar_20200121_24.jpg"
+    },
+    {
+      "path": "chapter-02/shoes.webp",
+      "word": "shoes",
+      "source": "https://commons.wikimedia.org/wiki/File:Funny_shoes_(aka).jpg",
+      "creator": "André Karwath aka Aka",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "original": "https://commons.wikimedia.org/wiki/File:Funny_shoes_(aka).jpg"
+    },
+    {
+      "path": "chapter-02/key.webp",
+      "word": "key",
+      "source": "https://commons.wikimedia.org/wiki/File:Standard-lock-key.jpg",
+      "creator": "Evan-Amos",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://commons.wikimedia.org/wiki/File:Standard-lock-key.jpg"
+    },
+    {
+      "path": "chapter-02/camera.webp",
+      "word": "camera",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinon_CP_9_AF_BW_1.JPG",
+      "creator": "Berthold Werner",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://commons.wikimedia.org/wiki/File:Chinon_CP_9_AF_BW_1.JPG"
+    },
+    {
+      "path": "chapter-02/table.webp",
+      "word": "table",
+      "source": "https://commons.wikimedia.org/wiki/File:Dining_table_for_two.jpg",
+      "creator": "Jeremy van Bedijk",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Dining_table_for_two.jpg"
+    },
+    {
+      "path": "chapter-02/chair.webp",
+      "word": "chair",
+      "source": "https://commons.wikimedia.org/wiki/File:Chair_1.jpg",
+      "creator": "NS Furniture",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Chair_1.jpg"
+    },
+    {
+      "path": "chapter-02/window.webp",
+      "word": "window",
+      "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Okie_Paxton,_The_Open_Window,_1922.jpg",
+      "creator": "Elizabeth Okie Paxton",
+      "license": "Public domain in the United States",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://commons.wikimedia.org/wiki/File:Elizabeth_Okie_Paxton,_The_Open_Window,_1922.jpg"
+    },
+    {
+      "path": "chapter-02/city.webp",
+      "word": "city",
+      "source": "https://commons.wikimedia.org/wiki/File:Usa-world-trade-center-skyscrapers-reflection-night-skyline-cityscape.jpg",
+      "creator": "Kozak4512",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:Usa-world-trade-center-skyscrapers-reflection-night-skyline-cityscape.jpg"
+    },
+    {
+      "path": "chapter-02/family.webp",
+      "word": "family",
+      "source": "https://commons.wikimedia.org/wiki/File:FamiliaOjeda.JPG",
+      "creator": "Ojedamd",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "original": "https://commons.wikimedia.org/wiki/File:FamiliaOjeda.JPG"
+    },
+    {
+      "path": "ch01/name.webp",
+      "word": "der Name",
+      "source": "https://commons.wikimedia.org/wiki/File%3AFML_names.png",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Hyacinth\" title=\"User:Hyacinth\">Hyacinth</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/FML_names.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/land.webp",
+      "word": "das Land",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASossusvlei_south_view.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Biopics\" title=\"User:Biopics\">Hans Hillewaert</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sossusvlei_south_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/morgen.webp",
+      "word": "der Morgen",
+      "source": "https://commons.wikimedia.org/wiki/File%3ABasteibr%C3%BCcke_morgens.jpg",
+      "creator": "<b><a href=\"//commons.wikimedia.org/wiki/User:Der_Wolf_im_Wald\" title=\"User:Der Wolf im Wald\">Thomas Wolf</a></b>, <small><a rel=\"nofollow\" class=\"external text\" href=\"http://www.foto-tw.de\">www.foto-tw.de</a></small>",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Basteibr%C3%BCcke_morgens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/tag.webp",
+      "word": "der Tag",
+      "source": "https://commons.wikimedia.org/wiki/File%3ABuberel_unknown_flower_4.jpg",
+      "creator": "Jason L. Buberel",
+      "license": "CC BY-SA 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Buberel_unknown_flower_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/abend.webp",
+      "word": "der Abend",
+      "source": "https://commons.wikimedia.org/wiki/File%3AWater_mill_Rosenm%C3%BChle_in_Lower_Saxony%2C_Germany.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Michael_G%C3%A4bler\" title=\"User:Michael Gäbler\">Michael Gäbler</a>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Water_mill_Rosenm%C3%BChle_in_Lower_Saxony%2C_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/nacht.webp",
+      "word": "die Nacht",
+      "source": "https://commons.wikimedia.org/wiki/File%3AStille_Nacht_Jubilaeumskarte.jpg",
+      "creator": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/de:User:Georg_J%C3%A4ger\" class=\"extiw\" title=\"w:de:User:Georg Jäger\">Georg Jäger</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>.",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Stille_Nacht_Jubilaeumskarte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/abschied.webp",
+      "word": "der Abschied",
+      "source": "https://commons.wikimedia.org/wiki/File%3AAbschied_%28Eichendorff%29_1.jpg",
+      "creator": "<a href=\"https://en.wikisource.org/wiki/de:Joseph_von_Eichendorff\" class=\"extiw\" title=\"s:de:Joseph von Eichendorff\">Joseph von Eichendorff</a> (1788–1857)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Abschied_%28Eichendorff%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/hausaufgaben.webp",
+      "word": "die Hausaufgaben",
+      "source": "https://commons.wikimedia.org/wiki/File%3AHomework_-_vector_maths.jpg",
+      "creator": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Fir0002\" title=\"User:Fir0002\">Fir0002</a> assumed (based on copyright claims).",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Homework_-_vector_maths.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/schweiz.webp",
+      "word": "die Schweiz",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASchweiz_Karte_Baedeker%2C_1913.jpg",
+      "creator": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Schweiz_Karte_Baedeker%2C_1913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/t-rkei.webp",
+      "word": "die Türkei",
+      "source": "https://commons.wikimedia.org/wiki/File%3ATurkey_CIA_map_PL.jpg",
+      "creator": "Central Intelligence Agency",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Turkey_CIA_map_PL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/deutschland.webp",
+      "word": "Deutschland",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASonyCenterAtNight.jpg",
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Tillea\" title=\"User:Tillea\">Andreas Tille</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/SonyCenterAtNight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/spanien.webp",
+      "word": "Spanien",
+      "source": "https://commons.wikimedia.org/wiki/File%3ASpanien_Aarhus.JPG",
+      "creator": "<a href=\"https://da.wikipedia.org/wiki/User:TriBeCa\" class=\"extiw\" title=\"da:User:TriBeCa\">Rasmus Laursen</a> at <a class=\"external text\" data-mw-original-href=\"http://da.wikipedia.org\" href=\"https://da.wikipedia.org\">da.wikipedia</a>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Spanien_Aarhus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/frankreich.webp",
+      "word": "Frankreich",
+      "source": "https://commons.wikimedia.org/wiki/File%3ACrew_of_a_Sherman-tank_south_of_Vaucelles.jpg",
+      "creator": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Crew_of_a_Sherman-tank_south_of_Vaucelles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/mexiko.webp",
+      "word": "Mexiko",
+      "source": "https://commons.wikimedia.org/wiki/File%3AMx-map.png",
+      "creator": "Unknown creator",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mx-map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch01/china.webp",
+      "word": "China",
+      "source": "https://commons.wikimedia.org/wiki/File%3AChina_100.78713E_35.63718N.jpg",
+      "creator": "Unknown creator",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/China_100.78713E_35.63718N.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch02/familie.webp",
+      "word": "die Familie",
+      "source": "https://commons.wikimedia.org/wiki/File%3ADavid_-_The_Death_of_Socrates.jpg",
+      "creator": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jacques-Louis_David\" class=\"extiw\" title=\"w:en:Jacques-Louis David\"><span title=\"French painter (1748–1825)\">Jacques-Louis David</span></a></bdi>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch02/vater.webp",
+      "word": "der Vater",
+      "source": "https://commons.wikimedia.org/wiki/File%3ABtw.png",
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bye&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bye (page does not exist)\">User:Bye</a>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/27/Btw.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "path": "ch02/mutter.webp",
+      "word": "die Mutter",
+      "source": "https://commons.wikimedia.org/wiki/File%3AJuppentracht_08a.JPG",
+      "creator": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:B%C3%B6hringer\" title=\"User:Böhringer\">Böhringer Friedrich</a>",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Juppentracht_08a.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "missing": []
+}

@@ -1,0 +1,277 @@
+{
+  "id": "ch06",
+  "title": "Lektion 6: Büro & Alltagsgegenstände",
+  "entries": [
+    {
+      "word": "das Büro",
+      "translation": "office",
+      "article": "das",
+      "noun": "Büro",
+      "plural": "die Büros",
+      "category": "other key nouns",
+      "example": "Ich brauche kein Büro.",
+      "image": null
+    },
+    {
+      "word": "der Laptop",
+      "translation": "laptop",
+      "article": "der",
+      "noun": "Laptop",
+      "plural": "die Laptops",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "die E-Mail",
+      "translation": "email",
+      "article": "die",
+      "noun": "E-Mail",
+      "plural": "die E-Mails",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "das Handy",
+      "translation": "mobile phone / cell phone",
+      "article": "das",
+      "noun": "Handy",
+      "plural": "die Handys",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "die SMS",
+      "translation": "text message",
+      "article": "die",
+      "noun": "SMS",
+      "plural": "die SMS",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "die Briefmarke",
+      "translation": "postage stamp",
+      "article": "die",
+      "noun": "Briefmarke",
+      "plural": "die Briefmarken",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "die Rechnung",
+      "translation": "invoice / bill",
+      "article": "die",
+      "noun": "Rechnung",
+      "plural": "die Rechnungen",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "das Telefon",
+      "translation": "telephone",
+      "article": "das",
+      "noun": "Telefon",
+      "plural": "die Telefone",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "das Formular",
+      "translation": "form",
+      "article": "das",
+      "noun": "Formular",
+      "plural": "die Formulare",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "der Drucker",
+      "translation": "printer",
+      "article": "der",
+      "noun": "Drucker",
+      "plural": "die Drucker",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "die Maus",
+      "translation": "computer mouse",
+      "article": "die",
+      "noun": "Maus",
+      "plural": "die Mäuse",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "der Computer",
+      "translation": "computer",
+      "article": "der",
+      "noun": "Computer",
+      "plural": "die Computer",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "der Stift",
+      "translation": "pen / pencil",
+      "article": "der",
+      "noun": "Stift",
+      "plural": "die Stifte",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "das Notizbuch",
+      "translation": "notebook",
+      "article": "das",
+      "noun": "Notizbuch",
+      "plural": "die Notizbücher",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "der Kalender",
+      "translation": "calendar / planner",
+      "article": "der",
+      "noun": "Kalender",
+      "plural": "die Kalender",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "der Bildschirm",
+      "translation": "screen / monitor",
+      "article": "der",
+      "noun": "Bildschirm",
+      "plural": "die Bildschirme",
+      "category": "objects & devices",
+      "image": null
+    },
+    {
+      "word": "der Arbeitsplatz",
+      "translation": "workplace",
+      "article": "der",
+      "noun": "Arbeitsplatz",
+      "plural": "die Arbeitsplätze",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der Schlüssel",
+      "translation": "key",
+      "article": "der",
+      "noun": "Schlüssel",
+      "plural": "die Schlüssel",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "das Papier",
+      "translation": "paper",
+      "article": "das",
+      "noun": "Papier",
+      "plural": "die Papiere",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der Schrank",
+      "translation": "cabinet / cupboard",
+      "article": "der",
+      "noun": "Schrank",
+      "plural": "die Schränke",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der Stuhl",
+      "translation": "chair",
+      "article": "der",
+      "noun": "Stuhl",
+      "plural": "die Stühle",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "das Sofa",
+      "translation": "sofa",
+      "article": "das",
+      "noun": "Sofa",
+      "plural": "die Sofas",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "das Bild",
+      "translation": "picture",
+      "article": "das",
+      "noun": "Bild",
+      "plural": "die Bilder",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der Termin",
+      "translation": "appointment",
+      "article": "der",
+      "noun": "Termin",
+      "plural": "die Termine",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der Chef",
+      "translation": "boss (male)",
+      "article": "der",
+      "noun": "Chef",
+      "plural": "die Chefs",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "die Kollegin",
+      "translation": "colleague (female)",
+      "article": "die",
+      "noun": "Kollegin",
+      "plural": "die Kolleginnen",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "die Freundin",
+      "translation": "girlfriend / female friend",
+      "article": "die",
+      "noun": "Freundin",
+      "plural": "die Freundinnen",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "die Telefonnummer",
+      "translation": "telephone number",
+      "article": "die",
+      "noun": "Telefonnummer",
+      "plural": "die Telefonnummern",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der Name",
+      "translation": "name",
+      "article": "der",
+      "noun": "Name",
+      "plural": "die Namen",
+      "category": "other key nouns",
+      "image": null
+    },
+    {
+      "word": "der See",
+      "translation": "lake",
+      "article": "der",
+      "noun": "See",
+      "plural": "die Seen",
+      "category": "other key nouns",
+      "image": null
+    }
+  ]
+}

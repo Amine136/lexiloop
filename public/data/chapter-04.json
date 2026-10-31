@@ -1,0 +1,517 @@
+{
+  "id": "ch04",
+  "title": "Lektion 4: Meine Wohnung",
+  "entries": [
+    {
+      "word": "das Haus",
+      "translation": "house",
+      "article": "das",
+      "noun": "Haus",
+      "category": "rooms & parts of the home",
+      "image": "images/ch04/haus.webp"
+    },
+    {
+      "word": "die Wohnung",
+      "translation": "apartment",
+      "article": "die",
+      "noun": "Wohnung",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Zimmer",
+      "translation": "room",
+      "article": "das",
+      "noun": "Zimmer",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Wohnzimmer",
+      "translation": "living room",
+      "article": "das",
+      "noun": "Wohnzimmer",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Schlafzimmer",
+      "translation": "bedroom",
+      "article": "das",
+      "noun": "Schlafzimmer",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Kinderzimmer",
+      "translation": "children's room",
+      "article": "das",
+      "noun": "Kinderzimmer",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Arbeitszimmer",
+      "translation": "study / home office",
+      "article": "das",
+      "noun": "Arbeitszimmer",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "die Küche",
+      "translation": "kitchen",
+      "article": "die",
+      "noun": "Küche",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Bad",
+      "translation": "bathroom",
+      "article": "das",
+      "noun": "Bad",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Badezimmer",
+      "translation": "bathroom",
+      "article": "das",
+      "noun": "Badezimmer",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "die Toilette",
+      "translation": "toilet",
+      "article": "die",
+      "noun": "Toilette",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "der Flur",
+      "translation": "hallway / corridor",
+      "article": "der",
+      "noun": "Flur",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "der Balkon",
+      "translation": "balcony",
+      "article": "der",
+      "noun": "Balkon",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "die Terrasse",
+      "translation": "terrace",
+      "article": "die",
+      "noun": "Terrasse",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "der Garten",
+      "translation": "garden",
+      "article": "der",
+      "noun": "Garten",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "die Tür",
+      "translation": "door",
+      "article": "die",
+      "noun": "Tür",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Fenster",
+      "translation": "window",
+      "article": "das",
+      "noun": "Fenster",
+      "category": "rooms & parts of the home",
+      "image": "images/ch04/fenster.webp"
+    },
+    {
+      "word": "die Wand",
+      "translation": "wall",
+      "article": "die",
+      "noun": "Wand",
+      "category": "rooms & parts of the home",
+      "image": null
+    },
+    {
+      "word": "das Möbel",
+      "translation": "piece of furniture",
+      "article": "das",
+      "noun": "Möbel",
+      "plural": "die Möbel",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Tisch",
+      "translation": "table",
+      "article": "der",
+      "noun": "Tisch",
+      "category": "furniture & appliances",
+      "image": "images/ch04/tisch.webp"
+    },
+    {
+      "word": "der Schreibtisch",
+      "translation": "desk",
+      "article": "der",
+      "noun": "Schreibtisch",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Stuhl",
+      "translation": "chair",
+      "article": "der",
+      "noun": "Stuhl",
+      "category": "furniture & appliances",
+      "image": "images/ch04/stuhl.webp"
+    },
+    {
+      "word": "der Sessel",
+      "translation": "armchair",
+      "article": "der",
+      "noun": "Sessel",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "das Sofa",
+      "translation": "sofa",
+      "article": "das",
+      "noun": "Sofa",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "die Couch",
+      "translation": "couch",
+      "article": "die",
+      "noun": "Couch",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "das Bett",
+      "translation": "bed",
+      "article": "das",
+      "noun": "Bett",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Schrank",
+      "translation": "cabinet / wardrobe",
+      "article": "der",
+      "noun": "Schrank",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Kühlschrank",
+      "translation": "refrigerator",
+      "article": "der",
+      "noun": "Kühlschrank",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "das Regal",
+      "translation": "shelf / bookcase",
+      "article": "das",
+      "noun": "Regal",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "die Lampe",
+      "translation": "lamp",
+      "article": "die",
+      "noun": "Lampe",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "das Bild",
+      "translation": "picture",
+      "article": "das",
+      "noun": "Bild",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Teppich",
+      "translation": "carpet / rug",
+      "article": "der",
+      "noun": "Teppich",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Herd",
+      "translation": "stove / cooker",
+      "article": "der",
+      "noun": "Herd",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "die Spüle",
+      "translation": "kitchen sink",
+      "article": "die",
+      "noun": "Spüle",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "die Waschmaschine",
+      "translation": "washing machine",
+      "article": "die",
+      "noun": "Waschmaschine",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "die Dusche",
+      "translation": "shower",
+      "article": "die",
+      "noun": "Dusche",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "die Badewanne",
+      "translation": "bathtub",
+      "article": "die",
+      "noun": "Badewanne",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "das Waschbecken",
+      "translation": "bathroom sink",
+      "article": "das",
+      "noun": "Waschbecken",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Spiegel",
+      "translation": "mirror",
+      "article": "der",
+      "noun": "Spiegel",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "der Fernseher",
+      "translation": "television",
+      "article": "der",
+      "noun": "Fernseher",
+      "category": "furniture & appliances",
+      "image": null
+    },
+    {
+      "word": "gefallen",
+      "translation": "to please / to like visually",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "gefalle",
+        "du": "gefällst",
+        "er/sie/es": "gefällt",
+        "wir": "gefallen",
+        "ihr": "gefallt",
+        "Sie/sie": "gefallen"
+      },
+      "example": "Die Wohnung gefällt mir."
+    },
+    {
+      "word": "finden",
+      "translation": "to find / to think of something",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "finde",
+        "du": "findst",
+        "er/sie/es": "findt",
+        "wir": "finden",
+        "ihr": "findt",
+        "Sie/sie": "finden"
+      },
+      "example": "Wie finden Sie das Bad? / Ich finde es schön."
+    },
+    {
+      "word": "kosten",
+      "translation": "to cost",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "koste",
+        "du": "kostst",
+        "er/sie/es": "kostt",
+        "wir": "kosten",
+        "ihr": "kostt",
+        "Sie/sie": "kosten"
+      },
+      "example": "Das Haus kostet …"
+    },
+    {
+      "word": "suchen",
+      "translation": "to look for / to search",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "suche",
+        "du": "suchst",
+        "er/sie/es": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "Sie/sie": "suchen"
+      },
+      "example": "Wir suchen eine Wohnung."
+    },
+    {
+      "word": "vermieten",
+      "translation": "to rent out",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "vermiete",
+        "du": "vermietst",
+        "er/sie/es": "vermiett",
+        "wir": "vermieten",
+        "ihr": "vermiett",
+        "Sie/sie": "vermieten"
+      }
+    },
+    {
+      "word": "mieten",
+      "translation": "to rent",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "miete",
+        "du": "mietst",
+        "er/sie/es": "miett",
+        "wir": "mieten",
+        "ihr": "miett",
+        "Sie/sie": "mieten"
+      }
+    },
+    {
+      "word": "liegen",
+      "translation": "to lie / to be located",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "liege",
+        "du": "liegst",
+        "er/sie/es": "liegt",
+        "wir": "liegen",
+        "ihr": "liegt",
+        "Sie/sie": "liegen"
+      },
+      "example": "Die Wohnung liegt zentral."
+    },
+    {
+      "word": "stehen",
+      "translation": "to stand",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "stehe",
+        "du": "stehst",
+        "er/sie/es": "steht",
+        "wir": "stehen",
+        "ihr": "steht",
+        "Sie/sie": "stehen"
+      },
+      "example": "Der Tisch steht im Wohnzimmer."
+    },
+    {
+      "word": "hängen",
+      "translation": "to hang",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "hänge",
+        "du": "hängst",
+        "er/sie/es": "hängt",
+        "wir": "hängen",
+        "ihr": "hängt",
+        "Sie/sie": "hängen"
+      },
+      "example": "Das Bild hängt an der Wand."
+    },
+    {
+      "word": "kommen",
+      "translation": "to come",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "komme",
+        "du": "kommst",
+        "er/sie/es": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "Sie/sie": "kommen"
+      },
+      "example": "Kommen Sie doch herein!"
+    },
+    {
+      "word": "sehen",
+      "translation": "to see / to look",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er/sie/es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "Sie/sie": "sehen"
+      }
+    },
+    {
+      "word": "baden",
+      "translation": "to take a bath",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "bade",
+        "du": "badst",
+        "er/sie/es": "badt",
+        "wir": "baden",
+        "ihr": "badt",
+        "Sie/sie": "baden"
+      }
+    },
+    {
+      "word": "duschen",
+      "translation": "to shower",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "dusche",
+        "du": "duschst",
+        "er/sie/es": "duscht",
+        "wir": "duschen",
+        "ihr": "duscht",
+        "Sie/sie": "duschen"
+      }
+    }
+  ]
+}

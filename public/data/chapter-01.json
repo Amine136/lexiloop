@@ -1,0 +1,245 @@
+{
+  "id": "ch01",
+  "title": "Lektion 1: Name, Herkunft & Länder",
+  "entries": [
+    {
+      "word": "der Name",
+      "translation": "name",
+      "article": "der",
+      "noun": "Name",
+      "category": "nouns",
+      "image": "images/ch01/name.webp"
+    },
+    {
+      "word": "das Land",
+      "translation": "country",
+      "article": "das",
+      "noun": "Land",
+      "plural": "die Länder",
+      "category": "nouns",
+      "image": "images/ch01/land.webp"
+    },
+    {
+      "word": "der Morgen",
+      "translation": "morning",
+      "article": "der",
+      "noun": "Morgen",
+      "category": "nouns",
+      "image": "images/ch01/morgen.webp"
+    },
+    {
+      "word": "der Tag",
+      "translation": "day",
+      "article": "der",
+      "noun": "Tag",
+      "category": "nouns",
+      "image": "images/ch01/tag.webp"
+    },
+    {
+      "word": "der Abend",
+      "translation": "evening",
+      "article": "der",
+      "noun": "Abend",
+      "category": "nouns",
+      "image": "images/ch01/abend.webp"
+    },
+    {
+      "word": "die Nacht",
+      "translation": "night",
+      "article": "die",
+      "noun": "Nacht",
+      "category": "nouns",
+      "image": "images/ch01/nacht.webp"
+    },
+    {
+      "word": "der Abschied",
+      "translation": "farewell",
+      "article": "der",
+      "noun": "Abschied",
+      "category": "nouns",
+      "image": "images/ch01/abschied.webp"
+    },
+    {
+      "word": "die Hausaufgaben",
+      "translation": "homework",
+      "article": "die",
+      "noun": "Hausaufgaben",
+      "plural_only": true,
+      "category": "nouns",
+      "image": "images/ch01/hausaufgaben.webp"
+    },
+    {
+      "word": "die Schweiz",
+      "translation": "Switzerland",
+      "article": "die",
+      "noun": "Schweiz",
+      "example": "aus der Schweiz",
+      "category": "countries",
+      "image": "images/ch01/schweiz.webp"
+    },
+    {
+      "word": "die Türkei",
+      "translation": "Turkey",
+      "article": "die",
+      "noun": "Türkei",
+      "example": "aus der Türkei",
+      "category": "countries",
+      "image": "images/ch01/t-rkei.webp"
+    },
+    {
+      "word": "Deutschland",
+      "translation": "Germany",
+      "example": "no article",
+      "category": "countries",
+      "image": "images/ch01/deutschland.webp"
+    },
+    {
+      "word": "Spanien",
+      "translation": "Spain",
+      "example": "no article",
+      "category": "countries",
+      "image": "images/ch01/spanien.webp"
+    },
+    {
+      "word": "Frankreich",
+      "translation": "France",
+      "example": "no article",
+      "category": "countries",
+      "image": null
+    },
+    {
+      "word": "Mexiko",
+      "translation": "Mexico",
+      "example": "no article",
+      "category": "countries",
+      "image": "images/ch01/mexiko.webp"
+    },
+    {
+      "word": "China",
+      "translation": "China",
+      "example": "no article",
+      "category": "countries",
+      "image": "images/ch01/china.webp"
+    },
+    {
+      "word": "heißen",
+      "translation": "to be called",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "heiße",
+        "du": "heißst",
+        "er/sie/es": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "Sie/sie": "heißen"
+      },
+      "example": "Wie heißen Sie? / Ich heiße …"
+    },
+    {
+      "word": "sein",
+      "translation": "to be",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "bin",
+        "du": "bist",
+        "er/sie/es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "Sie/sie": "sind"
+      },
+      "example": "Wer ist das? / Ich bin …"
+    },
+    {
+      "word": "kommen",
+      "translation": "to come",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "komme",
+        "du": "kommst",
+        "er/sie/es": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "Sie/sie": "kommen"
+      },
+      "example": "Woher kommst du? / Ich komme aus …"
+    },
+    {
+      "word": "wohnen",
+      "translation": "to live / reside",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er/sie/es": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "Sie/sie": "wohnen"
+      },
+      "example": "Ich wohne in Sousse."
+    },
+    {
+      "word": "gehen",
+      "translation": "to go / to be doing",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er/sie/es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "Sie/sie": "gehen"
+      },
+      "example": "Wie geht's? / Mir geht es gut."
+    },
+    {
+      "word": "buchstabieren",
+      "translation": "to spell",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "buchstabiere",
+        "du": "buchstabierst",
+        "er/sie/es": "buchstabiert",
+        "wir": "buchstabieren",
+        "ihr": "buchstabiert",
+        "Sie/sie": "buchstabieren"
+      },
+      "example": "Ich buchstabiere …"
+    },
+    {
+      "word": "sagen",
+      "translation": "to say",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "sage",
+        "du": "sagst",
+        "er/sie/es": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "Sie/sie": "sagen"
+      },
+      "example": "Morgens sagen wir …"
+    },
+    {
+      "word": "schlafen",
+      "translation": "to sleep",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er/sie/es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "Sie/sie": "schlafen"
+      },
+      "example": "vor dem Schlafen"
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "id": "ch08",
+  "title": "Lektion 8: Kein Problem. Ich habe Zeit!",
+  "entries": [
+    {
+      "word": "das Kino",
+      "translation": "cinema",
+      "article": "das",
+      "noun": "Kino",
+      "plural": "die Kinos",
+      "category": "places to go",
+      "example": "Wir gehen ins Kino."
+    },
+    {
+      "word": "das Theater",
+      "translation": "theater",
+      "article": "das",
+      "noun": "Theater",
+      "plural": "–",
+      "category": "places to go",
+      "example": "Wir gehen ins Theater."
+    },
+    {
+      "word": "das Museum",
+      "translation": "museum",
+      "article": "das",
+      "noun": "Museum",
+      "plural": "die Museen",
+      "category": "places to go",
+      "example": "Wir gehen ins Museum."
+    },
+    {
+      "word": "das Café",
+      "translation": "café",
+      "article": "das",
+      "noun": "Café",
+      "plural": "die Cafés",
+      "category": "places to go",
+      "example": "Wir treffen uns im Café."
+    },
+    {
+      "word": "das Schwimmbad",
+      "translation": "swimming pool",
+      "article": "das",
+      "noun": "Schwimmbad",
+      "plural": "die Schwimmbäder",
+      "category": "places to go",
+      "example": "Wir gehen ins Schwimmbad."
+    },
+    {
+      "word": "das Konzert",
+      "translation": "concert",
+      "article": "das",
+      "noun": "Konzert",
+      "plural": "die Konzerte",
+      "category": "places to go",
+      "example": "Wir gehen ins Konzert."
+    },
+    {
+      "word": "das Restaurant",
+      "translation": "restaurant",
+      "article": "das",
+      "noun": "Restaurant",
+      "plural": "die Restaurants",
+      "category": "places to go",
+      "example": "Wir essen im Restaurant."
+    },
+    {
+      "word": "die Ausstellung",
+      "translation": "exhibition",
+      "article": "die",
+      "noun": "Ausstellung",
+      "plural": "die Ausstellungen",
+      "category": "places to go",
+      "example": "Wir gehen in eine Ausstellung."
+    },
+    {
+      "word": "die Disco",
+      "translation": "club / disco",
+      "article": "die",
+      "noun": "Disco",
+      "plural": "die Discos",
+      "category": "places to go",
+      "example": "Gehen wir in die Disco?"
+    },
+    {
+      "word": "die Kneipe",
+      "translation": "pub",
+      "article": "die",
+      "noun": "Kneipe",
+      "plural": "die Kneipen",
+      "category": "places to go",
+      "example": "Wir treffen uns in der Kneipe."
+    },
+    {
+      "word": "die Bar",
+      "translation": "bar",
+      "article": "die",
+      "noun": "Bar",
+      "plural": "die Bars",
+      "category": "places to go",
+      "example": "Wir gehen in die Bar."
+    },
+    {
+      "word": "der Montag",
+      "translation": "Monday",
+      "article": "der",
+      "noun": "Montag",
+      "plural": "die Montage",
+      "category": "days of the week",
+      "example": "Am Montag habe ich Zeit."
+    },
+    {
+      "word": "der Dienstag",
+      "translation": "Tuesday",
+      "article": "der",
+      "noun": "Dienstag",
+      "plural": "die Dienstage",
+      "category": "days of the week",
+      "example": "Am Dienstag habe ich Zeit."
+    },
+    {
+      "word": "der Mittwoch",
+      "translation": "Wednesday",
+      "article": "der",
+      "noun": "Mittwoch",
+      "plural": "die Mittwoche",
+      "category": "days of the week",
+      "example": "Am Mittwoch habe ich Zeit."
+    },
+    {
+      "word": "der Donnerstag",
+      "translation": "Thursday",
+      "article": "der",
+      "noun": "Donnerstag",
+      "plural": "die Donnerstage",
+      "category": "days of the week",
+      "example": "Am Donnerstag habe ich Zeit."
+    },
+    {
+      "word": "der Freitag",
+      "translation": "Friday",
+      "article": "der",
+      "noun": "Freitag",
+      "plural": "die Freitage",
+      "category": "days of the week",
+      "example": "Am Freitag habe ich Zeit."
+    },
+    {
+      "word": "der Samstag",
+      "translation": "Saturday",
+      "article": "der",
+      "noun": "Samstag",
+      "plural": "die Samstage",
+      "category": "days of the week",
+      "example": "Am Samstag habe ich Zeit."
+    },
+    {
+      "word": "der Sonntag",
+      "translation": "Sunday",
+      "article": "der",
+      "noun": "Sonntag",
+      "plural": "die Sonntage",
+      "category": "days of the week",
+      "example": "Am Sonntag habe ich Zeit."
+    },
+    {
+      "word": "der Morgen",
+      "translation": "morning (early)",
+      "article": "der",
+      "noun": "Morgen",
+      "plural": "die Morgen",
+      "category": "times of day",
+      "example": "Am Morgen bin ich müde."
+    },
+    {
+      "word": "der Vormittag",
+      "translation": "morning (before noon)",
+      "article": "der",
+      "noun": "Vormittag",
+      "plural": "die Vormittage",
+      "category": "times of day",
+      "example": "Am Vormittag arbeite ich."
+    },
+    {
+      "word": "der Mittag",
+      "translation": "noon",
+      "article": "der",
+      "noun": "Mittag",
+      "plural": "die Mittage",
+      "category": "times of day",
+      "example": "Am Mittag esse ich."
+    },
+    {
+      "word": "der Nachmittag",
+      "translation": "afternoon",
+      "article": "der",
+      "noun": "Nachmittag",
+      "plural": "die Nachmittage",
+      "category": "times of day",
+      "example": "Am Nachmittag habe ich Zeit."
+    },
+    {
+      "word": "der Abend",
+      "translation": "evening",
+      "article": "der",
+      "noun": "Abend",
+      "plural": "die Abende",
+      "category": "times of day",
+      "example": "Am Abend gehen wir aus."
+    },
+    {
+      "word": "die Nacht",
+      "translation": "night",
+      "article": "die",
+      "noun": "Nacht",
+      "plural": "die Nächte",
+      "category": "times of day",
+      "example": "In der Nacht schlafe ich."
+    },
+    {
+      "word": "Wie spät ist es?",
+      "translation": "What time is it?",
+      "category": "telling time",
+      "example": "Wie spät ist es?"
+    },
+    {
+      "word": "Wie viel Uhr ist es?",
+      "translation": "What time is it?",
+      "category": "telling time",
+      "example": "Wie viel Uhr ist es?"
+    },
+    {
+      "word": "die Uhr",
+      "translation": "o’clock / clock",
+      "article": "das",
+      "noun": "Uhr",
+      "plural": "die Uhren",
+      "category": "telling time",
+      "example": "Um vier Uhr."
+    },
+    {
+      "word": "nach",
+      "translation": "past",
+      "category": "telling time",
+      "example": "Zwanzig nach drei."
+    },
+    {
+      "word": "vor",
+      "translation": "to / before",
+      "category": "telling time",
+      "example": "Viertel vor zehn."
+    },
+    {
+      "word": "das Viertel",
+      "translation": "quarter (15 minutes)",
+      "article": "das",
+      "noun": "Uhr",
+      "plural": "die Uhren",
+      "category": "telling time",
+      "example": "Es ist Viertel nach drei."
+    },
+    {
+      "word": "halb",
+      "translation": "half past (with the next hour)",
+      "category": "telling time",
+      "example": "Es ist halb sechs."
+    },
+    {
+      "word": "kurz vor",
+      "translation": "just before",
+      "category": "telling time",
+      "example": "Fünf kurz vor halb acht."
+    },
+    {
+      "word": "kurz nach",
+      "translation": "just after",
+      "category": "telling time",
+      "example": "Fünf kurz nach halb elf."
+    },
+    {
+      "word": "die Zeit",
+      "translation": "time",
+      "article": "die",
+      "noun": "Zeit",
+      "plural": "die Zeiten",
+      "category": "planning & time",
+      "example": "Ich habe Zeit."
+    },
+    {
+      "word": "die Lust",
+      "translation": "desire / mood",
+      "article": "die",
+      "noun": "Lust",
+      "plural": "–",
+      "category": "planning & time",
+      "example": "Ich habe Lust auf Kino."
+    },
+    {
+      "word": "der Vorschlag",
+      "translation": "suggestion",
+      "article": "der",
+      "noun": "Vorschlag",
+      "plural": "die Vorschläge",
+      "category": "planning & time",
+      "example": "Das ist ein guter Vorschlag."
+    },
+    {
+      "word": "die Einladung",
+      "translation": "invitation",
+      "article": "die",
+      "noun": "Einladung",
+      "plural": "die Einladungen",
+      "category": "planning & time",
+      "example": "Danke für die Einladung."
+    },
+    {
+      "word": "die Absage",
+      "translation": "cancellation / refusal",
+      "article": "die",
+      "noun": "Absage",
+      "plural": "die Absagen",
+      "category": "planning & time",
+      "example": "Ich schreibe eine Absage."
+    },
+    {
+      "word": "heute",
+      "translation": "today",
+      "category": "important words"
+    },
+    {
+      "word": "morgen",
+      "translation": "tomorrow",
+      "category": "important words"
+    },
+    {
+      "word": "bald",
+      "translation": "soon",
+      "category": "important words"
+    },
+    {
+      "word": "spät",
+      "translation": "late",
+      "category": "important words"
+    },
+    {
+      "word": "zu spät",
+      "translation": "too late",
+      "category": "important words"
+    },
+    {
+      "word": "vielleicht",
+      "translation": "maybe",
+      "category": "important words"
+    },
+    {
+      "word": "doch",
+      "translation": "after all / actually",
+      "category": "important words"
+    },
+    {
+      "word": "noch nicht",
+      "translation": "not yet",
+      "category": "important words"
+    },
+    {
+      "word": "höflich",
+      "translation": "polite",
+      "category": "important words"
+    },
+    {
+      "word": "unhöflich",
+      "translation": "impolite",
+      "category": "important words"
+    },
+    {
+      "word": "Liebe Grüße (LG)",
+      "translation": "Kind regards / Love",
+      "category": "important words"
+    },
+    {
+      "word": "Zeit haben",
+      "translation": "to have time / be free",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Ich habe heute Abend Zeit.",
+      "conjugation": {
+        "ich": "habe Zeit",
+        "du": "hast Zeit",
+        "er/sie/es": "hat Zeit",
+        "wir": "haben Zeit",
+        "ihr": "habt Zeit",
+        "Sie/sie": "haben Zeit"
+      }
+    },
+    {
+      "word": "keine Zeit haben",
+      "translation": "to be busy",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Ich habe leider keine Zeit.",
+      "conjugation": {
+        "ich": "habe keine Zeit",
+        "du": "hast keine Zeit",
+        "er/sie/es": "hat keine Zeit",
+        "wir": "haben keine Zeit",
+        "ihr": "habt keine Zeit",
+        "Sie/sie": "haben keine Zeit"
+      }
+    },
+    {
+      "word": "Lust haben (auf …)",
+      "translation": "to feel like (doing something)",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Ich habe Lust auf Kino.",
+      "conjugation": {
+        "ich": "habe Lust",
+        "du": "hast Lust",
+        "er/sie/es": "hat Lust",
+        "wir": "haben Lust",
+        "ihr": "habt Lust",
+        "Sie/sie": "haben Lust"
+      }
+    },
+    {
+      "word": "sich verabreden",
+      "translation": "to arrange to meet",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Wir verabreden uns am Samstag.",
+      "conjugation": {
+        "ich": "verabrede mich",
+        "du": "verabredest dich",
+        "er/sie/es": "verabredet sich",
+        "wir": "verabreden uns",
+        "ihr": "verabredet euch",
+        "Sie/sie": "verabreden sich"
+      }
+    },
+    {
+      "word": "etwas vorschlagen",
+      "translation": "to suggest",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Ich schlage einen Ausflug vor.",
+      "conjugation": {
+        "ich": "schlage etwas vor",
+        "du": "schlägst etwas vor",
+        "er/sie/es": "schlägt etwas vor",
+        "wir": "schlagen etwas vor",
+        "ihr": "schlagt etwas vor",
+        "Sie/sie": "schlagen etwas vor"
+      }
+    },
+    {
+      "word": "einladen",
+      "translation": "to invite",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Ich lade dich ins Kino ein.",
+      "conjugation": {
+        "ich": "lade ein",
+        "du": "lädst ein",
+        "er/sie/es": "lädt ein",
+        "wir": "laden ein",
+        "ihr": "ladet ein",
+        "Sie/sie": "laden ein"
+      }
+    },
+    {
+      "word": "zusagen",
+      "translation": "to accept",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Sie sagt zu.",
+      "conjugation": {
+        "ich": "sage zu",
+        "du": "sagst zu",
+        "er/sie/es": "sagt zu",
+        "wir": "sagen zu",
+        "ihr": "sagt zu",
+        "Sie/sie": "sagen zu"
+      }
+    },
+    {
+      "word": "absagen",
+      "translation": "to cancel / decline",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Ich muss leider absagen.",
+      "conjugation": {
+        "ich": "sage ab",
+        "du": "sagst ab",
+        "er/sie/es": "sagt ab",
+        "wir": "sagen ab",
+        "ihr": "sagt ab",
+        "Sie/sie": "sagen ab"
+      }
+    },
+    {
+      "word": "gehen",
+      "translation": "to go",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Wir gehen ins Theater.",
+      "conjugation": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er/sie/es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "Sie/sie": "gehen"
+      }
+    },
+    {
+      "word": "kommen",
+      "translation": "to come",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Kannst du morgen kommen?",
+      "conjugation": {
+        "ich": "komme",
+        "du": "kommst",
+        "er/sie/es": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "Sie/sie": "kommen"
+      }
+    },
+    {
+      "word": "sehen",
+      "translation": "to see",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Wir sehen uns bald.",
+      "conjugation": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er/sie/es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "Sie/sie": "sehen"
+      }
+    },
+    {
+      "word": "wissen",
+      "translation": "to know (a fact)",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Das weiß ich noch nicht.",
+      "conjugation": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er/sie/es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "Sie/sie": "wissen"
+      }
+    },
+    {
+      "word": "können",
+      "translation": "can / to be able to",
+      "partOfSpeech": "verb",
+      "category": "Verben für Pläne",
+      "example": "Vielleicht können wir morgen Abend ins Theater gehen.",
+      "conjugation": {
+        "ich": "kann",
+        "du": "kannst",
+        "er/sie/es": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "Sie/sie": "können"
+      }
+    },
+    {
+      "word": "Hast du heute Abend Zeit?",
+      "translation": "Are you free tonight?",
+      "category": "key phrases",
+      "example": "Hast du heute Abend Zeit?"
+    },
+    {
+      "word": "Hast du am Dienstag Zeit?",
+      "translation": "Are you free on Tuesday?",
+      "category": "key phrases",
+      "example": "Hast du am Dienstag Zeit?"
+    },
+    {
+      "word": "Kannst du heute Nachmittag?",
+      "translation": "Are you free this afternoon?",
+      "category": "key phrases",
+      "example": "Kannst du heute Nachmittag?"
+    },
+    {
+      "word": "Gehen wir ins Kino?",
+      "translation": "Shall we go to the cinema?",
+      "category": "key phrases",
+      "example": "Gehen wir ins Kino?"
+    },
+    {
+      "word": "Gehen wir ins Schwimmbad?",
+      "translation": "Shall we go to the swimming pool?",
+      "category": "key phrases",
+      "example": "Gehen wir ins Schwimmbad?"
+    },
+    {
+      "word": "Lust auf Kino?",
+      "translation": "Feel like cinema?",
+      "category": "key phrases",
+      "example": "Lust auf Kino?"
+    },
+    {
+      "word": "Lust auf Schwimmbad?",
+      "translation": "Feel like the swimming pool?",
+      "category": "key phrases",
+      "example": "Lust auf Schwimmbad?"
+    },
+    {
+      "word": "Wann denn?",
+      "translation": "When?",
+      "category": "key phrases",
+      "example": "Wann denn?"
+    },
+    {
+      "word": "Um vier Uhr.",
+      "translation": "At four o’clock.",
+      "category": "key phrases",
+      "example": "Um vier Uhr."
+    },
+    {
+      "word": "Am Dienstagabend.",
+      "translation": "On Tuesday evening.",
+      "category": "key phrases",
+      "example": "Am Dienstagabend."
+    },
+    {
+      "word": "Gute Idee!",
+      "translation": "Good idea!",
+      "category": "key phrases",
+      "example": "Gute Idee!"
+    },
+    {
+      "word": "Ja, klar.",
+      "translation": "Sure.",
+      "category": "key phrases",
+      "example": "Ja, klar."
+    },
+    {
+      "word": "Okay!",
+      "translation": "Okay!",
+      "category": "key phrases",
+      "example": "Okay!"
+    },
+    {
+      "word": "Das weiß ich noch nicht.",
+      "translation": "I don’t know yet.",
+      "category": "key phrases",
+      "example": "Das weiß ich noch nicht."
+    },
+    {
+      "word": "Nein, leider nicht.",
+      "translation": "No, unfortunately not.",
+      "category": "key phrases",
+      "example": "Nein, leider nicht. Ich habe leider keine Zeit."
+    },
+    {
+      "word": "Tut mir leid, ich habe keine Lust.",
+      "translation": "Sorry, I don’t feel like it.",
+      "category": "key phrases",
+      "example": "Tut mir leid, ich habe keine Lust."
+    },
+    {
+      "word": "Ich kann leider doch nicht kommen.",
+      "translation": "Unfortunately, I can’t come after all.",
+      "category": "key phrases",
+      "example": "Ich kann leider doch nicht kommen."
+    },
+    {
+      "word": "Wir sehen uns bald, okay?",
+      "translation": "We’ll see each other soon, okay?",
+      "category": "key phrases",
+      "example": "Wir sehen uns bald, okay?"
+    }
+  ]
+}

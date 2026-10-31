@@ -1,0 +1,638 @@
+{
+  "id": "ch03",
+  "title": "Lektion 3: Essen & Trinken",
+  "entries": [
+    {
+      "word": "das Obst",
+      "translation": "fruit",
+      "article": "das",
+      "noun": "Obst",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "der Apfel",
+      "translation": "apple",
+      "article": "der",
+      "noun": "Apfel",
+      "category": "fruits & vegetables",
+      "image": "images/ch03/apfel.webp"
+    },
+    {
+      "word": "die Banane",
+      "translation": "banana",
+      "article": "die",
+      "noun": "Banane",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "die Orange",
+      "translation": "orange",
+      "article": "die",
+      "noun": "Orange",
+      "category": "fruits & vegetables",
+      "image": "images/ch03/orange.webp"
+    },
+    {
+      "word": "die Birne",
+      "translation": "pear",
+      "article": "die",
+      "noun": "Birne",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "die Kiwi",
+      "translation": "kiwi",
+      "article": "die",
+      "noun": "Kiwi",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "das Gemüse",
+      "translation": "vegetables",
+      "article": "das",
+      "noun": "Gemüse",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "die Tomate",
+      "translation": "tomato",
+      "article": "die",
+      "noun": "Tomate",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "die Kartoffel",
+      "translation": "potato",
+      "article": "die",
+      "noun": "Kartoffel",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "die Zwiebel",
+      "translation": "onion",
+      "article": "die",
+      "noun": "Zwiebel",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "der Salat",
+      "translation": "lettuce / salad",
+      "article": "der",
+      "noun": "Salat",
+      "category": "fruits & vegetables",
+      "image": null
+    },
+    {
+      "word": "das Brot",
+      "translation": "bread",
+      "article": "das",
+      "noun": "Brot",
+      "category": "bakery, dairy, meat & staples",
+      "image": "images/ch03/brot.webp"
+    },
+    {
+      "word": "das Brötchen",
+      "translation": "bread roll",
+      "article": "das",
+      "noun": "Brötchen",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Kuchen",
+      "translation": "cake",
+      "article": "der",
+      "noun": "Kuchen",
+      "category": "bakery, dairy, meat & staples",
+      "image": "images/ch03/kuchen.webp"
+    },
+    {
+      "word": "die Butter",
+      "translation": "butter",
+      "article": "die",
+      "noun": "Butter",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Käse",
+      "translation": "cheese",
+      "article": "der",
+      "noun": "Käse",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "das Ei",
+      "translation": "egg",
+      "article": "das",
+      "noun": "Ei",
+      "plural": "die Eier",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "die Milch",
+      "translation": "milk",
+      "article": "die",
+      "noun": "Milch",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Joghurt",
+      "translation": "yogurt",
+      "article": "der",
+      "noun": "Joghurt",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "die Sahne",
+      "translation": "cream",
+      "article": "die",
+      "noun": "Sahne",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "das Fleisch",
+      "translation": "meat",
+      "article": "das",
+      "noun": "Fleisch",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "das Hähnchen",
+      "translation": "chicken",
+      "article": "das",
+      "noun": "Hähnchen",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Schinken",
+      "translation": "ham",
+      "article": "der",
+      "noun": "Schinken",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "die Wurst",
+      "translation": "sausage / cold cuts",
+      "article": "die",
+      "noun": "Wurst",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Fisch",
+      "translation": "fish",
+      "article": "der",
+      "noun": "Fisch",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Reis",
+      "translation": "rice",
+      "article": "der",
+      "noun": "Reis",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "die Nudeln",
+      "translation": "pasta",
+      "article": "die",
+      "noun": "Nudeln",
+      "plural_only": true,
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "die Suppe",
+      "translation": "soup",
+      "article": "die",
+      "noun": "Suppe",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "das Salz",
+      "translation": "salt",
+      "article": "das",
+      "noun": "Salz",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Pfeffer",
+      "translation": "pepper",
+      "article": "der",
+      "noun": "Pfeffer",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Zucker",
+      "translation": "sugar",
+      "article": "der",
+      "noun": "Zucker",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "der Essig",
+      "translation": "vinegar",
+      "article": "der",
+      "noun": "Essig",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "das Öl",
+      "translation": "oil",
+      "article": "das",
+      "noun": "Öl",
+      "category": "bakery, dairy, meat & staples",
+      "image": null
+    },
+    {
+      "word": "das Getränk",
+      "translation": "drink",
+      "article": "das",
+      "noun": "Getränk",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "das Wasser",
+      "translation": "water",
+      "article": "das",
+      "noun": "Wasser",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "das Mineralwasser",
+      "translation": "mineral water",
+      "article": "das",
+      "noun": "Mineralwasser",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Saft",
+      "translation": "juice",
+      "article": "der",
+      "noun": "Saft",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Apfelsaft",
+      "translation": "apple juice",
+      "article": "der",
+      "noun": "Apfelsaft",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Orangensaft",
+      "translation": "orange juice",
+      "article": "der",
+      "noun": "Orangensaft",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Kaffee",
+      "translation": "coffee",
+      "article": "der",
+      "noun": "Kaffee",
+      "category": "drinks & packaging",
+      "image": "images/ch03/kaffee.webp"
+    },
+    {
+      "word": "der Tee",
+      "translation": "tea",
+      "article": "der",
+      "noun": "Tee",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "die Cola",
+      "translation": "cola",
+      "article": "die",
+      "noun": "Cola",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "das Bier",
+      "translation": "beer",
+      "article": "das",
+      "noun": "Bier",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Wein",
+      "translation": "wine",
+      "article": "der",
+      "noun": "Wein",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "die Flasche",
+      "translation": "bottle",
+      "article": "die",
+      "noun": "Flasche",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Becher",
+      "translation": "cup / tub (e.g. yogurt)",
+      "article": "der",
+      "noun": "Becher",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "die Dose",
+      "translation": "can / tin",
+      "article": "die",
+      "noun": "Dose",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "die Packung",
+      "translation": "pack / box",
+      "article": "die",
+      "noun": "Packung",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "das Kilo",
+      "translation": "kilo",
+      "article": "das",
+      "noun": "Kilo",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "das Gramm",
+      "translation": "gram",
+      "article": "das",
+      "noun": "Gramm",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "das Pfund",
+      "translation": "pound",
+      "article": "das",
+      "noun": "Pfund",
+      "example": "500 g",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Liter",
+      "translation": "liter",
+      "article": "der",
+      "noun": "Liter",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Preis",
+      "translation": "price",
+      "article": "der",
+      "noun": "Preis",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Euro",
+      "translation": "euro",
+      "article": "der",
+      "noun": "Euro",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "der Cent",
+      "translation": "cent",
+      "article": "der",
+      "noun": "Cent",
+      "category": "drinks & packaging",
+      "image": null
+    },
+    {
+      "word": "essen",
+      "translation": "to eat",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "esse",
+        "du": "isst",
+        "er/sie/es": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "Sie/sie": "essen"
+      },
+      "example": "Was isst du gern? / Ich esse gern …"
+    },
+    {
+      "word": "trinken",
+      "translation": "to drink",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er/sie/es": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "Sie/sie": "trinken"
+      },
+      "example": "Was trinken Sie?"
+    },
+    {
+      "word": "möchten",
+      "translation": "would like",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "möchte",
+        "du": "möchtest",
+        "er/sie/es": "möchte",
+        "wir": "möchten",
+        "ihr": "möchtet",
+        "Sie/sie": "möchten"
+      },
+      "example": "Ich möchte bitte ein Kilo Äpfel."
+    },
+    {
+      "word": "mögen",
+      "translation": "to like",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "mag",
+        "du": "magst",
+        "er/sie/es": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "Sie/sie": "mögen"
+      },
+      "example": "Magst du Käse? / Ich mag …"
+    },
+    {
+      "word": "kaufen",
+      "translation": "to buy",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er/sie/es": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "Sie/sie": "kaufen"
+      }
+    },
+    {
+      "word": "einkaufen",
+      "translation": "to go grocery shopping",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er/sie/es": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "Sie/sie": "kaufen ein"
+      }
+    },
+    {
+      "word": "brauchen",
+      "translation": "to need",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er/sie/es": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "Sie/sie": "brauchen"
+      },
+      "example": "Was brauchen wir noch?"
+    },
+    {
+      "word": "kosten",
+      "translation": "to cost",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "koste",
+        "du": "kostst",
+        "er/sie/es": "kostt",
+        "wir": "kosten",
+        "ihr": "kostt",
+        "Sie/sie": "kosten"
+      },
+      "example": "Was kostet das? / Wie viel kostet …?"
+    },
+    {
+      "word": "nehmen",
+      "translation": "to take",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er/sie/es": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "Sie/sie": "nehmen"
+      },
+      "example": "Ich nehme das Brot."
+    },
+    {
+      "word": "kochen",
+      "translation": "to cook",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "koche",
+        "du": "kochst",
+        "er/sie/es": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "Sie/sie": "kochen"
+      }
+    },
+    {
+      "word": "frühstücken",
+      "translation": "to eat breakfast",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "frühstücke",
+        "du": "frühstückst",
+        "er/sie/es": "frühstückt",
+        "wir": "frühstücken",
+        "ihr": "frühstückt",
+        "Sie/sie": "frühstücken"
+      }
+    },
+    {
+      "word": "bezahlen",
+      "translation": "to pay",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "bezahle",
+        "du": "bezahlst",
+        "er/sie/es": "bezahlt",
+        "wir": "bezahlen",
+        "ihr": "bezahlt",
+        "Sie/sie": "bezahlen"
+      }
+    },
+    {
+      "word": "zahlen",
+      "translation": "to pay",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "zahle",
+        "du": "zahlst",
+        "er/sie/es": "zahlt",
+        "wir": "zahlen",
+        "ihr": "zahlt",
+        "Sie/sie": "zahlen"
+      }
+    }
+  ]
+}

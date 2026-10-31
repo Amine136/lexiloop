@@ -1,0 +1,391 @@
+{
+  "id": "ch02",
+  "title": "Lektion 2: Familie & Freunde",
+  "entries": [
+    {
+      "word": "die Familie",
+      "translation": "family",
+      "article": "die",
+      "noun": "Familie",
+      "category": "family",
+      "image": "images/ch02/familie.webp"
+    },
+    {
+      "word": "der Vater",
+      "translation": "father",
+      "article": "der",
+      "noun": "Vater",
+      "category": "family",
+      "image": "images/ch02/vater.webp"
+    },
+    {
+      "word": "die Mutter",
+      "translation": "mother",
+      "article": "die",
+      "noun": "Mutter",
+      "category": "family",
+      "image": "images/ch02/mutter.webp"
+    },
+    {
+      "word": "die Eltern",
+      "translation": "parents",
+      "article": "die",
+      "noun": "Eltern",
+      "plural_only": true,
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Sohn",
+      "translation": "son",
+      "article": "der",
+      "noun": "Sohn",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Tochter",
+      "translation": "daughter",
+      "article": "die",
+      "noun": "Tochter",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "das Kind",
+      "translation": "child",
+      "article": "das",
+      "noun": "Kind",
+      "plural": "die Kinder",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Bruder",
+      "translation": "brother",
+      "article": "der",
+      "noun": "Bruder",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Schwester",
+      "translation": "sister",
+      "article": "die",
+      "noun": "Schwester",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Geschwister",
+      "translation": "siblings",
+      "article": "die",
+      "noun": "Geschwister",
+      "plural_only": true,
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Großvater",
+      "translation": "grandfather",
+      "article": "der",
+      "noun": "Großvater",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Opa",
+      "translation": "grandpa",
+      "article": "der",
+      "noun": "Opa",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Großmutter",
+      "translation": "grandmother",
+      "article": "die",
+      "noun": "Großmutter",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Oma",
+      "translation": "grandma",
+      "article": "die",
+      "noun": "Oma",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Großeltern",
+      "translation": "grandparents",
+      "article": "die",
+      "noun": "Großeltern",
+      "plural_only": true,
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Enkel",
+      "translation": "grandson",
+      "article": "der",
+      "noun": "Enkel",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Enkelin",
+      "translation": "granddaughter",
+      "article": "die",
+      "noun": "Enkelin",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Ehemann",
+      "translation": "husband",
+      "article": "der",
+      "noun": "Ehemann",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Mann",
+      "translation": "man",
+      "article": "der",
+      "noun": "Mann",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Ehefrau",
+      "translation": "wife",
+      "article": "die",
+      "noun": "Ehefrau",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Frau",
+      "translation": "woman",
+      "article": "die",
+      "noun": "Frau",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Partner",
+      "translation": "partner (male)",
+      "article": "der",
+      "noun": "Partner",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Partnerin",
+      "translation": "partner (female)",
+      "article": "die",
+      "noun": "Partnerin",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "der Freund",
+      "translation": "boyfriend / friend",
+      "article": "der",
+      "noun": "Freund",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Freundin",
+      "translation": "girlfriend / female friend",
+      "article": "die",
+      "noun": "Freundin",
+      "category": "family",
+      "image": null
+    },
+    {
+      "word": "die Sprache",
+      "translation": "language",
+      "article": "die",
+      "noun": "Sprache",
+      "plural": "die Sprachen",
+      "category": "personal information",
+      "image": null
+    },
+    {
+      "word": "das Alter",
+      "translation": "age",
+      "article": "das",
+      "noun": "Alter",
+      "category": "personal information",
+      "image": null
+    },
+    {
+      "word": "der Familienstand",
+      "translation": "marital status",
+      "article": "der",
+      "noun": "Familienstand",
+      "category": "personal information",
+      "image": null
+    },
+    {
+      "word": "die Telefonnummer",
+      "translation": "phone number",
+      "article": "die",
+      "noun": "Telefonnummer",
+      "category": "personal information",
+      "image": null
+    },
+    {
+      "word": "die Stadt",
+      "translation": "city",
+      "article": "die",
+      "noun": "Stadt",
+      "category": "personal information",
+      "image": "images/ch02/stadt.webp"
+    },
+    {
+      "word": "das Foto",
+      "translation": "photo",
+      "article": "das",
+      "noun": "Foto",
+      "category": "personal information",
+      "image": null
+    },
+    {
+      "word": "haben",
+      "translation": "to have",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "habe",
+        "du": "hast",
+        "er/sie/es": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "Sie/sie": "haben"
+      },
+      "example": "Hast du Geschwister? / Ich habe einen Bruder."
+    },
+    {
+      "word": "sprechen",
+      "translation": "to speak",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er/sie/es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "Sie/sie": "sprechen"
+      },
+      "example": "Welche Sprachen sprechen Sie? / Ich spreche Deutsch."
+    },
+    {
+      "word": "leben",
+      "translation": "to live",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "lebe",
+        "du": "lebst",
+        "er/sie/es": "lebt",
+        "wir": "leben",
+        "ihr": "lebt",
+        "Sie/sie": "leben"
+      },
+      "example": "Wo leben Sie? / Meine Familie lebt in …"
+    },
+    {
+      "word": "arbeiten",
+      "translation": "to work",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er/sie/es": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "Sie/sie": "arbeiten"
+      },
+      "example": "Wo arbeiten Sie?"
+    },
+    {
+      "word": "lernen",
+      "translation": "to learn",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er/sie/es": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "Sie/sie": "lernen"
+      },
+      "example": "Ich lerne Deutsch."
+    },
+    {
+      "word": "studieren",
+      "translation": "to study at university",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "studiere",
+        "du": "studierst",
+        "er/sie/es": "studiert",
+        "wir": "studieren",
+        "ihr": "studiert",
+        "Sie/sie": "studieren"
+      }
+    },
+    {
+      "word": "sich vorstellen",
+      "translation": "to introduce oneself",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "stelle mich vor",
+        "du": "stellst dich vor",
+        "er/sie/es": "stellt sich vor",
+        "wir": "stellen uns vor",
+        "ihr": "stellt euch vor",
+        "Sie/sie": "stellen sich vor"
+      },
+      "example": "Ich stelle mich vor."
+    },
+    {
+      "word": "hören",
+      "translation": "to hear / to listen",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "höre",
+        "du": "hörst",
+        "er/sie/es": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "Sie/sie": "hören"
+      }
+    },
+    {
+      "word": "lesen",
+      "translation": "to read",
+      "partOfSpeech": "verb",
+      "category": "verbs",
+      "conjugation": {
+        "ich": "lese",
+        "du": "liest",
+        "er/sie/es": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "Sie/sie": "lesen"
+      }
+    }
+  ]
+}
