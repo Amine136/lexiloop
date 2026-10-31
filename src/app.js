@@ -5,11 +5,11 @@ const STORAGE = {
   images: 'lexiloop-images-v1',
 };
 
-const DATA_VERSION = '20261031-lesson9';
+const DATA_VERSION = '20261031-lesson9-v2';
 
 const MODES = [
   { id: 'text', label: 'Text recognition', short: 'Text', description: 'Four meanings, two directions.' },
-  { id: 'conjugation', label: 'Conjugation', short: 'Conjugation', description: 'Choose the present-tense form.' },
+  { id: 'conjugation', label: 'Conjugation', short: 'Conjugation', description: 'Type the present-tense form.' },
   { id: 'article', label: 'Artikel guess', short: 'Artikel', description: 'Choose der, die, or das.' },
   { id: 'image-word', label: 'Image → word', short: 'Image → word', description: 'Choose the word that matches.' },
   { id: 'word-image', label: 'Word → image', short: 'Word → image', description: 'Spot the right picture.' },
@@ -19,6 +19,7 @@ const MODES = [
 
 const ui = {
   selectedChapters: new Set(),
+  imageFilter: 'all',
   sessionSettings: {
     modes: ['text'],
     questionCount: 10,
@@ -101,6 +102,20 @@ function hasConjugation(entry) {
 }
 function nounFor(entry) {
   return entry.noun || entry.word.replace(new RegExp(`^${entry.article}\\s+`, 'i'), '');
+}
+function natureFor(entry) {
+  if (hasArticle(entry)) return 'noun';
+  if (entry.partOfSpeech === 'verb' || hasConjugation(entry)) return 'verb';
+  if (entry.category === 'grammar') return 'grammar';
+  if (entry.category === 'key phrases' || /[?!.]/.test(entry.word) || entry.word.trim().split(/\s+/).length >= 3) return 'phrase';
+  return 'other';
+}
+function canUseMode(entry, mode) {
+  if (mode.includes('image')) return hasImage(entry);
+  if (mode === 'article') return hasArticle(entry);
+  if (mode === 'conjugation') return hasConjugation(entry);
+  if (mode === 'spelling') return entry.category !== 'grammar';
+  return true;
 }
 
 function chapterById(id) {
@@ -248,7 +263,7 @@ function renderChapterCard(chapter, index) {
   const selected = ui.selectedChapters.has(chapter.id);
   const accent = ['yellow', 'coral', 'blue', 'mint'][index % 4];
   return `<article class="chapter-card ${selected ? 'is-selected' : ''}">
-    <label class="chapter-select"><input type="checkbox" data-chapter-select="${escapeAttr(chapter.id)}" ${selected ? 'checked' : ''}/><span class="checkmark"></span><span class="chapter-index">0${index + 1}</span></label>
+    <label class="chapter-select"><input type="checkbox" data-chapter-select="${escapeAttr(chapter.id)}" ${selected ? 'checked' : ''}/><span class="checkmark"></span><span class="chapter-index">${String(index + 1).padStart(2, '0')}</span></label>
     <div class="chapter-card-main"><div class="chapter-heading"><div><h3>${escapeHtml(chapter.title)}</h3><p>${escapeHtml(chapter.description || `${chapter.entries.length} words to revisit.`)}</p></div><span class="chapter-count">${chapter.entries.length} words</span></div><div class="progress-line"><span class="progress-fill ${accent}" style="width:${Math.max(stats.percent, 4)}%"></span></div><div class="chapter-footer"><span>${stats.percent}% mastered</span><span>${stats.last ? `Last score ${stats.last.score}% · ${formatDate(stats.last.endedAt)}` : 'Ready when you are'}</span></div></div>
     <button class="chapter-arrow" data-action="chapter-practice" data-chapter="${escapeAttr(chapter.id)}" aria-label="Practice ${escapeAttr(chapter.title)}">↗</button>
   </article>`;
@@ -256,11 +271,18 @@ function renderChapterCard(chapter, index) {
 
 function renderPracticeSetup() {
   const s = ui.sessionSettings;
+  const selectedPool = entriesForSelected();
+  const activeModes = s.modes.filter((modeId) => selectedPool.some((entry) => canUseMode(entry, modeId)));
+  const effectiveModes = activeModes.length ? activeModes : ['text'];
   return `<section class="setup-header"><div class="eyebrow">Session builder</div><h1>Set the frame.<br /><em>Then get moving.</em></h1><p>Choose a quick 10-question check-in or settle into a 30-question round.</p></section>
   <section class="setup-layout">
     <div class="setup-main panel">
-      <div class="panel-heading"><div><span class="panel-kicker">01 · Mode</span><h2>How do you want to recall?</h2></div><span class="panel-count">${s.modes.length} selected</span></div>
-      <div class="mode-grid">${MODES.map((mode) => `<label class="mode-card ${s.modes.includes(mode.id) ? 'is-selected' : ''} ${mode.id.includes('image') && !appData.entries.some(hasImage) ? 'is-disabled' : ''} ${mode.id === 'article' && !appData.entries.some(hasArticle) ? 'is-disabled' : ''} ${mode.id === 'conjugation' && !appData.entries.some(hasConjugation) ? 'is-disabled' : ''}"><input type="checkbox" data-mode-toggle="${mode.id}" ${s.modes.includes(mode.id) ? 'checked' : ''}/><span class="mode-check">${s.modes.includes(mode.id) ? '✓' : ''}</span><span class="mode-icon">${mode.id === 'text' ? 'Aa' : mode.id === 'spelling' ? '⌁' : mode.id === 'conjugation' ? '↻' : '▣'}</span><strong>${mode.label}</strong><small>${mode.description}</small></label>`).join('')}</div>
+      <div class="panel-heading"><div><span class="panel-kicker">01 · Mode</span><h2>How do you want to recall?</h2></div><span class="panel-count">${effectiveModes.length} selected</span></div>
+      <div class="mode-grid">${MODES.map((mode) => {
+        const enabled = selectedPool.some((entry) => canUseMode(entry, mode.id));
+        const selected = effectiveModes.includes(mode.id) && enabled;
+        return `<label class="mode-card ${selected ? 'is-selected' : ''} ${!enabled ? 'is-disabled' : ''}"><input type="checkbox" data-mode-toggle="${mode.id}" ${selected ? 'checked' : ''} ${!enabled ? 'disabled' : ''}/><span class="mode-check">${selected ? '✓' : ''}</span><span class="mode-icon">${mode.id === 'text' ? 'Aa' : mode.id === 'spelling' ? '⌁' : mode.id === 'conjugation' ? '↻' : '▣'}</span><strong>${mode.label}</strong><small>${mode.description}</small></label>`;
+      }).join('')}</div>
       <div class="setup-divider"></div>
       <div class="panel-heading compact"><div><span class="panel-kicker">02 · Shape</span><h2>Give it a rhythm.</h2></div></div>
       <div class="setting-grid">
@@ -273,33 +295,84 @@ function renderPracticeSetup() {
   </section>`;
 }
 
-function questionFor(entry, mode, pool) {
-  const sameChapter = appData.entries.filter((item) => item.chapterId === entry.chapterId && item.word !== entry.word);
-  const fallbackPool = [...sameChapter, ...appData.entries.filter((item) => item.chapterId !== entry.chapterId && item.word !== entry.word)];
+function distractorsFor(entry, mapFn, correctValue, count = 3) {
+  const nature = natureFor(entry);
+  const others = appData.entries.filter((item) => keyFor(item) !== keyFor(entry) && item.word !== entry.word && item.translation !== entry.translation);
+  const sameChapSameCat = shuffle(others.filter((item) => item.chapterId === entry.chapterId && natureFor(item) === nature && entry.category && item.category === entry.category));
+  const sameChapSameNature = shuffle(others.filter((item) => item.chapterId === entry.chapterId && natureFor(item) === nature && (!entry.category || item.category !== entry.category)));
+  const otherChapSameNature = shuffle(others.filter((item) => item.chapterId !== entry.chapterId && natureFor(item) === nature));
+  const sameChapAny = shuffle(others.filter((item) => item.chapterId === entry.chapterId && natureFor(item) !== nature));
+  const otherAny = shuffle(others.filter((item) => item.chapterId !== entry.chapterId && natureFor(item) !== nature));
+  const candidates = [...sameChapSameCat, ...sameChapSameNature, ...otherChapSameNature, ...sameChapAny, ...otherAny];
+  const seen = new Set([normalizedForCompare(correctValue)]);
+  const result = [];
+  for (const candidate of candidates) {
+    const value = mapFn(candidate);
+    const norm = normalizedForCompare(value);
+    if (!value || seen.has(norm)) continue;
+    seen.add(norm);
+    result.push(value);
+    if (result.length >= count) break;
+  }
+  return result;
+}
+
+function sampleWeightedUnique(entries, shouldShuffle) {
+  if (!shouldShuffle) return [...entries];
+  const remaining = entries.map((entry) => ({ entry, weight: Math.max(1, 6 - cardFor(entry).box) }));
+  const picked = [];
+  while (remaining.length) {
+    const totalWeight = remaining.reduce((sum, item) => sum + item.weight, 0);
+    let threshold = Math.random() * totalWeight;
+    let chosenIndex = remaining.length - 1;
+    for (let i = 0; i < remaining.length; i += 1) {
+      threshold -= remaining[i].weight;
+      if (threshold <= 0) {
+        chosenIndex = i;
+        break;
+      }
+    }
+    picked.push(remaining[chosenIndex].entry);
+    remaining.splice(chosenIndex, 1);
+  }
+  return picked;
+}
+
+function questionFor(entry, mode, usedVariants = new Set()) {
   if (mode === 'conjugation') {
     const persons = Object.keys(entry.conjugation || {});
-    const person = persons[Math.floor(Math.random() * persons.length)] || 'ich';
+    const unusedPersons = persons.filter((person) => !usedVariants.has(`conj:${person}`));
+    const poolPersons = unusedPersons.length ? unusedPersons : persons;
+    const person = poolPersons[Math.floor(Math.random() * poolPersons.length)] || 'ich';
+    usedVariants.add(`conj:${person}`);
     const correct = entry.conjugation?.[person] || '';
-    const verbPool = [...new Set(pool.filter(hasConjugation).map((item) => item.conjugation?.[person]).filter(Boolean))];
-    const fallbackForms = [...new Set(appData.entries.filter(hasConjugation).map((item) => item.conjugation?.[person]).filter(Boolean))];
-    const distractors = shuffle([...new Set([...verbPool, ...fallbackForms])]).filter((form) => form !== correct).slice(0, 3);
-    return { entry, type: mode, person, prompt: entry.translation, correct, options: shuffle([correct, ...distractors]) };
+    return { entry, type: mode, person, prompt: entry.translation, correct };
   }
   if (mode === 'text') {
-    const direction = ui.sessionSettings.direction === 'mixed' ? (Math.random() > 0.5 ? 'forward' : 'reverse') : ui.sessionSettings.direction;
+    let direction = ui.sessionSettings.direction;
+    if (direction === 'mixed') {
+      const canForward = !usedVariants.has('text:forward');
+      const canReverse = !usedVariants.has('text:reverse');
+      direction = canForward && canReverse ? (Math.random() > 0.5 ? 'forward' : 'reverse') : (canForward ? 'forward' : 'reverse');
+    }
+    usedVariants.add(`text:${direction}`);
     const correct = direction === 'forward' ? entry.translation : entry.word;
-    const distractorPool = shuffle(fallbackPool.map((item) => direction === 'forward' ? item.translation : item.word));
-    return { entry, type: 'text', direction, prompt: direction === 'forward' ? entry.word : entry.translation, correct, options: shuffle([correct, ...distractorPool.filter((item) => item !== correct).slice(0, 3)]) };
+    const distractors = distractorsFor(entry, (item) => (direction === 'forward' ? item.translation : item.word), correct, 3);
+    return { entry, type: 'text', direction, prompt: direction === 'forward' ? entry.word : entry.translation, correct, options: shuffle([correct, ...distractors]) };
   }
   if (mode === 'article') {
-    return { entry, type: mode, prompt: nounFor(entry), correct: entry.article, options: shuffle(['der', 'die', 'das']) };
+    return { entry, type: mode, prompt: nounFor(entry), correct: entry.article, options: ['der', 'die', 'das'] };
   }
   if (mode === 'image-word') {
-    const distractorPool = shuffle(fallbackPool.map((item) => item.word));
-    return { entry, type: mode, prompt: '', correct: entry.word, options: shuffle([entry.word, ...distractorPool.slice(0, 3)]) };
+    const distractors = distractorsFor(entry, (item) => item.word, entry.word, 3);
+    return { entry, type: mode, prompt: '', correct: entry.word, options: shuffle([entry.word, ...distractors]) };
   }
   if (mode === 'word-image') {
-    const imagePool = shuffle(appData.entries.filter(hasImage).filter((item) => item.word !== entry.word));
+    const nature = natureFor(entry);
+    const allImages = appData.entries.filter(hasImage).filter((item) => item.word !== entry.word);
+    const sameNatureImages = shuffle(allImages.filter((item) => natureFor(item) === nature));
+    const otherImages = shuffle(allImages.filter((item) => natureFor(item) !== nature));
+    const imagePool = [...sameNatureImages, ...otherImages];
     const options = shuffle([entry, ...imagePool.slice(0, 3)]);
     return { entry, type: mode, prompt: entry.word, correct: entry.word, options, correctIndex: options.findIndex((item) => item.word === entry.word) };
   }
@@ -310,33 +383,36 @@ function questionFor(entry, mode, pool) {
 function startSession(overrides = {}, forcedEntries = null) {
   const settings = { ...ui.sessionSettings, ...overrides };
   ui.sessionSettings = settings;
+  const requestedModes = settings.modes.length ? settings.modes : ['text'];
   let pool = forcedEntries || entriesForSelected();
   if (settings.weakOnly) pool = pool.filter((entry) => { const card = cardFor(entry); return card.box <= 2 || card.wrong > card.correct; });
-  if (settings.modes.includes('article')) {
-    const articleModes = settings.modes.filter((mode) => mode === 'article');
-    if (articleModes.length === settings.modes.length) pool = pool.filter(hasArticle);
-  }
-  if (settings.modes.includes('conjugation')) {
-    const conjugationModes = settings.modes.filter((mode) => mode === 'conjugation');
-    if (conjugationModes.length === settings.modes.length) pool = pool.filter(hasConjugation);
-  }
-  if (settings.modes.some((mode) => mode.includes('image'))) {
-    const imageModes = settings.modes.filter((mode) => mode.includes('image'));
-    if (imageModes.length === settings.modes.length) pool = pool.filter(hasImage);
-  }
+  pool = pool.filter((entry) => requestedModes.some((mode) => canUseMode(entry, mode)));
   if (!pool.length) {
-    window.alert('Choose at least one chapter with eligible words.');
+    window.alert('Choose at least one chapter with eligible words for the selected mode(s).');
     return;
   }
-  const weightedPool = pool.flatMap((entry) => Array(Math.max(1, 6 - cardFor(entry).box)).fill(entry));
-  const order = settings.shuffle ? shuffle(weightedPool) : weightedPool;
+  const targetCount = Number(settings.questionCount);
+  const orderedEntries = [];
+  while (orderedEntries.length < targetCount) {
+    const pass = sampleWeightedUnique(pool, settings.shuffle);
+    if (orderedEntries.length && pass.length > 1 && keyFor(pass[0]) === keyFor(orderedEntries[orderedEntries.length - 1])) {
+      [pass[0], pass[1]] = [pass[1], pass[0]];
+    }
+    orderedEntries.push(...pass);
+  }
+  const variantHistory = new Map();
   const questions = [];
-  const modes = settings.modes.length ? settings.modes : ['text'];
-  for (let index = 0; index < Number(settings.questionCount); index += 1) {
-    const entry = order[index % order.length];
-    const availableModes = modes.filter((mode) => (!mode.includes('image') || hasImage(entry)) && (mode !== 'article' || hasArticle(entry)) && (mode !== 'conjugation' || hasConjugation(entry)));
-    const mode = availableModes[index % Math.max(availableModes.length, 1)] || 'text';
-    questions.push(questionFor(entry, mode, order));
+  for (let index = 0; index < targetCount; index += 1) {
+    const entry = orderedEntries[index];
+    const entryKey = keyFor(entry);
+    if (!variantHistory.has(entryKey)) variantHistory.set(entryKey, new Set());
+    const usedVariants = variantHistory.get(entryKey);
+    const availableModes = requestedModes.filter((mode) => canUseMode(entry, mode));
+    const unusedModes = availableModes.filter((mode) => !usedVariants.has(`mode:${mode}`));
+    const modePool = unusedModes.length ? unusedModes : availableModes;
+    const mode = modePool[index % Math.max(modePool.length, 1)] || 'text';
+    usedVariants.add(`mode:${mode}`);
+    questions.push(questionFor(entry, mode, usedVariants));
   }
   practice = { questions, index: 0, answers: [], feedback: null, startedAt: Date.now(), settings };
   activeView = 'practice';
@@ -372,10 +448,12 @@ function renderPrompt(question) {
     return `<div class="prompt-block"><div class="prompt-kicker">Choose the German word</div><div class="single-image-frame"><img src="${escapeAttr(imageFor(question.entry))}" alt="Visual clue for ${escapeAttr(question.entry.word)}" loading="lazy" /></div><p class="image-meaning">English: ${escapeHtml(question.entry.translation)}</p></div><div class="choice-grid">${question.options.map((option, index) => `<button class="choice-button" data-action="choice" data-choice="${index}" ${practice.feedback ? 'disabled' : ''}><span class="choice-number">${index + 1}</span>${escapeHtml(option)}</button>`).join('')}</div>`;
   }
   if (question.type === 'image-spelling') {
-    return `<div class="prompt-block split-prompt"><div><div class="prompt-kicker">Type the word you see</div><h2 class="word-prompt">${escapeHtml(question.entry.translation)}</h2><button class="speak-button" data-action="speak">◖ Hear the word</button></div><div class="single-image-frame"><img src="${escapeAttr(imageFor(question.entry))}" alt="Visual clue" loading="lazy" /></div></div>${renderSpellingInput(question)}`;
+    const hint = hasArticle(question.entry) ? '<p class="article-hint">Noun · include der / die / das (or type the noun)</p>' : '';
+    return `<div class="prompt-block split-prompt"><div><div class="prompt-kicker">Type the word you see</div><h2 class="word-prompt">${escapeHtml(question.entry.translation)}</h2>${hint}<button class="speak-button" data-action="speak">◖ Hear the word</button></div><div class="single-image-frame"><img src="${escapeAttr(imageFor(question.entry))}" alt="Visual clue" loading="lazy" /></div></div>${renderSpellingInput(question)}`;
   }
   if (question.type === 'spelling') {
-    return `<div class="prompt-block spelling-prompt"><div class="prompt-kicker">Write the German word</div><h2 class="word-prompt">${escapeHtml(question.prompt)}</h2><button class="speak-button" data-action="speak">◖ Hear the word</button></div>${renderSpellingInput(question)}`;
+    const hint = hasArticle(question.entry) ? '<p class="article-hint">Noun · include der / die / das (or type the noun)</p>' : '';
+    return `<div class="prompt-block spelling-prompt"><div class="prompt-kicker">Write the German word</div><h2 class="word-prompt">${escapeHtml(question.prompt)}</h2>${hint}<button class="speak-button" data-action="speak">◖ Hear the word</button></div>${renderSpellingInput(question)}`;
   }
   return `<div class="prompt-block text-prompt"><div class="prompt-kicker">${question.direction === 'forward' ? 'What is the English meaning?' : 'What is the German word?'}</div><h2 class="word-prompt">${escapeHtml(question.prompt)}</h2></div><div class="choice-grid">${question.options.map((option, index) => `<button class="choice-button" data-action="choice" data-choice="${index}" ${practice.feedback ? 'disabled' : ''}><span class="choice-number">${index + 1}</span>${escapeHtml(option)}</button>`).join('')}</div>`;
 }
@@ -409,7 +487,8 @@ function diffSpelling(answer, correct) {
 function renderFeedback(question, feedback) {
   const correctText = question.correct;
   const word = question.entry.word;
-  return `<div class="feedback-panel ${feedback.correct ? 'feedback-good' : 'feedback-bad'}"><div class="feedback-icon">${feedback.correct ? '✓' : '!'}</div><div class="feedback-copy"><strong>${feedback.correct ? 'Correct. Keep the rhythm.' : 'Not quite. Put it back in view.'}</strong><p>${feedback.correct ? `You chose <b>${escapeHtml(feedback.answer || correctText)}</b>.` : `The answer is <b>${escapeHtml(correctText)}</b>${question.type.includes('spelling') ? ` · your spelling: <span class="diff-answer">${diffSpelling(feedback.answer, correctText)}</span>` : ''}`}</p><div class="feedback-detail"><span class="feedback-word">${escapeHtml(word)}</span><span>${escapeHtml(question.entry.translation)}</span>${question.entry.example ? `<span class="example">“${escapeHtml(question.entry.example)}”</span>` : ''}</div></div>${hasImage(question.entry) ? `<img class="feedback-image" src="${escapeAttr(imageFor(question.entry))}" alt="${escapeAttr(word)}" loading="lazy" />` : ''}<button class="button ${feedback.correct ? 'button-primary' : 'button-dark'} next-button" data-action="next-question">${practice.index + 1 === practice.questions.length ? 'See results' : 'Next word'} <span>→</span></button></div>`;
+  const showDiff = question.type.includes('spelling') || question.type === 'conjugation';
+  return `<div class="feedback-panel ${feedback.correct ? 'feedback-good' : 'feedback-bad'}"><div class="feedback-icon">${feedback.correct ? '✓' : '!'}</div><div class="feedback-copy"><strong>${feedback.correct ? 'Correct. Keep the rhythm.' : 'Not quite. Put it back in view.'}</strong><p>${feedback.correct ? `You chose <b>${escapeHtml(feedback.answer || correctText)}</b>.` : `The answer is <b>${escapeHtml(correctText)}</b>${showDiff ? ` · your answer: <span class="diff-answer">${diffSpelling(feedback.answer, correctText)}</span>` : ''}`}</p><div class="feedback-detail"><span class="feedback-word">${escapeHtml(word)}</span><span>${escapeHtml(question.entry.translation)}</span>${question.entry.example ? `<span class="example">“${escapeHtml(question.entry.example)}”</span>` : ''}</div></div>${hasImage(question.entry) ? `<img class="feedback-image" src="${escapeAttr(imageFor(question.entry))}" alt="${escapeAttr(word)}" loading="lazy" />` : ''}<button class="button ${feedback.correct ? 'button-primary' : 'button-dark'} next-button" data-action="next-question">${practice.index + 1 === practice.questions.length ? 'See results' : 'Next word'} <span>→</span></button></div>`;
 }
 
 function renderResults() {
@@ -441,7 +520,13 @@ function renderStats() {
 }
 
 function renderImages() {
-  return `<section class="page-intro"><div><div class="eyebrow">Memory, made visible</div><h1>Image desk.</h1><p>Every picture is a cue. Replace any example image with your own reference and keep it in this browser.</p></div><span class="source-note">30 example images · Wikimedia Commons</span></section><div class="image-review-grid">${appData.entries.map((entry) => `<article class="image-review-card panel"><div class="review-image-wrap">${hasImage(entry) ? `<img src="${escapeAttr(imageFor(entry))}" alt="${escapeAttr(entry.word)}" loading="lazy"/>` : '<div class="image-fallback"><span>✦</span><small>No image yet</small></div>'}<span class="review-chapter">${escapeHtml(chapterById(entry.chapterId)?.title || 'Imported')}</span></div><div class="review-copy"><div><strong>${escapeHtml(entry.word)}</strong><span>${escapeHtml(entry.translation)}</span></div><label class="upload-button"><input type="file" accept="image/*" data-image-upload="${escapeAttr(keyFor(entry))}" />Replace image</label><button class="text-button remove-image" data-action="remove-image" data-key="${escapeAttr(keyFor(entry))}" ${customImages[keyFor(entry)] ? '' : 'disabled'}>Remove custom</button></div></article>`).join('')}</div>`;
+  const imageCount = appData.entries.filter(hasImage).length;
+  const filteredEntries = appData.entries.filter((entry) => {
+    if (ui.imageFilter === 'with-image') return hasImage(entry);
+    if (ui.imageFilter === 'all') return true;
+    return entry.chapterId === ui.imageFilter;
+  });
+  return `<section class="page-intro"><div><div class="eyebrow">Memory, made visible</div><h1>Image desk.</h1><p>Every picture is a cue. Replace any image with your own reference and keep it in this browser.</p></div><div class="section-actions"><select class="image-filter-select" data-image-filter aria-label="Filter images"><option value="all" ${ui.imageFilter === 'all' ? 'selected' : ''}>All words (${appData.entries.length})</option><option value="with-image" ${ui.imageFilter === 'with-image' ? 'selected' : ''}>With images (${imageCount})</option>${appData.chapters.map((chapter) => `<option value="${escapeAttr(chapter.id)}" ${ui.imageFilter === chapter.id ? 'selected' : ''}>${escapeHtml(chapter.title)}</option>`).join('')}</select><span class="source-note">${imageCount} images · Wikimedia Commons</span></div></section><div class="image-review-grid">${filteredEntries.map((entry) => `<article class="image-review-card panel"><div class="review-image-wrap">${hasImage(entry) ? `<img src="${escapeAttr(imageFor(entry))}" alt="${escapeAttr(entry.word)}" loading="lazy"/>` : '<div class="image-fallback"><span>✦</span><small>No image yet</small></div>'}<span class="review-chapter">${escapeHtml(chapterById(entry.chapterId)?.title || 'Imported')}</span></div><div class="review-copy"><div><strong>${escapeHtml(entry.word)}</strong><span>${escapeHtml(entry.translation)}</span></div><label class="upload-button"><input type="file" accept="image/*" data-image-upload="${escapeAttr(keyFor(entry))}" />Replace image</label><button class="text-button remove-image" data-action="remove-image" data-key="${escapeAttr(keyFor(entry))}" ${customImages[keyFor(entry)] ? '' : 'disabled'}>Remove custom</button></div></article>`).join('')}</div>`;
 }
 
 function renderConjugation(conjugation) {
@@ -493,6 +578,45 @@ function updateCard(entry, isCorrect, mode, answer) {
   writeStorage(STORAGE.progress, progress);
 }
 
+function acceptableAnswersFor(question) {
+  const targets = new Set([question.correct]);
+  if (question.type === 'conjugation') {
+    const pronouns = (question.person || '').split('/').map((part) => part.trim()).filter(Boolean);
+    for (const pronoun of pronouns) {
+      targets.add(`${pronoun} ${question.correct}`);
+    }
+  } else if (question.type.includes('spelling')) {
+    const raw = String(question.correct || '').trim();
+    const cleaned = raw.replace(/^(?:…|\.{3})\s*|\s*(?:…|\.{3})$/g, '').trim();
+    if (cleaned) {
+      targets.add(cleaned);
+      targets.add(cleaned.replace(/[!?.]+$/, '').trim());
+    }
+    if (hasArticle(question.entry)) {
+      targets.add(nounFor(question.entry));
+    }
+    if (raw.includes('/')) {
+      raw.split('/').map((part) => part.trim()).filter(Boolean).forEach((part) => targets.add(part));
+    }
+    const withoutParens = raw.replace(/\s*\([^)]*\)/g, '').trim();
+    if (withoutParens && withoutParens !== raw) {
+      targets.add(withoutParens);
+      if (hasArticle(question.entry)) {
+        targets.add(withoutParens.replace(new RegExp(`^${question.entry.article}\\s+`, 'i'), '').trim());
+      }
+    }
+    const parenMatch = raw.match(/\(([^)]+)\)/);
+    if (parenMatch?.[1]) {
+      const inside = parenMatch[1].trim();
+      targets.add(inside);
+      if (hasArticle(question.entry)) {
+        targets.add(`${question.entry.article} ${inside}`);
+      }
+    }
+  }
+  return [...targets].map(normalizedForCompare).filter(Boolean);
+}
+
 function answerQuestion(rawAnswer) {
   if (!practice || practice.feedback) return;
   const question = practice.questions[practice.index];
@@ -502,7 +626,8 @@ function answerQuestion(rawAnswer) {
   } else if (question.type === 'word-image') {
     answer = question.options[Number(rawAnswer)]?.word || '';
   }
-  const correct = normalizedForCompare(answer) === normalizedForCompare(question.correct);
+  const normalizedAnswer = normalizedForCompare(answer);
+  const correct = Boolean(normalizedAnswer) && acceptableAnswersFor(question).includes(normalizedAnswer);
   updateCard(question.entry, correct, question.type, answer);
   practice.answers.push({ chapterId: question.entry.chapterId, entryKey: keyFor(question.entry), mode: question.type, correct, answer });
   practice.feedback = { correct, answer };
@@ -656,6 +781,8 @@ document.addEventListener('change', (event) => {
   if (sessionSetting) { const key = sessionSetting.dataset.sessionSetting; ui.sessionSettings[key] = sessionSetting.type === 'checkbox' ? sessionSetting.checked : (key === 'questionCount' ? Number(sessionSetting.value) : sessionSetting.value); if (key === 'questionCount') render(); return; }
   const appSetting = event.target.closest('[data-app-setting]');
   if (appSetting) { const key = appSetting.dataset.appSetting; appSettings[key] = appSetting.type === 'checkbox' ? appSetting.checked : appSetting.value; if (key === 'ignoreCase') ui.sessionSettings.ignoreCase = appSettings.ignoreCase; writeStorage(STORAGE.settings, appSettings); render(); return; }
+  const imageFilter = event.target.closest('[data-image-filter]');
+  if (imageFilter) { ui.imageFilter = imageFilter.value; render(); return; }
   const imageInput = event.target.closest('[data-image-upload]');
   if (imageInput && imageInput.files?.[0]) { const reader = new FileReader(); reader.onload = () => { customImages[imageInput.dataset.imageUpload] = reader.result; writeStorage(STORAGE.images, customImages); render(); }; reader.readAsDataURL(imageInput.files[0]); return; }
   if (event.target.id === 'progress-file' && event.target.files?.[0]) importProgress(event.target.files[0]);

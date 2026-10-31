@@ -538,12 +538,12 @@
       "partOfSpeech": "verb",
       "category": "verbs",
       "conjugation": {
-        "ich": "bedanke mich bedank",
-        "du": "bedankst dich bedank",
-        "er/sie/es": "bedankt sich bedank",
-        "wir": "bedanken uns bedank",
-        "ihr": "bedankt euch bedank",
-        "Sie/sie": "bedanken sich bedank"
+        "ich": "bedanke mich",
+        "du": "bedankst dich",
+        "er/sie/es": "bedankt sich",
+        "wir": "bedanken uns",
+        "ihr": "bedankt euch",
+        "Sie/sie": "bedanken sich"
       },
       "example": "sich bedanken"
     },
@@ -614,7 +614,7 @@
       "category": "verbs",
       "conjugation": {
         "ich": "kreuze an",
-        "du": "kreuzst an",
+        "du": "kreuzt an",
         "er/sie/es": "kreuzt an",
         "wir": "kreuzen an",
         "ihr": "kreuzt an",
@@ -674,7 +674,7 @@
       "category": "verbs",
       "conjugation": {
         "ich": "ergänze",
-        "du": "ergänzst",
+        "du": "ergänzt",
         "er/sie/es": "ergänzt",
         "wir": "ergänzen",
         "ihr": "ergänzt",
@@ -689,7 +689,7 @@
       "category": "verbs",
       "conjugation": {
         "ich": "übersetze",
-        "du": "übersetzst",
+        "du": "übersetzt",
         "er/sie/es": "übersetzt",
         "wir": "übersetzen",
         "ihr": "übersetzt",
@@ -719,10 +719,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "zeichne",
-        "du": "zeichnst",
-        "er/sie/es": "zeichnt",
+        "du": "zeichnest",
+        "er/sie/es": "zeichnet",
         "wir": "zeichnen",
-        "ihr": "zeichnt",
+        "ihr": "zeichnet",
         "Sie/sie": "zeichnen"
       },
       "example": "Zeichnen Sie eine Brille."
@@ -764,10 +764,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "ordne zu",
-        "du": "ordnst zu",
-        "er/sie/es": "ordnt zu",
+        "du": "ordnest zu",
+        "er/sie/es": "ordnet zu",
         "wir": "ordnen zu",
-        "ihr": "ordnt zu",
+        "ihr": "ordnet zu",
         "Sie/sie": "ordnen zu"
       },
       "example": "Ordnen Sie zu."
@@ -779,10 +779,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "ordne",
-        "du": "ordnst",
-        "er/sie/es": "ordnt",
+        "du": "ordnest",
+        "er/sie/es": "ordnet",
         "wir": "ordnen",
-        "ihr": "ordnt",
+        "ihr": "ordnet",
         "Sie/sie": "ordnen"
       }
     },

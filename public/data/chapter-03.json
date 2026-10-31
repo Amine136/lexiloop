@@ -555,10 +555,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "koste",
-        "du": "kostst",
-        "er/sie/es": "kostt",
+        "du": "kostest",
+        "er/sie/es": "kostet",
         "wir": "kosten",
-        "ihr": "kostt",
+        "ihr": "kostet",
         "Sie/sie": "kosten"
       },
       "example": "Was kostet das? / Wie viel kostet …?"

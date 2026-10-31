@@ -513,7 +513,7 @@
       }
     },
     {
-      "word": "möchte(n)",
+      "word": "möchten",
       "translation": "would like (to have / to do something)",
       "partOfSpeech": "verb",
       "category": "Essverben",
@@ -528,33 +528,63 @@
       }
     },
     {
-      "word": "Hunger / Durst haben",
-      "translation": "to be hungry / thirsty",
+      "word": "Hunger haben",
+      "translation": "to be hungry",
       "partOfSpeech": "verb",
       "category": "Essverben",
-      "example": "Ich habe Hunger und Durst.",
+      "example": "Ich habe großen Hunger.",
       "conjugation": {
-        "ich": "habe Hunger / Durst",
-        "du": "hast Hunger / Durst",
-        "er/sie/es": "hat Hunger / Durst",
-        "wir": "haben Hunger / Durst",
-        "ihr": "habt Hunger / Durst",
-        "Sie/sie": "haben Hunger / Durst"
+        "ich": "habe Hunger",
+        "du": "hast Hunger",
+        "er/sie/es": "hat Hunger",
+        "wir": "haben Hunger",
+        "ihr": "habt Hunger",
+        "Sie/sie": "haben Hunger"
       }
     },
     {
-      "word": "zum Essen / zum Kaffee einladen",
-      "translation": "to invite for a meal / for coffee",
+      "word": "Durst haben",
+      "translation": "to be thirsty",
+      "partOfSpeech": "verb",
+      "category": "Essverben",
+      "example": "Ich habe großen Durst.",
+      "conjugation": {
+        "ich": "habe Durst",
+        "du": "hast Durst",
+        "er/sie/es": "hat Durst",
+        "wir": "haben Durst",
+        "ihr": "habt Durst",
+        "Sie/sie": "haben Durst"
+      }
+    },
+    {
+      "word": "zum Essen einladen",
+      "translation": "to invite for a meal",
+      "partOfSpeech": "verb",
+      "category": "Essverben",
+      "example": "Wir laden euch zum Essen ein.",
+      "conjugation": {
+        "ich": "lade zum Essen ein",
+        "du": "lädst zum Essen ein",
+        "er/sie/es": "lädt zum Essen ein",
+        "wir": "laden zum Essen ein",
+        "ihr": "ladet zum Essen ein",
+        "Sie/sie": "laden zum Essen ein"
+      }
+    },
+    {
+      "word": "zum Kaffee einladen",
+      "translation": "to invite for coffee",
       "partOfSpeech": "verb",
       "category": "Essverben",
       "example": "Ich lade dich zum Kaffee ein.",
       "conjugation": {
-        "ich": "lade zum Essen / Kaffee ein",
-        "du": "lädst zum Essen / Kaffee ein",
-        "er/sie/es": "lädt zum Essen / Kaffee ein",
-        "wir": "laden zum Essen / Kaffee ein",
-        "ihr": "ladet zum Essen / Kaffee ein",
-        "Sie/sie": "laden zum Essen / Kaffee ein"
+        "ich": "lade zum Kaffee ein",
+        "du": "lädst zum Kaffee ein",
+        "er/sie/es": "lädt zum Kaffee ein",
+        "wir": "laden zum Kaffee ein",
+        "ihr": "ladet zum Kaffee ein",
+        "Sie/sie": "laden zum Kaffee ein"
       }
     },
     {

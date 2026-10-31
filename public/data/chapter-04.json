@@ -345,10 +345,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "finde",
-        "du": "findst",
-        "er/sie/es": "findt",
+        "du": "findest",
+        "er/sie/es": "findet",
         "wir": "finden",
-        "ihr": "findt",
+        "ihr": "findet",
         "Sie/sie": "finden"
       },
       "example": "Wie finden Sie das Bad? / Ich finde es schön."
@@ -360,10 +360,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "koste",
-        "du": "kostst",
-        "er/sie/es": "kostt",
+        "du": "kostest",
+        "er/sie/es": "kostet",
         "wir": "kosten",
-        "ihr": "kostt",
+        "ihr": "kostet",
         "Sie/sie": "kosten"
       },
       "example": "Das Haus kostet …"
@@ -390,10 +390,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "vermiete",
-        "du": "vermietst",
-        "er/sie/es": "vermiett",
+        "du": "vermietest",
+        "er/sie/es": "vermietet",
         "wir": "vermieten",
-        "ihr": "vermiett",
+        "ihr": "vermietet",
         "Sie/sie": "vermieten"
       }
     },
@@ -404,10 +404,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "miete",
-        "du": "mietst",
-        "er/sie/es": "miett",
+        "du": "mietest",
+        "er/sie/es": "mietet",
         "wir": "mieten",
-        "ihr": "miett",
+        "ihr": "mietet",
         "Sie/sie": "mieten"
       }
     },
@@ -492,10 +492,10 @@
       "category": "verbs",
       "conjugation": {
         "ich": "bade",
-        "du": "badst",
-        "er/sie/es": "badt",
+        "du": "badest",
+        "er/sie/es": "badet",
         "wir": "baden",
-        "ihr": "badt",
+        "ihr": "badet",
         "Sie/sie": "baden"
       }
     },
