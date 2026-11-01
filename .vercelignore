@@ -1,4 +1,5 @@
-scripts/
+scripts/dev-server.mjs
+scripts/fetch_commons_assets.py
 app.config.ts
 plan.md
 TODO.md
