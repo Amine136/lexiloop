@@ -3,24 +3,6 @@
   "title": "Lektion 8: Kein Problem. Ich habe Zeit!",
   "entries": [
     {
-      "word": "das Kino",
-      "translation": "cinema",
-      "article": "das",
-      "noun": "Kino",
-      "plural": "die Kinos",
-      "category": "places to go",
-      "example": "Wir gehen ins Kino."
-    },
-    {
-      "word": "das Theater",
-      "translation": "theater",
-      "article": "das",
-      "noun": "Theater",
-      "plural": "–",
-      "category": "places to go",
-      "example": "Wir gehen ins Theater."
-    },
-    {
       "word": "das Museum",
       "translation": "museum",
       "article": "das",
@@ -165,15 +147,6 @@
       "example": "Am Sonntag habe ich Zeit."
     },
     {
-      "word": "der Morgen",
-      "translation": "morning (early)",
-      "article": "der",
-      "noun": "Morgen",
-      "plural": "die Morgen",
-      "category": "times of day",
-      "example": "Am Morgen bin ich müde."
-    },
-    {
       "word": "der Vormittag",
       "translation": "morning (before noon)",
       "article": "der",
@@ -192,33 +165,6 @@
       "example": "Am Mittag esse ich."
     },
     {
-      "word": "der Nachmittag",
-      "translation": "afternoon",
-      "article": "der",
-      "noun": "Nachmittag",
-      "plural": "die Nachmittage",
-      "category": "times of day",
-      "example": "Am Nachmittag habe ich Zeit."
-    },
-    {
-      "word": "der Abend",
-      "translation": "evening",
-      "article": "der",
-      "noun": "Abend",
-      "plural": "die Abende",
-      "category": "times of day",
-      "example": "Am Abend gehen wir aus."
-    },
-    {
-      "word": "die Nacht",
-      "translation": "night",
-      "article": "die",
-      "noun": "Nacht",
-      "plural": "die Nächte",
-      "category": "times of day",
-      "example": "In der Nacht schlafe ich."
-    },
-    {
       "word": "Wie spät ist es?",
       "translation": "What time is it?",
       "category": "telling time",
@@ -229,15 +175,6 @@
       "translation": "What time is it?",
       "category": "telling time",
       "example": "Wie viel Uhr ist es?"
-    },
-    {
-      "word": "die Uhr",
-      "translation": "o’clock / clock",
-      "article": "das",
-      "noun": "Uhr",
-      "plural": "die Uhren",
-      "category": "telling time",
-      "example": "Um vier Uhr."
     },
     {
       "word": "nach",
@@ -255,8 +192,8 @@
       "word": "das Viertel",
       "translation": "quarter (15 minutes)",
       "article": "das",
-      "noun": "Uhr",
-      "plural": "die Uhren",
+      "noun": "Viertel",
+      "plural": "die Viertel",
       "category": "telling time",
       "example": "Es ist Viertel nach drei."
     },
@@ -349,18 +286,8 @@
       "category": "important words"
     },
     {
-      "word": "vielleicht",
-      "translation": "maybe",
-      "category": "important words"
-    },
-    {
       "word": "doch",
       "translation": "after all / actually",
-      "category": "important words"
-    },
-    {
-      "word": "noch nicht",
-      "translation": "not yet",
       "category": "important words"
     },
     {
@@ -496,51 +423,6 @@
         "wir": "sagen ab",
         "ihr": "sagt ab",
         "Sie/sie": "sagen ab"
-      }
-    },
-    {
-      "word": "gehen",
-      "translation": "to go",
-      "partOfSpeech": "verb",
-      "category": "Verben für Pläne",
-      "example": "Wir gehen ins Theater.",
-      "conjugation": {
-        "ich": "gehe",
-        "du": "gehst",
-        "er/sie/es": "geht",
-        "wir": "gehen",
-        "ihr": "geht",
-        "Sie/sie": "gehen"
-      }
-    },
-    {
-      "word": "kommen",
-      "translation": "to come",
-      "partOfSpeech": "verb",
-      "category": "Verben für Pläne",
-      "example": "Kannst du morgen kommen?",
-      "conjugation": {
-        "ich": "komme",
-        "du": "kommst",
-        "er/sie/es": "kommt",
-        "wir": "kommen",
-        "ihr": "kommt",
-        "Sie/sie": "kommen"
-      }
-    },
-    {
-      "word": "sehen",
-      "translation": "to see",
-      "partOfSpeech": "verb",
-      "category": "Verben für Pläne",
-      "example": "Wir sehen uns bald.",
-      "conjugation": {
-        "ich": "sehe",
-        "du": "siehst",
-        "er/sie/es": "sieht",
-        "wir": "sehen",
-        "ihr": "seht",
-        "Sie/sie": "sehen"
       }
     },
     {

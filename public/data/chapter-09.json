@@ -84,51 +84,6 @@
       "example": "Ich mag keinen Schinken."
     },
     {
-      "word": "der Tee",
-      "translation": "tea",
-      "article": "der",
-      "noun": "Tee",
-      "plural": "–",
-      "category": "food & groceries",
-      "example": "Möchten Sie einen Tee?"
-    },
-    {
-      "word": "die Butter",
-      "translation": "butter",
-      "article": "die",
-      "noun": "Butter",
-      "plural": "–",
-      "category": "food & groceries",
-      "example": "Die Butter steht im Kühlschrank."
-    },
-    {
-      "word": "die Kartoffel",
-      "translation": "potato",
-      "article": "die",
-      "noun": "Kartoffel",
-      "plural": "die Kartoffeln",
-      "category": "food & groceries",
-      "example": "Die Kartoffeln sind fertig."
-    },
-    {
-      "word": "die Milch",
-      "translation": "milk",
-      "article": "die",
-      "noun": "Milch",
-      "plural": "–",
-      "category": "food & groceries",
-      "example": "Ich trinke Milch."
-    },
-    {
-      "word": "die Orange",
-      "translation": "orange",
-      "article": "die",
-      "noun": "Orange",
-      "plural": "die Orangen",
-      "category": "food & groceries",
-      "example": "Die Orange ist süß."
-    },
-    {
       "word": "die Pizza",
       "translation": "pizza",
       "article": "die",
@@ -136,15 +91,6 @@
       "plural": "die Pizzas / die Pizzen",
       "category": "food & groceries",
       "example": "Wir essen Pizza."
-    },
-    {
-      "word": "die Sahne",
-      "translation": "cream",
-      "article": "die",
-      "noun": "Sahne",
-      "plural": "–",
-      "category": "food & groceries",
-      "example": "Der Kuchen ist mit Sahne."
     },
     {
       "word": "die Schokolade",
@@ -156,33 +102,6 @@
       "example": "Ich mag keine Schokolade."
     },
     {
-      "word": "die Suppe",
-      "translation": "soup",
-      "article": "die",
-      "noun": "Suppe",
-      "plural": "die Suppen",
-      "category": "food & groceries",
-      "example": "Die Suppe schmeckt sehr gut."
-    },
-    {
-      "word": "die Tomate",
-      "translation": "tomato",
-      "article": "die",
-      "noun": "Tomate",
-      "plural": "die Tomaten",
-      "category": "food & groceries",
-      "example": "Die Tomate ist rot."
-    },
-    {
-      "word": "die Wurst",
-      "translation": "sausage / cold cuts",
-      "article": "die",
-      "noun": "Wurst",
-      "plural": "die Würste",
-      "category": "food & groceries",
-      "example": "Ich esse keine Wurst."
-    },
-    {
       "word": "die Zitrone",
       "translation": "lemon",
       "article": "die",
@@ -190,42 +109,6 @@
       "plural": "die Zitronen",
       "category": "food & groceries",
       "example": "Die Zitrone ist sauer."
-    },
-    {
-      "word": "die Zwiebel",
-      "translation": "onion",
-      "article": "die",
-      "noun": "Zwiebel",
-      "plural": "die Zwiebeln",
-      "category": "food & groceries",
-      "example": "Die Zwiebel ist in der Suppe."
-    },
-    {
-      "word": "das Brot",
-      "translation": "bread / loaf of bread",
-      "article": "das",
-      "noun": "Brot",
-      "plural": "die Brote",
-      "category": "food & groceries",
-      "example": "Ich kaufe ein Brot."
-    },
-    {
-      "word": "das Brötchen",
-      "translation": "bread roll",
-      "article": "das",
-      "noun": "Brötchen",
-      "plural": "die Brötchen",
-      "category": "food & groceries",
-      "example": "Ich esse ein Brötchen."
-    },
-    {
-      "word": "das Ei",
-      "translation": "egg",
-      "article": "das",
-      "noun": "Ei",
-      "plural": "die Eier",
-      "category": "food & groceries",
-      "example": "Zum Frühstück esse ich ein Ei."
     },
     {
       "word": "das Eis",
@@ -237,15 +120,6 @@
       "example": "Im Sommer esse ich Eis."
     },
     {
-      "word": "das Fleisch",
-      "translation": "meat",
-      "article": "das",
-      "noun": "Fleisch",
-      "plural": "–",
-      "category": "food & groceries",
-      "example": "Ich esse kein Fleisch."
-    },
-    {
       "word": "das Müsli",
       "translation": "muesli / cereal",
       "article": "das",
@@ -253,15 +127,6 @@
       "plural": "–",
       "category": "food & groceries",
       "example": "Ich esse Müsli zum Frühstück."
-    },
-    {
-      "word": "das Obst",
-      "translation": "fruit",
-      "article": "das",
-      "noun": "Obst",
-      "plural": "–",
-      "category": "food & groceries",
-      "example": "Obst ist gesund."
     },
     {
       "word": "das Stück",
@@ -354,15 +219,6 @@
       "example": "Möchten Sie ein Dessert?"
     },
     {
-      "word": "der Kühlschrank",
-      "translation": "refrigerator",
-      "article": "der",
-      "noun": "Kühlschrank",
-      "plural": "die Kühlschränke",
-      "category": "meals & kitchen",
-      "example": "Die Milch ist im Kühlschrank."
-    },
-    {
       "word": "der Hunger",
       "translation": "hunger",
       "article": "der",
@@ -423,36 +279,6 @@
       "example": "Danke, ebenfalls!"
     },
     {
-      "word": "essen",
-      "translation": "to eat",
-      "partOfSpeech": "verb",
-      "category": "Essverben",
-      "example": "Ich esse gern Käsebrötchen.",
-      "conjugation": {
-        "ich": "esse",
-        "du": "isst",
-        "er/sie/es": "isst",
-        "wir": "essen",
-        "ihr": "esst",
-        "Sie/sie": "essen"
-      }
-    },
-    {
-      "word": "trinken",
-      "translation": "to drink",
-      "partOfSpeech": "verb",
-      "category": "Essverben",
-      "example": "Ich trinke einen Kaffee.",
-      "conjugation": {
-        "ich": "trinke",
-        "du": "trinkst",
-        "er/sie/es": "trinkt",
-        "wir": "trinken",
-        "ihr": "trinkt",
-        "Sie/sie": "trinken"
-      }
-    },
-    {
       "word": "frühstücken",
       "translation": "to eat breakfast",
       "partOfSpeech": "verb",
@@ -465,21 +291,6 @@
         "wir": "frühstücken",
         "ihr": "frühstückt",
         "Sie/sie": "frühstücken"
-      }
-    },
-    {
-      "word": "kochen",
-      "translation": "to cook",
-      "partOfSpeech": "verb",
-      "category": "Essverben",
-      "example": "Was möchtest du heute Abend kochen?",
-      "conjugation": {
-        "ich": "koche",
-        "du": "kochst",
-        "er/sie/es": "kocht",
-        "wir": "kochen",
-        "ihr": "kocht",
-        "Sie/sie": "kochen"
       }
     },
     {

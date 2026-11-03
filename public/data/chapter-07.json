@@ -21,24 +21,6 @@
       "example": "In meiner Freizeit lese ich gern."
     },
     {
-      "word": "der Freund",
-      "translation": "friend (male)",
-      "article": "der",
-      "noun": "Freund",
-      "plural": "die Freunde",
-      "category": "people & leisure",
-      "example": "Mein Freund spielt gern Fußball."
-    },
-    {
-      "word": "die Freundin",
-      "translation": "friend (female)",
-      "article": "die",
-      "noun": "Freundin",
-      "plural": "die Freundinnen",
-      "category": "people & leisure",
-      "example": "Meine Freundin singt gern."
-    },
-    {
       "word": "der Spaß",
       "translation": "fun",
       "article": "der",
@@ -206,7 +188,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Ich koche gern.",
-      "conjugation": {"ich": "koche", "du": "kochst", "er/sie/es": "kocht", "wir": "kochen", "ihr": "kocht", "Sie/sie": "kochen"}
+      "conjugation": {
+        "ich": "koche",
+        "du": "kochst",
+        "er/sie/es": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "Sie/sie": "kochen"
+      }
     },
     {
       "word": "tanzen",
@@ -214,7 +203,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Wir tanzen zusammen.",
-      "conjugation": {"ich": "tanze", "du": "tanzt", "er/sie/es": "tanzt", "wir": "tanzen", "ihr": "tanzt", "Sie/sie": "tanzen"}
+      "conjugation": {
+        "ich": "tanze",
+        "du": "tanzt",
+        "er/sie/es": "tanzt",
+        "wir": "tanzen",
+        "ihr": "tanzt",
+        "Sie/sie": "tanzen"
+      }
     },
     {
       "word": "singen",
@@ -222,15 +218,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Sie singt ein Lied.",
-      "conjugation": {"ich": "singe", "du": "singst", "er/sie/es": "singt", "wir": "singen", "ihr": "singt", "Sie/sie": "singen"}
-    },
-    {
-      "word": "lesen",
-      "translation": "to read",
-      "partOfSpeech": "verb",
-      "category": "Freizeitverben",
-      "example": "Ich lese ein Buch.",
-      "conjugation": {"ich": "lese", "du": "liest", "er/sie/es": "liest", "wir": "lesen", "ihr": "lest", "Sie/sie": "lesen"}
+      "conjugation": {
+        "ich": "singe",
+        "du": "singst",
+        "er/sie/es": "singt",
+        "wir": "singen",
+        "ihr": "singt",
+        "Sie/sie": "singen"
+      }
     },
     {
       "word": "Freunde treffen",
@@ -238,7 +233,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Am Samstag treffe ich Freunde.",
-      "conjugation": {"ich": "treffe Freunde", "du": "triffst Freunde", "er/sie/es": "trifft Freunde", "wir": "treffen Freunde", "ihr": "trefft Freunde", "Sie/sie": "treffen Freunde"}
+      "conjugation": {
+        "ich": "treffe Freunde",
+        "du": "triffst Freunde",
+        "er/sie/es": "trifft Freunde",
+        "wir": "treffen Freunde",
+        "ihr": "trefft Freunde",
+        "Sie/sie": "treffen Freunde"
+      }
     },
     {
       "word": "im Internet surfen",
@@ -246,7 +248,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Ich surfe im Internet.",
-      "conjugation": {"ich": "surfe im Internet", "du": "surfst im Internet", "er/sie/es": "surft im Internet", "wir": "surfen im Internet", "ihr": "surft im Internet", "Sie/sie": "surfen im Internet"}
+      "conjugation": {
+        "ich": "surfe im Internet",
+        "du": "surfst im Internet",
+        "er/sie/es": "surft im Internet",
+        "wir": "surfen im Internet",
+        "ihr": "surft im Internet",
+        "Sie/sie": "surfen im Internet"
+      }
     },
     {
       "word": "schwimmen",
@@ -254,7 +263,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Im Sommer schwimme ich gern.",
-      "conjugation": {"ich": "schwimme", "du": "schwimmst", "er/sie/es": "schwimmt", "wir": "schwimmen", "ihr": "schwimmt", "Sie/sie": "schwimmen"}
+      "conjugation": {
+        "ich": "schwimme",
+        "du": "schwimmst",
+        "er/sie/es": "schwimmt",
+        "wir": "schwimmen",
+        "ihr": "schwimmt",
+        "Sie/sie": "schwimmen"
+      }
     },
     {
       "word": "fotografieren",
@@ -262,7 +278,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Sie fotografiert die Natur.",
-      "conjugation": {"ich": "fotografiere", "du": "fotografierst", "er/sie/es": "fotografiert", "wir": "fotografieren", "ihr": "fotografiert", "Sie/sie": "fotografieren"}
+      "conjugation": {
+        "ich": "fotografiere",
+        "du": "fotografierst",
+        "er/sie/es": "fotografiert",
+        "wir": "fotografieren",
+        "ihr": "fotografiert",
+        "Sie/sie": "fotografieren"
+      }
     },
     {
       "word": "Ski fahren",
@@ -270,7 +293,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Im Winter fahre ich Ski.",
-      "conjugation": {"ich": "fahre Ski", "du": "fährst Ski", "er/sie/es": "fährt Ski", "wir": "fahren Ski", "ihr": "fahrt Ski", "Sie/sie": "fahren Ski"}
+      "conjugation": {
+        "ich": "fahre Ski",
+        "du": "fährst Ski",
+        "er/sie/es": "fährt Ski",
+        "wir": "fahren Ski",
+        "ihr": "fahrt Ski",
+        "Sie/sie": "fahren Ski"
+      }
     },
     {
       "word": "Rad fahren",
@@ -278,7 +308,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Wir fahren am Wochenende Rad.",
-      "conjugation": {"ich": "fahre Rad", "du": "fährst Rad", "er/sie/es": "fährt Rad", "wir": "fahren Rad", "ihr": "fahrt Rad", "Sie/sie": "fahren Rad"}
+      "conjugation": {
+        "ich": "fahre Rad",
+        "du": "fährst Rad",
+        "er/sie/es": "fährt Rad",
+        "wir": "fahren Rad",
+        "ihr": "fahrt Rad",
+        "Sie/sie": "fahren Rad"
+      }
     },
     {
       "word": "Gitarre spielen",
@@ -286,7 +323,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Ich spiele Gitarre.",
-      "conjugation": {"ich": "spiele Gitarre", "du": "spielst Gitarre", "er/sie/es": "spielt Gitarre", "wir": "spielen Gitarre", "ihr": "spielt Gitarre", "Sie/sie": "spielen Gitarre"}
+      "conjugation": {
+        "ich": "spiele Gitarre",
+        "du": "spielst Gitarre",
+        "er/sie/es": "spielt Gitarre",
+        "wir": "spielen Gitarre",
+        "ihr": "spielt Gitarre",
+        "Sie/sie": "spielen Gitarre"
+      }
     },
     {
       "word": "Tennis spielen",
@@ -294,7 +338,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Sie spielt Tennis.",
-      "conjugation": {"ich": "spiele Tennis", "du": "spielst Tennis", "er/sie/es": "spielt Tennis", "wir": "spielen Tennis", "ihr": "spielt Tennis", "Sie/sie": "spielen Tennis"}
+      "conjugation": {
+        "ich": "spiele Tennis",
+        "du": "spielst Tennis",
+        "er/sie/es": "spielt Tennis",
+        "wir": "spielen Tennis",
+        "ihr": "spielt Tennis",
+        "Sie/sie": "spielen Tennis"
+      }
     },
     {
       "word": "Fußball spielen",
@@ -302,7 +353,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Die Kinder spielen Fußball.",
-      "conjugation": {"ich": "spiele Fußball", "du": "spielst Fußball", "er/sie/es": "spielt Fußball", "wir": "spielen Fußball", "ihr": "spielt Fußball", "Sie/sie": "spielen Fußball"}
+      "conjugation": {
+        "ich": "spiele Fußball",
+        "du": "spielst Fußball",
+        "er/sie/es": "spielt Fußball",
+        "wir": "spielen Fußball",
+        "ihr": "spielt Fußball",
+        "Sie/sie": "spielen Fußball"
+      }
     },
     {
       "word": "Schach spielen",
@@ -310,7 +368,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Wir spielen Schach.",
-      "conjugation": {"ich": "spiele Schach", "du": "spielst Schach", "er/sie/es": "spielt Schach", "wir": "spielen Schach", "ihr": "spielt Schach", "Sie/sie": "spielen Schach"}
+      "conjugation": {
+        "ich": "spiele Schach",
+        "du": "spielst Schach",
+        "er/sie/es": "spielt Schach",
+        "wir": "spielen Schach",
+        "ihr": "spielt Schach",
+        "Sie/sie": "spielen Schach"
+      }
     },
     {
       "word": "malen",
@@ -318,7 +383,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Meine Schwester malt gern.",
-      "conjugation": {"ich": "male", "du": "malst", "er/sie/es": "malt", "wir": "malen", "ihr": "malt", "Sie/sie": "malen"}
+      "conjugation": {
+        "ich": "male",
+        "du": "malst",
+        "er/sie/es": "malt",
+        "wir": "malen",
+        "ihr": "malt",
+        "Sie/sie": "malen"
+      }
     },
     {
       "word": "backen",
@@ -326,7 +398,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Wir backen einen Kuchen.",
-      "conjugation": {"ich": "backe", "du": "bäckst", "er/sie/es": "bäckt", "wir": "backen", "ihr": "backt", "Sie/sie": "backen"}
+      "conjugation": {
+        "ich": "backe",
+        "du": "bäckst",
+        "er/sie/es": "bäckt",
+        "wir": "backen",
+        "ihr": "backt",
+        "Sie/sie": "backen"
+      }
     },
     {
       "word": "Musik hören",
@@ -334,7 +413,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Ich höre Musik.",
-      "conjugation": {"ich": "höre Musik", "du": "hörst Musik", "er/sie/es": "hört Musik", "wir": "hören Musik", "ihr": "hört Musik", "Sie/sie": "hören Musik"}
+      "conjugation": {
+        "ich": "höre Musik",
+        "du": "hörst Musik",
+        "er/sie/es": "hört Musik",
+        "wir": "hören Musik",
+        "ihr": "hört Musik",
+        "Sie/sie": "hören Musik"
+      }
     },
     {
       "word": "spazieren gehen",
@@ -342,7 +428,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Wir gehen im Park spazieren.",
-      "conjugation": {"ich": "gehe spazieren", "du": "gehst spazieren", "er/sie/es": "geht spazieren", "wir": "gehen spazieren", "ihr": "geht spazieren", "Sie/sie": "gehen spazieren"}
+      "conjugation": {
+        "ich": "gehe spazieren",
+        "du": "gehst spazieren",
+        "er/sie/es": "geht spazieren",
+        "wir": "gehen spazieren",
+        "ihr": "geht spazieren",
+        "Sie/sie": "gehen spazieren"
+      }
     },
     {
       "word": "Ausflüge machen",
@@ -350,15 +443,14 @@
       "partOfSpeech": "verb",
       "category": "Freizeitverben",
       "example": "Im Sommer machen wir Ausflüge.",
-      "conjugation": {"ich": "mache Ausflüge", "du": "machst Ausflüge", "er/sie/es": "macht Ausflüge", "wir": "machen Ausflüge", "ihr": "macht Ausflüge", "Sie/sie": "machen Ausflüge"}
-    },
-    {
-      "word": "schlafen",
-      "translation": "to sleep",
-      "partOfSpeech": "verb",
-      "category": "Freizeitverben",
-      "example": "Am Wochenende schlafe ich lange.",
-      "conjugation": {"ich": "schlafe", "du": "schläfst", "er/sie/es": "schläft", "wir": "schlafen", "ihr": "schlaft", "Sie/sie": "schlafen"}
+      "conjugation": {
+        "ich": "mache Ausflüge",
+        "du": "machst Ausflüge",
+        "er/sie/es": "macht Ausflüge",
+        "wir": "machen Ausflüge",
+        "ihr": "macht Ausflüge",
+        "Sie/sie": "machen Ausflüge"
+      }
     }
   ]
 }

@@ -27,14 +27,6 @@
       "image": "images/ch05/fotoapparat.webp"
     },
     {
-      "word": "der Schlüssel",
-      "translation": "key",
-      "article": "der",
-      "noun": "Schlüssel",
-      "category": "everyday objects",
-      "image": "images/ch05/schl-ssel.webp"
-    },
-    {
       "word": "der Regenschirm",
       "translation": "umbrella",
       "article": "der",
@@ -47,22 +39,6 @@
       "translation": "wallet",
       "article": "der",
       "noun": "Geldbeutel",
-      "category": "everyday objects",
-      "image": null
-    },
-    {
-      "word": "das Buch",
-      "translation": "book",
-      "article": "das",
-      "noun": "Buch",
-      "category": "everyday objects",
-      "image": "images/ch05/buch.webp"
-    },
-    {
-      "word": "das Feuerzeug",
-      "translation": "lighter",
-      "article": "das",
-      "noun": "Feuerzeug",
       "category": "everyday objects",
       "image": null
     },
@@ -91,26 +67,10 @@
       "image": null
     },
     {
-      "word": "die Flasche",
-      "translation": "bottle",
-      "article": "die",
-      "noun": "Flasche",
-      "category": "everyday objects",
-      "image": null
-    },
-    {
       "word": "die Kette",
       "translation": "necklace",
       "article": "die",
       "noun": "Kette",
-      "category": "everyday objects",
-      "image": null
-    },
-    {
-      "word": "die Tasche",
-      "translation": "bag",
-      "article": "die",
-      "noun": "Tasche",
       "category": "everyday objects",
       "image": null
     },
@@ -160,14 +120,6 @@
       "translation": "wood",
       "article": "das",
       "noun": "Holz",
-      "category": "materials & shapes",
-      "image": null
-    },
-    {
-      "word": "das Papier",
-      "translation": "paper",
-      "article": "das",
-      "noun": "Papier",
       "category": "materials & shapes",
       "image": null
     },
@@ -286,14 +238,6 @@
       "image": null
     },
     {
-      "word": "der Preis",
-      "translation": "price",
-      "article": "der",
-      "noun": "Preis",
-      "category": "order form",
-      "image": null
-    },
-    {
       "word": "die Anrede",
       "translation": "title / salutation",
       "article": "die",
@@ -360,26 +304,10 @@
       "image": "images/ch05/ort.webp"
     },
     {
-      "word": "das Telefon",
-      "translation": "telephone",
-      "article": "das",
-      "noun": "Telefon",
-      "category": "order form",
-      "image": null
-    },
-    {
       "word": "das Fax",
       "translation": "fax",
       "article": "das",
       "noun": "Fax",
-      "category": "order form",
-      "image": null
-    },
-    {
-      "word": "die E-Mail",
-      "translation": "email",
-      "article": "die",
-      "noun": "E-Mail",
       "category": "order form",
       "image": null
     },
@@ -414,36 +342,6 @@
       "example": "Wir verkaufen die Brille in sechs Farben."
     },
     {
-      "word": "bekommen",
-      "translation": "to get / to receive",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "bekomme",
-        "du": "bekommst",
-        "er/sie/es": "bekommt",
-        "wir": "bekommen",
-        "ihr": "bekommt",
-        "Sie/sie": "bekommen"
-      },
-      "example": "Sie bekommen sie in drei Farben."
-    },
-    {
-      "word": "schreiben",
-      "translation": "to write / to spell",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "schreibe",
-        "du": "schreibst",
-        "er/sie/es": "schreibt",
-        "wir": "schreiben",
-        "ihr": "schreibt",
-        "Sie/sie": "schreiben"
-      },
-      "example": "Wie schreibt man Uhr?"
-    },
-    {
       "word": "bestellen",
       "translation": "to order",
       "partOfSpeech": "verb",
@@ -457,20 +355,6 @@
         "Sie/sie": "bestellen"
       },
       "example": "Welche Uhr möchten Sie bestellen?"
-    },
-    {
-      "word": "möchten",
-      "translation": "would like",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "möchte",
-        "du": "möchtest",
-        "er/sie/es": "möchte",
-        "wir": "möchten",
-        "ihr": "möchtet",
-        "Sie/sie": "möchten"
-      }
     },
     {
       "word": "beschreiben",
@@ -593,21 +477,6 @@
       "example": "Sehen Sie das Foto an."
     },
     {
-      "word": "hören",
-      "translation": "to listen",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "höre",
-        "du": "hörst",
-        "er/sie/es": "hört",
-        "wir": "hören",
-        "ihr": "hört",
-        "Sie/sie": "hören"
-      },
-      "example": "Hören Sie."
-    },
-    {
       "word": "ankreuzen",
       "translation": "to check / to tick a box",
       "partOfSpeech": "verb",
@@ -636,36 +505,6 @@
         "Sie/sie": "markieren"
       },
       "example": "Markieren Sie."
-    },
-    {
-      "word": "sprechen",
-      "translation": "to speak",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "spreche",
-        "du": "sprichst",
-        "er/sie/es": "spricht",
-        "wir": "sprechen",
-        "ihr": "sprecht",
-        "Sie/sie": "sprechen"
-      },
-      "example": "Sprechen Sie."
-    },
-    {
-      "word": "lesen",
-      "translation": "to read",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "lese",
-        "du": "liest",
-        "er/sie/es": "liest",
-        "wir": "lesen",
-        "ihr": "lest",
-        "Sie/sie": "lesen"
-      },
-      "example": "Lesen Sie den Text."
     },
     {
       "word": "ergänzen",
@@ -728,21 +567,6 @@
       "example": "Zeichnen Sie eine Brille."
     },
     {
-      "word": "raten",
-      "translation": "to guess",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "rate",
-        "du": "rätst",
-        "er/sie/es": "rät",
-        "wir": "raten",
-        "ihr": "ratet",
-        "Sie/sie": "raten"
-      },
-      "example": "Die anderen raten."
-    },
-    {
       "word": "zusammengehören",
       "translation": "to belong together",
       "partOfSpeech": "verb",
@@ -785,66 +609,6 @@
         "ihr": "ordnet",
         "Sie/sie": "ordnen"
       }
-    },
-    {
-      "word": "mischen",
-      "translation": "to mix / to shuffle",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "mische",
-        "du": "mischst",
-        "er/sie/es": "mischt",
-        "wir": "mischen",
-        "ihr": "mischt",
-        "Sie/sie": "mischen"
-      },
-      "example": "Mischen Sie die Texte."
-    },
-    {
-      "word": "suchen",
-      "translation": "to search / to look for",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "suche",
-        "du": "suchst",
-        "er/sie/es": "sucht",
-        "wir": "suchen",
-        "ihr": "sucht",
-        "Sie/sie": "suchen"
-      },
-      "example": "Suchen Sie die passende Brille."
-    },
-    {
-      "word": "üben",
-      "translation": "to practice",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "übe",
-        "du": "übst",
-        "er/sie/es": "übt",
-        "wir": "üben",
-        "ihr": "übt",
-        "Sie/sie": "üben"
-      },
-      "example": "Gespräche üben"
-    },
-    {
-      "word": "arbeiten",
-      "translation": "to work",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "arbeite",
-        "du": "arbeitest",
-        "er/sie/es": "arbeitet",
-        "wir": "arbeiten",
-        "ihr": "arbeitet",
-        "Sie/sie": "arbeiten"
-      },
-      "example": "Arbeiten Sie zu zweit."
     },
     {
       "word": "fehlen",

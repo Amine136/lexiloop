@@ -5,7 +5,7 @@ const STORAGE = {
   images: 'lexiloop-images-v1',
 };
 
-const DATA_VERSION = '20261031-lesson9-v3';
+const DATA_VERSION = '20261103-lessons10-12-v2';
 
 const MODES = [
   { id: 'text', label: 'Text recognition', short: 'Text', description: 'Four meanings, two directions.' },

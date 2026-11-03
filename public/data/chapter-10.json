@@ -1,0 +1,564 @@
+{
+  "id": "ch10",
+  "title": "Lektion 10: Ich steige jetzt in die U-Bahn ein.",
+  "entries": [
+    {
+      "word": "der Bahnhof",
+      "translation": "train station",
+      "article": "der",
+      "noun": "Bahnhof",
+      "plural": "die Bahnhöfe",
+      "category": "stations & platforms",
+      "example": "Holst du mich am Bahnhof ab?"
+    },
+    {
+      "word": "der Hauptbahnhof",
+      "translation": "main train station / central station",
+      "article": "der",
+      "noun": "Hauptbahnhof",
+      "plural": "die Hauptbahnhöfe",
+      "category": "stations & platforms",
+      "example": "Fährt ein Bus vom Hauptbahnhof zum Flughafen?"
+    },
+    {
+      "word": "der Flughafen",
+      "translation": "airport",
+      "article": "der",
+      "noun": "Flughafen",
+      "plural": "die Flughäfen",
+      "category": "stations & platforms",
+      "example": "Die Straßenbahn fährt zum Flughafen."
+    },
+    {
+      "word": "der Bahnsteig",
+      "translation": "station platform",
+      "article": "der",
+      "noun": "Bahnsteig",
+      "plural": "die Bahnsteige",
+      "category": "stations & platforms",
+      "example": "Am Bahnsteig 2 fährt gerade die U2 ein."
+    },
+    {
+      "word": "das Gleis",
+      "translation": "track / platform track",
+      "article": "das",
+      "noun": "Gleis",
+      "plural": "die Gleise",
+      "category": "stations & platforms",
+      "example": "Der Zug nach München fährt auf Gleis 10 ab."
+    },
+    {
+      "word": "die Haltestelle",
+      "translation": "stop (bus or tram stop)",
+      "article": "die",
+      "noun": "Haltestelle",
+      "plural": "die Haltestellen",
+      "category": "stations & platforms",
+      "example": "Der Bus hält an der Haltestelle."
+    },
+    {
+      "word": "der Halt",
+      "translation": "stop (on a route)",
+      "article": "der",
+      "noun": "Halt",
+      "plural": "die Halte",
+      "category": "stations & platforms",
+      "example": "Nächster Halt: Innsbrucker Ring."
+    },
+    {
+      "word": "die S-Bahn",
+      "translation": "commuter train / suburban train (S-Bahn)",
+      "article": "die",
+      "noun": "S-Bahn",
+      "plural": "die S-Bahnen",
+      "category": "means of transport",
+      "example": "Ich nehme die S-Bahn und steige dann in den Bus um."
+    },
+    {
+      "word": "die U-Bahn",
+      "translation": "subway / underground (U-Bahn)",
+      "article": "die",
+      "noun": "U-Bahn",
+      "plural": "die U-Bahnen",
+      "category": "means of transport",
+      "example": "Ich steige jetzt in die U-Bahn ein."
+    },
+    {
+      "word": "die Straßenbahn",
+      "translation": "tram / streetcar",
+      "article": "die",
+      "noun": "Straßenbahn",
+      "plural": "die Straßenbahnen",
+      "category": "means of transport",
+      "example": "Die Straßenbahn fährt zum Flughafen."
+    },
+    {
+      "word": "der Bus",
+      "translation": "bus",
+      "article": "der",
+      "noun": "Bus",
+      "plural": "die Busse",
+      "category": "means of transport",
+      "example": "Ich steige dann in den Bus um."
+    },
+    {
+      "word": "der Zug",
+      "translation": "train",
+      "article": "der",
+      "noun": "Zug",
+      "plural": "die Züge",
+      "category": "means of transport",
+      "example": "Wo fährt der Zug nach München ab?"
+    },
+    {
+      "word": "das Taxi",
+      "translation": "taxi",
+      "article": "das",
+      "noun": "Taxi",
+      "plural": "die Taxis",
+      "category": "means of transport",
+      "example": "Nimmst du ein Taxi?"
+    },
+    {
+      "word": "das Flugzeug",
+      "translation": "airplane",
+      "article": "das",
+      "noun": "Flugzeug",
+      "plural": "die Flugzeuge",
+      "category": "means of transport",
+      "example": "Das Flugzeug steht am Flughafen."
+    },
+    {
+      "word": "das Verkehrsmittel",
+      "translation": "means of transport",
+      "article": "das",
+      "noun": "Verkehrsmittel",
+      "plural": "die Verkehrsmittel",
+      "category": "means of transport",
+      "example": "Der Bus und die U-Bahn sind öffentliche Verkehrsmittel."
+    },
+    {
+      "word": "der Koffer",
+      "translation": "suitcase",
+      "article": "der",
+      "noun": "Koffer",
+      "plural": "die Koffer",
+      "category": "luggage & travel",
+      "example": "Den Koffer habe ich und die Tasche auch."
+    },
+    {
+      "word": "die Tasche",
+      "translation": "bag",
+      "article": "die",
+      "noun": "Tasche",
+      "plural": "die Taschen",
+      "category": "luggage & travel",
+      "example": "Ich habe meine Tasche dabei."
+    },
+    {
+      "word": "das Gepäck",
+      "translation": "luggage / baggage",
+      "article": "das",
+      "noun": "Gepäck",
+      "plural": "–",
+      "category": "luggage & travel",
+      "example": "Ich habe viel Gepäck."
+    },
+    {
+      "word": "die Reise",
+      "translation": "trip / journey",
+      "article": "die",
+      "noun": "Reise",
+      "plural": "die Reisen",
+      "category": "luggage & travel",
+      "example": "Gute Reise!"
+    },
+    {
+      "word": "die Durchsage",
+      "translation": "announcement (over loudspeaker)",
+      "article": "die",
+      "noun": "Durchsage",
+      "plural": "die Durchsagen",
+      "category": "luggage & travel",
+      "example": "Hören Sie die Durchsage am Bahnhof."
+    },
+    {
+      "word": "die Vorsicht",
+      "translation": "caution / care",
+      "article": "die",
+      "noun": "Vorsicht",
+      "plural": "–",
+      "category": "luggage & travel",
+      "example": "Bitte Vorsicht an der Bahnsteigkante!"
+    },
+    {
+      "word": "die Achtung",
+      "translation": "attention",
+      "article": "die",
+      "noun": "Achtung",
+      "plural": "–",
+      "category": "luggage & travel",
+      "example": "Achtung! Bitte zurückbleiben."
+    },
+    {
+      "word": "das Telefonat",
+      "translation": "phone call",
+      "article": "das",
+      "noun": "Telefonat",
+      "plural": "die Telefonate",
+      "category": "everyday nouns",
+      "example": "Er beendet das Telefonat."
+    },
+    {
+      "word": "die Minute",
+      "translation": "minute",
+      "article": "die",
+      "noun": "Minute",
+      "plural": "die Minuten",
+      "category": "everyday nouns",
+      "example": "In vierzig Minuten komme ich zu Hause an."
+    },
+    {
+      "word": "der Cappuccino",
+      "translation": "cappuccino",
+      "article": "der",
+      "noun": "Cappuccino",
+      "plural": "die Cappuccinos",
+      "category": "everyday nouns",
+      "example": "Bringst du einen Cappuccino mit?"
+    },
+    {
+      "word": "der Kursraum",
+      "translation": "classroom / course room",
+      "article": "der",
+      "noun": "Kursraum",
+      "plural": "die Kursräume",
+      "category": "everyday nouns",
+      "example": "Gehen Sie durch den Kursraum."
+    },
+    {
+      "word": "die Muttersprache",
+      "translation": "native language / mother tongue",
+      "article": "die",
+      "noun": "Muttersprache",
+      "plural": "die Muttersprachen",
+      "category": "everyday nouns",
+      "example": "Wie sagt man das in Ihrer Muttersprache?"
+    },
+    {
+      "word": "das Paar",
+      "translation": "pair / couple",
+      "article": "das",
+      "noun": "Paar",
+      "plural": "die Paare",
+      "category": "everyday nouns",
+      "example": "Geben Sie die Sätze einem anderen Paar."
+    },
+    {
+      "word": "einsteigen",
+      "translation": "to get in / to board",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Ich steige jetzt in die U-Bahn ein.",
+      "conjugation": {
+        "ich": "steige ein",
+        "du": "steigst ein",
+        "er/sie/es": "steigt ein",
+        "wir": "steigen ein",
+        "ihr": "steigt ein",
+        "Sie/sie": "steigen ein"
+      }
+    },
+    {
+      "word": "aussteigen",
+      "translation": "to get off / to exit",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Wo steigen wir aus?",
+      "conjugation": {
+        "ich": "steige aus",
+        "du": "steigst aus",
+        "er/sie/es": "steigt aus",
+        "wir": "steigen aus",
+        "ihr": "steigt aus",
+        "Sie/sie": "steigen aus"
+      }
+    },
+    {
+      "word": "umsteigen",
+      "translation": "to transfer / to change (trains or buses)",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Ich nehme die S-Bahn und steige dann in den Bus um.",
+      "conjugation": {
+        "ich": "steige um",
+        "du": "steigst um",
+        "er/sie/es": "steigt um",
+        "wir": "steigen um",
+        "ihr": "steigt um",
+        "Sie/sie": "steigen um"
+      }
+    },
+    {
+      "word": "abfahren",
+      "translation": "to depart / to leave",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Wo fährt der Zug nach München ab?",
+      "conjugation": {
+        "ich": "fahre ab",
+        "du": "fährst ab",
+        "er/sie/es": "fährt ab",
+        "wir": "fahren ab",
+        "ihr": "fahrt ab",
+        "Sie/sie": "fahren ab"
+      }
+    },
+    {
+      "word": "ankommen",
+      "translation": "to arrive",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Wann kommst du in Hamburg an?",
+      "conjugation": {
+        "ich": "komme an",
+        "du": "kommst an",
+        "er/sie/es": "kommt an",
+        "wir": "kommen an",
+        "ihr": "kommt an",
+        "Sie/sie": "kommen an"
+      }
+    },
+    {
+      "word": "abholen",
+      "translation": "to pick up / to collect",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Holst du mich am Bahnhof ab?",
+      "conjugation": {
+        "ich": "hole ab",
+        "du": "holst ab",
+        "er/sie/es": "holt ab",
+        "wir": "holen ab",
+        "ihr": "holt ab",
+        "Sie/sie": "holen ab"
+      }
+    },
+    {
+      "word": "mitbringen",
+      "translation": "to bring along",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Bringst du einen Cappuccino mit?",
+      "conjugation": {
+        "ich": "bringe mit",
+        "du": "bringst mit",
+        "er/sie/es": "bringt mit",
+        "wir": "bringen mit",
+        "ihr": "bringt mit",
+        "Sie/sie": "bringen mit"
+      }
+    },
+    {
+      "word": "anrufen",
+      "translation": "to call (on the phone)",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Ich rufe dich morgen an.",
+      "conjugation": {
+        "ich": "rufe an",
+        "du": "rufst an",
+        "er/sie/es": "ruft an",
+        "wir": "rufen an",
+        "ihr": "ruft an",
+        "Sie/sie": "rufen an"
+      }
+    },
+    {
+      "word": "einkaufen",
+      "translation": "to shop / to go grocery shopping",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Vielleicht kaufe ich noch etwas ein.",
+      "conjugation": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er/sie/es": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "Sie/sie": "kaufen ein"
+      }
+    },
+    {
+      "word": "fernsehen",
+      "translation": "to watch TV",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Siehst du noch ein bisschen fern?",
+      "conjugation": {
+        "ich": "sehe fern",
+        "du": "siehst fern",
+        "er/sie/es": "sieht fern",
+        "wir": "sehen fern",
+        "ihr": "seht fern",
+        "Sie/sie": "sehen fern"
+      }
+    },
+    {
+      "word": "zurückbleiben",
+      "translation": "to stay back / to stand clear",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Achtung! Bitte zurückbleiben!",
+      "conjugation": {
+        "ich": "bleibe zurück",
+        "du": "bleibst zurück",
+        "er/sie/es": "bleibt zurück",
+        "wir": "bleiben zurück",
+        "ihr": "bleibt zurück",
+        "Sie/sie": "bleiben zurück"
+      }
+    },
+    {
+      "word": "einfahren",
+      "translation": "to arrive / to pull into the station (train)",
+      "partOfSpeech": "verb",
+      "category": "separable & travel verbs",
+      "example": "Am Bahnsteig 2 fährt gerade die U2 ein.",
+      "conjugation": {
+        "ich": "fahre ein",
+        "du": "fährst ein",
+        "er/sie/es": "fährt ein",
+        "wir": "fahren ein",
+        "ihr": "fahrt ein",
+        "Sie/sie": "fahren ein"
+      }
+    },
+    {
+      "word": "gerade",
+      "translation": "right now / just now",
+      "category": "adverbs & expressions",
+      "example": "Am Bahnsteig 2 fährt gerade die U2 ein."
+    },
+    {
+      "word": "vielleicht",
+      "translation": "maybe / perhaps",
+      "category": "adverbs & expressions",
+      "example": "Ach, vielleicht kaufe ich noch was ein."
+    },
+    {
+      "word": "ein bisschen",
+      "translation": "a little bit",
+      "category": "adverbs & expressions",
+      "example": "Siehst du noch ein bisschen fern?"
+    },
+    {
+      "word": "noch nicht",
+      "translation": "not yet",
+      "category": "adverbs & expressions",
+      "example": "Nein, ich bin noch nicht zu Hause."
+    },
+    {
+      "word": "trennbare Verben im Aussagesatz",
+      "translation": "separable verbs in statements: conjugated verb in position 2, prefix at the end",
+      "category": "grammar",
+      "example": "Ich rufe dich an. / Vielleicht kaufe ich noch etwas ein."
+    },
+    {
+      "word": "trennbare Verben in Fragen",
+      "translation": "separable verbs in questions: prefix stays at the end of the clause",
+      "category": "grammar",
+      "example": "Wann rufst du mich an? / Rufst du mich heute an?"
+    },
+    {
+      "word": "am Bahnhof / auf Gleis ...",
+      "translation": "at the station (am Bahnhof) / on track ... (auf Gleis 10)",
+      "category": "grammar",
+      "example": "Holst du mich am Bahnhof ab? Der Zug fährt auf Gleis 10 ab."
+    },
+    {
+      "word": "Am Bahnsteig zwei fährt die U2 ein.",
+      "translation": "The U2 is arriving at platform two.",
+      "category": "key phrases",
+      "example": "Am Bahnsteig zwei fährt die U2 ein."
+    },
+    {
+      "word": "Bitte Vorsicht!",
+      "translation": "Caution, please!",
+      "category": "key phrases",
+      "example": "Bitte Vorsicht!"
+    },
+    {
+      "word": "Nächster Halt: Innsbrucker Ring.",
+      "translation": "Next stop: Innsbrucker Ring.",
+      "category": "key phrases",
+      "example": "Nächster Halt: Innsbrucker Ring."
+    },
+    {
+      "word": "Achtung! Bitte zurückbleiben!",
+      "translation": "Attention! Please stand clear!",
+      "category": "key phrases",
+      "example": "Achtung! Bitte zurückbleiben!"
+    },
+    {
+      "word": "Wo fährt der Zug nach München ab?",
+      "translation": "Where does the train to Munich depart from?",
+      "category": "key phrases",
+      "example": "Wo fährt der Zug nach München ab?"
+    },
+    {
+      "word": "Wann kommst du an?",
+      "translation": "When do you arrive?",
+      "category": "key phrases",
+      "example": "Ja, klar. Wann kommst du an?"
+    },
+    {
+      "word": "Wo steigen wir aus?",
+      "translation": "Where do we get off?",
+      "category": "key phrases",
+      "example": "Wo steigen wir aus?"
+    },
+    {
+      "word": "Wo steigst du ein?",
+      "translation": "Where do you get on?",
+      "category": "key phrases",
+      "example": "Wo steigst du ein?"
+    },
+    {
+      "word": "Wo steigst du um?",
+      "translation": "Where do you transfer?",
+      "category": "key phrases",
+      "example": "Wo steigst du um?"
+    },
+    {
+      "word": "Holst du mich am Bahnhof ab?",
+      "translation": "Will you pick me up at the train station?",
+      "category": "key phrases",
+      "example": "Ich habe viel Gepäck. Holst du mich am Bahnhof ab?"
+    },
+    {
+      "word": "Also dann, auf Wiedersehen!",
+      "translation": "Alright then, goodbye!",
+      "category": "key phrases",
+      "example": "Also dann, auf Wiedersehen!"
+    },
+    {
+      "word": "Bis morgen! / Bis bald!",
+      "translation": "See you tomorrow! / See you soon!",
+      "category": "key phrases",
+      "example": "Gut, dann bis morgen!"
+    },
+    {
+      "word": "Mach’s gut!",
+      "translation": "Take care! / Have a good one!",
+      "category": "key phrases",
+      "example": "Mach’s gut! Tschüs!"
+    },
+    {
+      "word": "Pass auf dich auf!",
+      "translation": "Take care of yourself!",
+      "category": "key phrases",
+      "example": "Pass auf dich auf! Bis bald."
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "id": "ch12",
+  "title": "Lektion 12: Was ist denn hier passiert?",
+  "entries": [
+    {
+      "word": "der Januar",
+      "translation": "January",
+      "article": "der",
+      "noun": "Januar",
+      "plural": "die Januare",
+      "category": "months & seasons",
+      "example": "Im Januar ist es oft kalt."
+    },
+    {
+      "word": "der Februar",
+      "translation": "February",
+      "article": "der",
+      "noun": "Februar",
+      "plural": "die Februare",
+      "category": "months & seasons",
+      "example": "Der Karneval hört im Februar oder im März auf."
+    },
+    {
+      "word": "der März",
+      "translation": "March",
+      "article": "der",
+      "noun": "März",
+      "plural": "die Märze",
+      "category": "months & seasons",
+      "example": "Im März beginnt der Frühling."
+    },
+    {
+      "word": "der April",
+      "translation": "April",
+      "article": "der",
+      "noun": "April",
+      "plural": "die Aprile",
+      "category": "months & seasons",
+      "example": "Im April wechselt das Wetter oft."
+    },
+    {
+      "word": "der Mai",
+      "translation": "May",
+      "article": "der",
+      "noun": "Mai",
+      "plural": "die Maie",
+      "category": "months & seasons",
+      "example": "Im Mai gehen viele Fans zu Rock am Ring."
+    },
+    {
+      "word": "der Juni",
+      "translation": "June",
+      "article": "der",
+      "noun": "Juni",
+      "plural": "die Junis",
+      "category": "months & seasons",
+      "example": "Das Festival findet im Mai oder Juni statt."
+    },
+    {
+      "word": "der Juli",
+      "translation": "July",
+      "article": "der",
+      "noun": "Juli",
+      "plural": "die Julis",
+      "category": "months & seasons",
+      "example": "Im Juli haben viele Menschen Urlaub."
+    },
+    {
+      "word": "der August",
+      "translation": "August",
+      "article": "der",
+      "noun": "August",
+      "plural": "die Auguste",
+      "category": "months & seasons",
+      "example": "Im August ist es im Sommer heiß."
+    },
+    {
+      "word": "der September",
+      "translation": "September",
+      "article": "der",
+      "noun": "September",
+      "plural": "die September",
+      "category": "months & seasons",
+      "example": "Im September fahren sie nach Berlin."
+    },
+    {
+      "word": "der Oktober",
+      "translation": "October",
+      "article": "der",
+      "noun": "Oktober",
+      "plural": "die Oktober",
+      "category": "months & seasons",
+      "example": "Henry ist im Oktober zum Oktoberfest geflogen."
+    },
+    {
+      "word": "der November",
+      "translation": "November",
+      "article": "der",
+      "noun": "November",
+      "plural": "die November",
+      "category": "months & seasons",
+      "example": "Der Karneval in Köln fängt am 11. November an."
+    },
+    {
+      "word": "der Dezember",
+      "translation": "December",
+      "article": "der",
+      "noun": "Dezember",
+      "plural": "die Dezember",
+      "category": "months & seasons",
+      "example": "Am 31. Dezember feiern wir Silvester."
+    },
+    {
+      "word": "der Frühling",
+      "translation": "spring",
+      "article": "der",
+      "noun": "Frühling",
+      "plural": "die Frühlinge",
+      "category": "months & seasons",
+      "example": "Im Frühling fahren wir gern Fahrrad."
+    },
+    {
+      "word": "der Sommer",
+      "translation": "summer",
+      "article": "der",
+      "noun": "Sommer",
+      "plural": "die Sommer",
+      "category": "months & seasons",
+      "example": "Im Sommer gehen wir oft schwimmen."
+    },
+    {
+      "word": "der Herbst",
+      "translation": "autumn / fall",
+      "article": "der",
+      "noun": "Herbst",
+      "plural": "die Herbste",
+      "category": "months & seasons",
+      "example": "Im Herbst gehen wir gern wandern."
+    },
+    {
+      "word": "der Winter",
+      "translation": "winter",
+      "article": "der",
+      "noun": "Winter",
+      "plural": "die Winter",
+      "category": "months & seasons",
+      "example": "Im Winter liegt manchmal Schnee."
+    },
+    {
+      "word": "die Jahreszeit",
+      "translation": "season",
+      "article": "die",
+      "noun": "Jahreszeit",
+      "plural": "die Jahreszeiten",
+      "category": "months & seasons",
+      "example": "Was machen Sie in dieser Jahreszeit gern?"
+    },
+    {
+      "word": "der Monat",
+      "translation": "month",
+      "article": "der",
+      "noun": "Monat",
+      "plural": "die Monate",
+      "category": "months & seasons",
+      "example": "Henry ist vor drei Monaten nach Hamburg gekommen."
+    },
+    {
+      "word": "der Geburtstag",
+      "translation": "birthday",
+      "article": "der",
+      "noun": "Geburtstag",
+      "plural": "die Geburtstage",
+      "category": "festivals & celebrations",
+      "example": "Ich habe letzte Woche Geburtstag gefeiert."
+    },
+    {
+      "word": "die Hochzeit",
+      "translation": "wedding",
+      "article": "die",
+      "noun": "Hochzeit",
+      "plural": "die Hochzeiten",
+      "category": "festivals & celebrations",
+      "example": "Wir haben am Wochenende eine Hochzeit gefeiert."
+    },
+    {
+      "word": "das Silvester",
+      "translation": "New Year's Eve",
+      "article": "das",
+      "noun": "Silvester",
+      "plural": "–",
+      "category": "festivals & celebrations",
+      "example": "Ich möchte gern Silvester in Berlin feiern."
+    },
+    {
+      "word": "das Neujahr",
+      "translation": "New Year's Day / New Year",
+      "article": "das",
+      "noun": "Neujahr",
+      "plural": "–",
+      "category": "festivals & celebrations",
+      "example": "In der Nacht auf den 1. Januar feiern die Menschen Silvester und Neujahr."
+    },
+    {
+      "word": "der Karneval",
+      "translation": "carnival",
+      "article": "der",
+      "noun": "Karneval",
+      "plural": "die Karnevale",
+      "category": "festivals & celebrations",
+      "example": "Den Karneval in Köln gibt es seit 1823."
+    },
+    {
+      "word": "das Oktoberfest",
+      "translation": "Oktoberfest",
+      "article": "das",
+      "noun": "Oktoberfest",
+      "plural": "die Oktoberfeste",
+      "category": "festivals & celebrations",
+      "example": "Seit 1810 gibt es das Oktoberfest in München."
+    },
+    {
+      "word": "das Fest",
+      "translation": "festival / celebration",
+      "article": "das",
+      "noun": "Fest",
+      "plural": "die Feste",
+      "category": "festivals & celebrations",
+      "example": "Warst du schon mal in Deutschland auf einem großen Fest?"
+    },
+    {
+      "word": "das Festival",
+      "translation": "festival (music festival)",
+      "article": "das",
+      "noun": "Festival",
+      "plural": "die Festivals",
+      "category": "festivals & celebrations",
+      "example": "Das Festival hat ihnen gut gefallen."
+    },
+    {
+      "word": "der Besucher",
+      "translation": "visitor",
+      "article": "der",
+      "noun": "Besucher",
+      "plural": "die Besucher",
+      "category": "festivals & celebrations",
+      "example": "Es kommen etwa fünf bis sechs Millionen Besucher."
+    },
+    {
+      "word": "der Fan",
+      "translation": "fan",
+      "article": "der",
+      "noun": "Fan",
+      "plural": "die Fans",
+      "category": "festivals & celebrations",
+      "example": "Viele Rockmusik-Fans gehen im Mai oder Juni zum Festival."
+    },
+    {
+      "word": "die Lieblingsband",
+      "translation": "favorite band",
+      "article": "die",
+      "noun": "Lieblingsband",
+      "plural": "die Lieblingsbands",
+      "category": "festivals & celebrations",
+      "example": "Die Besucher können ihre Lieblingsbands hören."
+    },
+    {
+      "word": "der Mensch",
+      "translation": "person / human",
+      "article": "der",
+      "noun": "Mensch",
+      "plural": "die Menschen",
+      "category": "places & everyday nouns",
+      "example": "Menschen in der ganzen Welt feiern Silvester."
+    },
+    {
+      "word": "die Welt",
+      "translation": "world",
+      "article": "die",
+      "noun": "Welt",
+      "plural": "die Welten",
+      "category": "places & everyday nouns",
+      "example": "Menschen in der ganzen Welt feiern Neujahr."
+    },
+    {
+      "word": "das Tor",
+      "translation": "gate",
+      "article": "das",
+      "noun": "Tor",
+      "plural": "die Tore",
+      "category": "places & everyday nouns",
+      "example": "Die Party ist am Brandenburger Tor in Berlin."
+    },
+    {
+      "word": "das Erlebnis",
+      "translation": "experience",
+      "article": "das",
+      "noun": "Erlebnis",
+      "plural": "die Erlebnisse",
+      "category": "places & everyday nouns",
+      "example": "Mein Top-Party-Erlebnis war letztes Jahr."
+    },
+    {
+      "word": "der Zettel",
+      "translation": "slip of paper / note",
+      "article": "der",
+      "noun": "Zettel",
+      "plural": "die Zettel",
+      "category": "places & everyday nouns",
+      "example": "Schreiben Sie Stichpunkte auf einen Zettel."
+    },
+    {
+      "word": "der Teilnehmer",
+      "translation": "participant",
+      "article": "der",
+      "noun": "Teilnehmer",
+      "plural": "die Teilnehmer",
+      "category": "places & everyday nouns",
+      "example": "Jeder Teilnehmer liest einen Zettel vor."
+    },
+    {
+      "word": "passieren",
+      "translation": "to happen",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Was ist denn hier passiert?",
+      "conjugation": {
+        "ich": "passiere",
+        "du": "passierst",
+        "er/sie/es": "passiert",
+        "wir": "passieren",
+        "ihr": "passiert",
+        "Sie/sie": "passieren"
+      }
+    },
+    {
+      "word": "feiern",
+      "translation": "to celebrate / to party",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Wir haben im Restaurant gefeiert.",
+      "conjugation": {
+        "ich": "feiere",
+        "du": "feierst",
+        "er/sie/es": "feiert",
+        "wir": "feiern",
+        "ihr": "feiert",
+        "Sie/sie": "feiern"
+      }
+    },
+    {
+      "word": "fliegen",
+      "translation": "to fly",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Henry ist im Oktober zum Oktoberfest geflogen.",
+      "conjugation": {
+        "ich": "fliege",
+        "du": "fliegst",
+        "er/sie/es": "fliegt",
+        "wir": "fliegen",
+        "ihr": "fliegt",
+        "Sie/sie": "fliegen"
+      }
+    },
+    {
+      "word": "fahren",
+      "translation": "to drive / to ride / to go (by vehicle)",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Im September fahren sie nach Berlin.",
+      "conjugation": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er/sie/es": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "Sie/sie": "fahren"
+      }
+    },
+    {
+      "word": "treffen",
+      "translation": "to meet",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Er hat viele nette Leute getroffen.",
+      "conjugation": {
+        "ich": "treffe",
+        "du": "triffst",
+        "er/sie/es": "trifft",
+        "wir": "treffen",
+        "ihr": "trefft",
+        "Sie/sie": "treffen"
+      }
+    },
+    {
+      "word": "anfangen",
+      "translation": "to begin / to start",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Der Karneval fängt am 11. November um 11:11 Uhr an.",
+      "conjugation": {
+        "ich": "fange an",
+        "du": "fängst an",
+        "er/sie/es": "fängt an",
+        "wir": "fangen an",
+        "ihr": "fangt an",
+        "Sie/sie": "fangen an"
+      }
+    },
+    {
+      "word": "aufhören",
+      "translation": "to stop / to end",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Der Karneval hört im Februar oder im März auf.",
+      "conjugation": {
+        "ich": "höre auf",
+        "du": "hörst auf",
+        "er/sie/es": "hört auf",
+        "wir": "hören auf",
+        "ihr": "hört auf",
+        "Sie/sie": "hören auf"
+      }
+    },
+    {
+      "word": "dauern",
+      "translation": "to last / to take (time)",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Das Oktoberfest dauert ungefähr zwei Wochen.",
+      "conjugation": {
+        "ich": "dauere",
+        "du": "dauerst",
+        "er/sie/es": "dauert",
+        "wir": "dauern",
+        "ihr": "dauert",
+        "Sie/sie": "dauern"
+      }
+    },
+    {
+      "word": "wandern",
+      "translation": "to hike",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Im Herbst wandern wir gern in den Bergen.",
+      "conjugation": {
+        "ich": "wandere",
+        "du": "wanderst",
+        "er/sie/es": "wandert",
+        "wir": "wandern",
+        "ihr": "wandert",
+        "Sie/sie": "wandern"
+      }
+    },
+    {
+      "word": "vorlesen",
+      "translation": "to read aloud",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Jeder Teilnehmer liest einen Zettel vor.",
+      "conjugation": {
+        "ich": "lese vor",
+        "du": "liest vor",
+        "er/sie/es": "liest vor",
+        "wir": "lesen vor",
+        "ihr": "lest vor",
+        "Sie/sie": "lesen vor"
+      }
+    },
+    {
+      "word": "mischen",
+      "translation": "to mix / to shuffle",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Mischen Sie die Zettel.",
+      "conjugation": {
+        "ich": "mische",
+        "du": "mischst",
+        "er/sie/es": "mischt",
+        "wir": "mischen",
+        "ihr": "mischt",
+        "Sie/sie": "mischen"
+      }
+    },
+    {
+      "word": "präsentieren",
+      "translation": "to present",
+      "partOfSpeech": "verb",
+      "category": "events & travel verbs",
+      "example": "Präsentieren Sie Ihr Poster im Kurs.",
+      "conjugation": {
+        "ich": "präsentiere",
+        "du": "präsentierst",
+        "er/sie/es": "präsentiert",
+        "wir": "präsentieren",
+        "ihr": "präsentiert",
+        "Sie/sie": "präsentieren"
+      }
+    },
+    {
+      "word": "rund um die Uhr",
+      "translation": "around the clock (24/7)",
+      "category": "time & expressions",
+      "example": "Rund um die Uhr können die Besucher Musik hören."
+    },
+    {
+      "word": "ungefähr / etwa",
+      "translation": "approximately / about",
+      "category": "time & expressions",
+      "example": "Das Fest dauert ungefähr zwei Wochen."
+    },
+    {
+      "word": "vor drei Monaten",
+      "translation": "three months ago",
+      "category": "time & expressions",
+      "example": "Henry ist vor drei Monaten nach Hamburg gekommen."
+    },
+    {
+      "word": "temporale Präposition im (+ Monat / Jahreszeit)",
+      "translation": "use im (= in dem) with months and seasons: im Oktober, im Herbst, im Frühling",
+      "category": "grammar",
+      "example": "Im Frühling fahren wir gern Fahrrad. Das Fest ist im September."
+    },
+    {
+      "word": "Perfekt mit sein (Bewegung / Ortswechsel)",
+      "translation": "movement verbs form Perfekt with sein: ist gegangen, ist geflogen, ist gefahren, ist gekommen",
+      "category": "grammar",
+      "example": "Letztes Jahr ist er nach München geflogen."
+    },
+    {
+      "word": "Perfekt mit sein (trennbare Verben)",
+      "translation": "separable movement verbs with sein: ist angekommen, ist eingestiegen, ist abgefahren",
+      "category": "grammar",
+      "example": "Der Zug ist pünktlich abgefahren und in Berlin angekommen."
+    },
+    {
+      "word": "Wohin? nach vs. in (+ Artikel)",
+      "translation": "nach + city/country without article (nach München/Deutschland); in + country with article (in die Schweiz/Türkei, in den Iran)",
+      "category": "grammar",
+      "example": "Er ist nach Deutschland gefahren und in die Schweiz geflogen."
+    },
+    {
+      "word": "war / hatte (Vergangenheit von sein und haben)",
+      "translation": "ich/er war (= ist gewesen) — was; ich/er hatte (= hat gehabt) — had",
+      "category": "grammar",
+      "example": "Sie waren im März bei Rock am Ring."
+    },
+    {
+      "word": "Was ist denn hier passiert?",
+      "translation": "What happened here?",
+      "category": "key phrases",
+      "example": "Was ist denn hier passiert?"
+    },
+    {
+      "word": "Wann haben Sie das letzte Mal gefeiert?",
+      "translation": "When was the last time you celebrated?",
+      "category": "key phrases",
+      "example": "Wann haben Sie das letzte Mal gefeiert?"
+    },
+    {
+      "word": "Es hat viel Spaß gemacht.",
+      "translation": "It was a lot of fun.",
+      "category": "key phrases",
+      "example": "Wir haben im Restaurant gefeiert. Es hat viel Spaß gemacht."
+    },
+    {
+      "word": "Das Oktoberfest gibt es seit 1810.",
+      "translation": "Oktoberfest has existed since 1810.",
+      "category": "key phrases",
+      "example": "Das Oktoberfest gibt es seit 1810."
+    },
+    {
+      "word": "Das Festival hat ihnen gut gefallen.",
+      "translation": "They liked the festival a lot.",
+      "category": "key phrases",
+      "example": "Das Festival hat ihnen gut gefallen."
+    },
+    {
+      "word": "Henry ist vor drei Monaten nach Deutschland gekommen.",
+      "translation": "Henry came to Germany three months ago.",
+      "category": "key phrases",
+      "example": "Henry ist vor drei Monaten nach Deutschland gekommen."
+    },
+    {
+      "word": "Im Frühling fahren wir gern Fahrrad.",
+      "translation": "In spring we like to ride our bikes.",
+      "category": "key phrases",
+      "example": "Im Frühling fahren wir gern Fahrrad."
+    }
+  ]
+}

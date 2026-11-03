@@ -172,26 +172,10 @@
       "image": null
     },
     {
-      "word": "der Stuhl",
-      "translation": "chair",
-      "article": "der",
-      "noun": "Stuhl",
-      "category": "furniture & appliances",
-      "image": "images/ch04/stuhl.webp"
-    },
-    {
       "word": "der Sessel",
       "translation": "armchair",
       "article": "der",
       "noun": "Sessel",
-      "category": "furniture & appliances",
-      "image": null
-    },
-    {
-      "word": "das Sofa",
-      "translation": "sofa",
-      "article": "das",
-      "noun": "Sofa",
       "category": "furniture & appliances",
       "image": null
     },
@@ -208,14 +192,6 @@
       "translation": "bed",
       "article": "das",
       "noun": "Bett",
-      "category": "furniture & appliances",
-      "image": null
-    },
-    {
-      "word": "der Schrank",
-      "translation": "cabinet / wardrobe",
-      "article": "der",
-      "noun": "Schrank",
       "category": "furniture & appliances",
       "image": null
     },
@@ -240,14 +216,6 @@
       "translation": "lamp",
       "article": "die",
       "noun": "Lampe",
-      "category": "furniture & appliances",
-      "image": null
-    },
-    {
-      "word": "das Bild",
-      "translation": "picture",
-      "article": "das",
-      "noun": "Bild",
       "category": "furniture & appliances",
       "image": null
     },
@@ -455,21 +423,6 @@
         "Sie/sie": "hängen"
       },
       "example": "Das Bild hängt an der Wand."
-    },
-    {
-      "word": "kommen",
-      "translation": "to come",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "komme",
-        "du": "kommst",
-        "er/sie/es": "kommt",
-        "wir": "kommen",
-        "ihr": "kommt",
-        "Sie/sie": "kommen"
-      },
-      "example": "Kommen Sie doch herein!"
     },
     {
       "word": "sehen",

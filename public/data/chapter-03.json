@@ -11,14 +11,6 @@
       "image": null
     },
     {
-      "word": "der Apfel",
-      "translation": "apple",
-      "article": "der",
-      "noun": "Apfel",
-      "category": "fruits & vegetables",
-      "image": "images/ch03/apfel.webp"
-    },
-    {
       "word": "die Banane",
       "translation": "banana",
       "article": "die",
@@ -83,14 +75,6 @@
       "image": null
     },
     {
-      "word": "der Salat",
-      "translation": "lettuce / salad",
-      "article": "der",
-      "noun": "Salat",
-      "category": "fruits & vegetables",
-      "image": null
-    },
-    {
       "word": "das Brot",
       "translation": "bread",
       "article": "das",
@@ -107,26 +91,10 @@
       "image": null
     },
     {
-      "word": "der Kuchen",
-      "translation": "cake",
-      "article": "der",
-      "noun": "Kuchen",
-      "category": "bakery, dairy, meat & staples",
-      "image": "images/ch03/kuchen.webp"
-    },
-    {
       "word": "die Butter",
       "translation": "butter",
       "article": "die",
       "noun": "Butter",
-      "category": "bakery, dairy, meat & staples",
-      "image": null
-    },
-    {
-      "word": "der Käse",
-      "translation": "cheese",
-      "article": "der",
-      "noun": "Käse",
       "category": "bakery, dairy, meat & staples",
       "image": null
     },
@@ -180,34 +148,10 @@
       "image": null
     },
     {
-      "word": "der Schinken",
-      "translation": "ham",
-      "article": "der",
-      "noun": "Schinken",
-      "category": "bakery, dairy, meat & staples",
-      "image": null
-    },
-    {
       "word": "die Wurst",
       "translation": "sausage / cold cuts",
       "article": "die",
       "noun": "Wurst",
-      "category": "bakery, dairy, meat & staples",
-      "image": null
-    },
-    {
-      "word": "der Fisch",
-      "translation": "fish",
-      "article": "der",
-      "noun": "Fisch",
-      "category": "bakery, dairy, meat & staples",
-      "image": null
-    },
-    {
-      "word": "der Reis",
-      "translation": "rice",
-      "article": "der",
-      "noun": "Reis",
       "category": "bakery, dairy, meat & staples",
       "image": null
     },
@@ -315,14 +259,6 @@
       "noun": "Orangensaft",
       "category": "drinks & packaging",
       "image": null
-    },
-    {
-      "word": "der Kaffee",
-      "translation": "coffee",
-      "article": "der",
-      "noun": "Kaffee",
-      "category": "drinks & packaging",
-      "image": "images/ch03/kaffee.webp"
     },
     {
       "word": "der Tee",
@@ -476,36 +412,6 @@
       "example": "Was trinken Sie?"
     },
     {
-      "word": "möchten",
-      "translation": "would like",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "möchte",
-        "du": "möchtest",
-        "er/sie/es": "möchte",
-        "wir": "möchten",
-        "ihr": "möchtet",
-        "Sie/sie": "möchten"
-      },
-      "example": "Ich möchte bitte ein Kilo Äpfel."
-    },
-    {
-      "word": "mögen",
-      "translation": "to like",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "mag",
-        "du": "magst",
-        "er/sie/es": "mag",
-        "wir": "mögen",
-        "ihr": "mögt",
-        "Sie/sie": "mögen"
-      },
-      "example": "Magst du Käse? / Ich mag …"
-    },
-    {
       "word": "kaufen",
       "translation": "to buy",
       "partOfSpeech": "verb",
@@ -517,20 +423,6 @@
         "wir": "kaufen",
         "ihr": "kauft",
         "Sie/sie": "kaufen"
-      }
-    },
-    {
-      "word": "einkaufen",
-      "translation": "to go grocery shopping",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "kaufe ein",
-        "du": "kaufst ein",
-        "er/sie/es": "kauft ein",
-        "wir": "kaufen ein",
-        "ihr": "kauft ein",
-        "Sie/sie": "kaufen ein"
       }
     },
     {
@@ -549,21 +441,6 @@
       "example": "Was brauchen wir noch?"
     },
     {
-      "word": "kosten",
-      "translation": "to cost",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "koste",
-        "du": "kostest",
-        "er/sie/es": "kostet",
-        "wir": "kosten",
-        "ihr": "kostet",
-        "Sie/sie": "kosten"
-      },
-      "example": "Was kostet das? / Wie viel kostet …?"
-    },
-    {
       "word": "nehmen",
       "translation": "to take",
       "partOfSpeech": "verb",
@@ -577,34 +454,6 @@
         "Sie/sie": "nehmen"
       },
       "example": "Ich nehme das Brot."
-    },
-    {
-      "word": "kochen",
-      "translation": "to cook",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "koche",
-        "du": "kochst",
-        "er/sie/es": "kocht",
-        "wir": "kochen",
-        "ihr": "kocht",
-        "Sie/sie": "kochen"
-      }
-    },
-    {
-      "word": "frühstücken",
-      "translation": "to eat breakfast",
-      "partOfSpeech": "verb",
-      "category": "verbs",
-      "conjugation": {
-        "ich": "frühstücke",
-        "du": "frühstückst",
-        "er/sie/es": "frühstückt",
-        "wir": "frühstücken",
-        "ihr": "frühstückt",
-        "Sie/sie": "frühstücken"
-      }
     },
     {
       "word": "bezahlen",

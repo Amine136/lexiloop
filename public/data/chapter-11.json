@@ -1,0 +1,573 @@
+{
+  "id": "ch11",
+  "title": "Lektion 11: Was hast du heute gemacht?",
+  "entries": [
+    {
+      "word": "die Hausaufgabe",
+      "translation": "homework",
+      "article": "die",
+      "noun": "Hausaufgabe",
+      "plural": "die Hausaufgaben",
+      "category": "daily routine & activities",
+      "example": "Ich mache meine Hausaufgaben."
+    },
+    {
+      "word": "die Pause",
+      "translation": "break",
+      "article": "die",
+      "noun": "Pause",
+      "plural": "die Pausen",
+      "category": "daily routine & activities",
+      "example": "Um zwölf Uhr mache ich eine Pause."
+    },
+    {
+      "word": "die Zeitung",
+      "translation": "newspaper",
+      "article": "die",
+      "noun": "Zeitung",
+      "plural": "die Zeitungen",
+      "category": "daily routine & activities",
+      "example": "Am Morgen lese ich die Zeitung."
+    },
+    {
+      "word": "das Fahrrad",
+      "translation": "bicycle",
+      "article": "das",
+      "noun": "Fahrrad",
+      "plural": "die Fahrräder",
+      "category": "daily routine & activities",
+      "example": "Ich fahre sehr gern Fahrrad."
+    },
+    {
+      "word": "das Wochenende",
+      "translation": "weekend",
+      "article": "das",
+      "noun": "Wochenende",
+      "plural": "die Wochenenden",
+      "category": "daily routine & activities",
+      "example": "Er fährt nur am Wochenende Fahrrad."
+    },
+    {
+      "word": "die Arbeit",
+      "translation": "work / job",
+      "article": "die",
+      "noun": "Arbeit",
+      "plural": "die Arbeiten",
+      "category": "daily routine & activities",
+      "example": "Ich fahre täglich zur Arbeit."
+    },
+    {
+      "word": "der Tagesablauf",
+      "translation": "daily routine",
+      "article": "der",
+      "noun": "Tagesablauf",
+      "plural": "die Tagesabläufe",
+      "category": "daily routine & activities",
+      "example": "Beschreiben Sie Ihren Tagesablauf."
+    },
+    {
+      "word": "die Tätigkeit",
+      "translation": "activity / task",
+      "article": "die",
+      "noun": "Tätigkeit",
+      "plural": "die Tätigkeiten",
+      "category": "daily routine & activities",
+      "example": "Die Kursleiterin nennt die Tätigkeiten."
+    },
+    {
+      "word": "das Internet",
+      "translation": "internet",
+      "article": "das",
+      "noun": "Internet",
+      "plural": "–",
+      "category": "daily routine & activities",
+      "example": "Am Abend surfe ich im Internet."
+    },
+    {
+      "word": "die Bewegung",
+      "translation": "movement / motion",
+      "article": "die",
+      "noun": "Bewegung",
+      "plural": "die Bewegungen",
+      "category": "daily routine & activities",
+      "example": "Machen Sie eine Bewegung und die anderen raten."
+    },
+    {
+      "word": "der Terminkalender",
+      "translation": "appointment calendar / planner",
+      "article": "der",
+      "noun": "Terminkalender",
+      "plural": "die Terminkalender",
+      "category": "schedule & appointments",
+      "example": "Lesen Sie den Terminkalender von Anja."
+    },
+    {
+      "word": "die Notiz",
+      "translation": "note",
+      "article": "die",
+      "noun": "Notiz",
+      "plural": "die Notizen",
+      "category": "schedule & appointments",
+      "example": "Machen Sie Notizen."
+    },
+    {
+      "word": "das Telefongespräch",
+      "translation": "phone conversation / phone call",
+      "article": "das",
+      "noun": "Telefongespräch",
+      "plural": "die Telefongespräche",
+      "category": "schedule & appointments",
+      "example": "Spielen Sie ein Telefongespräch mit Anja."
+    },
+    {
+      "word": "die Orchesterprobe",
+      "translation": "orchestra rehearsal",
+      "article": "die",
+      "noun": "Orchesterprobe",
+      "plural": "die Orchesterproben",
+      "category": "schedule & appointments",
+      "example": "Heute Abend habe ich von sechs bis halb neun Orchesterprobe."
+    },
+    {
+      "word": "das Cello",
+      "translation": "cello",
+      "article": "das",
+      "noun": "Cello",
+      "plural": "die Cellos",
+      "category": "schedule & appointments",
+      "example": "Ab 16 Uhr übt Anja Cello."
+    },
+    {
+      "word": "der Deutschkurs",
+      "translation": "German course",
+      "article": "der",
+      "noun": "Deutschkurs",
+      "plural": "die Deutschkurse",
+      "category": "schedule & appointments",
+      "example": "Was machen Sie heute nach dem Deutschkurs?"
+    },
+    {
+      "word": "der Nachmittag",
+      "translation": "afternoon",
+      "article": "der",
+      "noun": "Nachmittag",
+      "plural": "die Nachmittage",
+      "category": "schedule & appointments",
+      "example": "Nachmittags habe ich eingekauft und geübt."
+    },
+    {
+      "word": "die Firma",
+      "translation": "company / firm",
+      "article": "die",
+      "noun": "Firma",
+      "plural": "die Firmen",
+      "category": "people, work & home",
+      "example": "Ich rufe die Firma Bergmair an."
+    },
+    {
+      "word": "die Dienstreise",
+      "translation": "business trip",
+      "article": "die",
+      "noun": "Dienstreise",
+      "plural": "die Dienstreisen",
+      "category": "people, work & home",
+      "example": "Michi ist auf einer Dienstreise."
+    },
+    {
+      "word": "die Privatreise",
+      "translation": "private trip / personal trip",
+      "article": "die",
+      "noun": "Privatreise",
+      "plural": "die Privatreisen",
+      "category": "people, work & home",
+      "example": "Das ist keine Dienstreise, sondern eine Privatreise."
+    },
+    {
+      "word": "der Geschäftspartner",
+      "translation": "business partner",
+      "article": "der",
+      "noun": "Geschäftspartner",
+      "plural": "die Geschäftspartner",
+      "category": "people, work & home",
+      "example": "Ich habe den ganzen Tag mit Geschäftspartnern gesprochen."
+    },
+    {
+      "word": "der Kunde",
+      "translation": "customer / client",
+      "article": "der",
+      "noun": "Kunde",
+      "plural": "die Kunden",
+      "category": "people, work & home",
+      "example": "Er hat lange mit Kunden gesprochen."
+    },
+    {
+      "word": "der Kollege",
+      "translation": "colleague (male)",
+      "article": "der",
+      "noun": "Kollege",
+      "plural": "die Kollegen",
+      "category": "people, work & home",
+      "example": "Michi und seine Kollegen arbeiten zusammen."
+    },
+    {
+      "word": "der Kursleiter",
+      "translation": "course instructor (male)",
+      "article": "der",
+      "noun": "Kursleiter",
+      "plural": "die Kursleiter",
+      "category": "people, work & home",
+      "example": "Der Kursleiter nennt die Tätigkeiten."
+    },
+    {
+      "word": "die Kursleiterin",
+      "translation": "course instructor (female)",
+      "article": "die",
+      "noun": "Kursleiterin",
+      "plural": "die Kursleiterinnen",
+      "category": "people, work & home",
+      "example": "Ihre Kursleiterin korrigiert den Text."
+    },
+    {
+      "word": "das Baby",
+      "translation": "baby",
+      "article": "das",
+      "noun": "Baby",
+      "plural": "die Babys",
+      "category": "people, work & home",
+      "example": "Anja ist schwanger und bekommt ein Baby."
+    },
+    {
+      "word": "der Schatz",
+      "translation": "darling / sweetheart (also: treasure)",
+      "article": "der",
+      "noun": "Schatz",
+      "plural": "die Schätze",
+      "category": "people, work & home",
+      "example": "Hallo mein Schatz, wie geht es dir?"
+    },
+    {
+      "word": "der Küchenschrank",
+      "translation": "kitchen cabinet / cupboard",
+      "article": "der",
+      "noun": "Küchenschrank",
+      "plural": "die Küchenschränke",
+      "category": "people, work & home",
+      "example": "Der Küchenschrank ist fertig."
+    },
+    {
+      "word": "das Geschenk",
+      "translation": "gift / present",
+      "article": "das",
+      "noun": "Geschenk",
+      "plural": "die Geschenke",
+      "category": "people, work & home",
+      "example": "Ich kaufe ein Geschenk für Tante Betti."
+    },
+    {
+      "word": "die Party",
+      "translation": "party",
+      "article": "die",
+      "noun": "Party",
+      "plural": "die Partys",
+      "category": "people, work & home",
+      "example": "Wir kaufen Wein für die Party."
+    },
+    {
+      "word": "aufräumen",
+      "translation": "to tidy up / to clean up",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Am Samstag räume ich die Wohnung auf.",
+      "conjugation": {
+        "ich": "räume auf",
+        "du": "räumst auf",
+        "er/sie/es": "räumt auf",
+        "wir": "räumen auf",
+        "ihr": "räumt auf",
+        "Sie/sie": "räumen auf"
+      }
+    },
+    {
+      "word": "schreiben",
+      "translation": "to write",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Ich schreibe eine E-Mail.",
+      "conjugation": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er/sie/es": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "Sie/sie": "schreiben"
+      }
+    },
+    {
+      "word": "telefonieren",
+      "translation": "to talk on the phone",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Mit Frau Dr. Weber habe ich heute Morgen telefoniert.",
+      "conjugation": {
+        "ich": "telefoniere",
+        "du": "telefonierst",
+        "er/sie/es": "telefoniert",
+        "wir": "telefonieren",
+        "ihr": "telefoniert",
+        "Sie/sie": "telefonieren"
+      }
+    },
+    {
+      "word": "üben",
+      "translation": "to practice",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Habt ihr fleißig für das Konzert geübt?",
+      "conjugation": {
+        "ich": "übe",
+        "du": "übst",
+        "er/sie/es": "übt",
+        "wir": "üben",
+        "ihr": "übt",
+        "Sie/sie": "üben"
+      }
+    },
+    {
+      "word": "denken",
+      "translation": "to think",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Ich habe oft an dich gedacht.",
+      "conjugation": {
+        "ich": "denke",
+        "du": "denkst",
+        "er/sie/es": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "Sie/sie": "denken"
+      }
+    },
+    {
+      "word": "reden",
+      "translation": "to talk / to chat",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Wir haben viel geredet.",
+      "conjugation": {
+        "ich": "rede",
+        "du": "redest",
+        "er/sie/es": "redet",
+        "wir": "reden",
+        "ihr": "redet",
+        "Sie/sie": "reden"
+      }
+    },
+    {
+      "word": "lachen",
+      "translation": "to laugh",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Wir haben viel geredet und gelacht.",
+      "conjugation": {
+        "ich": "lache",
+        "du": "lachst",
+        "er/sie/es": "lacht",
+        "wir": "lachen",
+        "ihr": "lacht",
+        "Sie/sie": "lachen"
+      }
+    },
+    {
+      "word": "meinen",
+      "translation": "to mean / to think / to say",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Sie hat gemeint, ich kann noch bis Dezember arbeiten.",
+      "conjugation": {
+        "ich": "meine",
+        "du": "meinst",
+        "er/sie/es": "meint",
+        "wir": "meinen",
+        "ihr": "meint",
+        "Sie/sie": "meinen"
+      }
+    },
+    {
+      "word": "bekommen",
+      "translation": "to get / to receive / to have (a baby)",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Anja ist schwanger. Sie bekommt ein Baby.",
+      "conjugation": {
+        "ich": "bekomme",
+        "du": "bekommst",
+        "er/sie/es": "bekommt",
+        "wir": "bekommen",
+        "ihr": "bekommt",
+        "Sie/sie": "bekommen"
+      }
+    },
+    {
+      "word": "korrigieren",
+      "translation": "to correct",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Ihre Partnerin korrigiert Ihren Text.",
+      "conjugation": {
+        "ich": "korrigiere",
+        "du": "korrigierst",
+        "er/sie/es": "korrigiert",
+        "wir": "korrigieren",
+        "ihr": "korrigiert",
+        "Sie/sie": "korrigieren"
+      }
+    },
+    {
+      "word": "raten",
+      "translation": "to guess",
+      "partOfSpeech": "verb",
+      "category": "daily activity verbs",
+      "example": "Machen Sie eine Bewegung. Die anderen raten.",
+      "conjugation": {
+        "ich": "rate",
+        "du": "rätst",
+        "er/sie/es": "rät",
+        "wir": "raten",
+        "ihr": "ratet",
+        "Sie/sie": "raten"
+      }
+    },
+    {
+      "word": "täglich",
+      "translation": "daily / every day",
+      "category": "frequency & time",
+      "example": "Ich fahre täglich zur Arbeit."
+    },
+    {
+      "word": "zwei- bis dreimal in der Woche",
+      "translation": "two to three times a week",
+      "category": "frequency & time",
+      "example": "Ich mache zwei- bis dreimal in der Woche Sport."
+    },
+    {
+      "word": "fast nie",
+      "translation": "almost never",
+      "category": "frequency & time",
+      "example": "Er fährt fast nie mit dem Bus."
+    },
+    {
+      "word": "nie",
+      "translation": "never",
+      "category": "frequency & time",
+      "example": "Ich fahre nie Fahrrad."
+    },
+    {
+      "word": "letzten Freitag / letzten Monat",
+      "translation": "last Friday / last month (masculine accusative)",
+      "category": "frequency & time",
+      "example": "Hast du letzten Freitag E-Mails geschrieben?"
+    },
+    {
+      "word": "letztes Jahr",
+      "translation": "last year (neuter)",
+      "category": "frequency & time",
+      "example": "Letztes Jahr habe ich viel gearbeitet."
+    },
+    {
+      "word": "letzte Woche",
+      "translation": "last week (feminine)",
+      "category": "frequency & time",
+      "example": "Was hast du letzte Woche gemacht?"
+    },
+    {
+      "word": "schwanger",
+      "translation": "pregnant",
+      "category": "adjectives",
+      "example": "Anja ist schwanger."
+    },
+    {
+      "word": "langweilig",
+      "translation": "boring",
+      "category": "adjectives",
+      "example": "Hier ist es wie immer: langweilig."
+    },
+    {
+      "word": "fleißig",
+      "translation": "diligent / hard-working",
+      "category": "adjectives",
+      "example": "Habt ihr fleißig für das Konzert geübt?"
+    },
+    {
+      "word": "Perfekt mit haben (regelmäßig)",
+      "translation": "regular present perfect with haben: ge- + stem + -(e)t (machen → gemacht, arbeiten → gearbeitet)",
+      "category": "grammar",
+      "example": "Ich habe von neun bis eins gearbeitet."
+    },
+    {
+      "word": "Perfekt mit haben (unregelmäßig)",
+      "translation": "irregular present perfect with haben: ge- + stem + -en (schreiben → geschrieben, lesen → gelesen)",
+      "category": "grammar",
+      "example": "Ich habe eine E-Mail geschrieben."
+    },
+    {
+      "word": "Perfekt bei trennbaren Verben",
+      "translation": "separable verbs in Perfekt: -ge- goes between prefix and stem (aufräumen → aufgeräumt, anrufen → angerufen)",
+      "category": "grammar",
+      "example": "Hast du Frau Dr. Weber angerufen?"
+    },
+    {
+      "word": "Verben auf -ieren im Perfekt",
+      "translation": "verbs ending in -ieren form Partizip II without ge- (telefonieren → telefoniert, fotografieren → fotografiert)",
+      "category": "grammar",
+      "example": "Mit Frau Dr. Weber habe ich heute Morgen telefoniert."
+    },
+    {
+      "word": "von ... bis / ab (+ Uhrzeit)",
+      "translation": "from ... to (von 9 bis 13 Uhr) / starting at (ab 9 Uhr)",
+      "category": "grammar",
+      "example": "Ab 9 Uhr habe ich gearbeitet. Von 18 bis 20:30 Uhr habe ich Orchesterprobe."
+    },
+    {
+      "word": "Was hast du heute gemacht?",
+      "translation": "What did you do today?",
+      "category": "key phrases",
+      "example": "Was hast du heute gemacht?"
+    },
+    {
+      "word": "Was hast du gestern gemacht?",
+      "translation": "What did you do yesterday?",
+      "category": "key phrases",
+      "example": "Was hast du gestern gemacht?"
+    },
+    {
+      "word": "Von neun bis eins habe ich gearbeitet.",
+      "translation": "I worked from nine to one.",
+      "category": "key phrases",
+      "example": "Von neun bis eins habe ich gearbeitet."
+    },
+    {
+      "word": "Ich habe eine E-Mail geschrieben.",
+      "translation": "I wrote an email.",
+      "category": "key phrases",
+      "example": "Ich habe eine E-Mail geschrieben."
+    },
+    {
+      "word": "Gibt’s was Neues?",
+      "translation": "Is there anything new? / What’s new?",
+      "category": "key phrases",
+      "example": "Geht’s dir gut? Gibt’s was Neues?"
+    },
+    {
+      "word": "Ich habe oft an dich gedacht.",
+      "translation": "I thought about you often.",
+      "category": "key phrases",
+      "example": "Ich habe oft an dich gedacht."
+    },
+    {
+      "word": "Ich freue mich auf dich!",
+      "translation": "I’m looking forward to seeing you!",
+      "category": "key phrases",
+      "example": "Ich freue mich schon sehr auf dich!"
+    }
+  ]
+}
