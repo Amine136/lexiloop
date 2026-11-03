@@ -1,14 +1,15 @@
 # LexiLoop
 
-LexiLoop is a front-end-only vocabulary trainer. It uses German → English vocabulary chapters, browser localStorage for progress and imports, and no login or database.
+LexiLoop is a front-end-only German → English vocabulary and grammar trainer. It uses static lesson JSON files (`ch01`–`ch09`), browser `localStorage` for Leitner spaced-repetition progress, and no login or database.
 
-## Run it
+> **For AI Agents / Contributors:** Read **[`AGENTS.md`](./AGENTS.md)** first for a compact, token-efficient map of the architecture, lesson schemas, and quiz rules.
+
+## Run & Build
 
 ```bash
-npm run dev
+npm run dev     # Starts local dev server on http://localhost:3000
+npm run build   # Builds static bundle to dist/ (used by Vercel)
 ```
-
-The app serves on port 3000. `npm run build` copies the static app to `dist/`.
 
 ## Add a chapter
 
