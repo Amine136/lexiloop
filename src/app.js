@@ -5,7 +5,7 @@ const STORAGE = {
   images: 'lexiloop-images-v1',
 };
 
-const DATA_VERSION = '20261103-lessons10-12-v2';
+const DATA_VERSION = '20261104-tts-v2';
 
 const MODES = [
   { id: 'text', label: 'Text recognition', short: 'Text', description: 'Four meanings, two directions.' },
@@ -544,7 +544,7 @@ function renderFeedback(question, feedback) {
   const correctText = question.correct;
   const word = question.entry.word;
   const showDiff = question.type.includes('spelling') || question.type === 'conjugation';
-  return `<div class="feedback-panel ${feedback.correct ? 'feedback-good' : 'feedback-bad'}"><div class="feedback-icon">${feedback.correct ? '✓' : '!'}</div><div class="feedback-copy"><strong>${feedback.correct ? 'Correct. Keep the rhythm.' : 'Not quite. Put it back in view.'}</strong><p>${feedback.correct ? `You chose <b>${escapeHtml(feedback.answer || correctText)}</b>.` : `The answer is <b>${escapeHtml(correctText)}</b>${showDiff ? ` · your answer: <span class="diff-answer">${diffSpelling(feedback.answer, correctText)}</span>` : ''}`}</p><div class="feedback-detail"><span class="feedback-word">${escapeHtml(word)}</span><span>${escapeHtml(question.entry.translation)}</span>${question.entry.example ? `<span class="example">“${escapeHtml(question.entry.example)}”</span>` : ''}</div></div>${hasImage(question.entry) ? `<img class="feedback-image" src="${escapeAttr(imageFor(question.entry))}" alt="${escapeAttr(word)}" loading="lazy" />` : ''}<button class="button ${feedback.correct ? 'button-primary' : 'button-dark'} next-button" data-action="next-question">${practice.index + 1 === practice.questions.length ? 'See results' : 'Next word'} <span>→</span></button></div>`;
+  return `<div class="feedback-panel ${feedback.correct ? 'feedback-good' : 'feedback-bad'}"><div class="feedback-icon">${feedback.correct ? '✓' : '!'}</div><div class="feedback-copy"><strong>${feedback.correct ? 'Correct. Keep the rhythm.' : 'Not quite. Put it back in view.'}</strong><p>${feedback.correct ? `You chose <b>${escapeHtml(feedback.answer || correctText)}</b>.` : `The answer is <b>${escapeHtml(correctText)}</b>${showDiff ? ` · your answer: <span class="diff-answer">${diffSpelling(feedback.answer, correctText)}</span>` : ''}`}</p><div class="feedback-detail"><span class="feedback-word">${escapeHtml(word)} <button class="speak-icon" data-action="speak" data-text="${escapeAttr(speechText(question.entry))}" aria-label="Hear pronunciation" title="Hear pronunciation">🔊</button></span><span>${escapeHtml(question.entry.translation)}</span>${question.entry.example ? `<span class="example">“${escapeHtml(question.entry.example)}” <button class="speak-icon" data-action="speak" data-text="${escapeAttr(question.entry.example)}" aria-label="Hear pronunciation" title="Hear pronunciation">🔊</button></span>` : ''}</div></div>${hasImage(question.entry) ? `<img class="feedback-image" src="${escapeAttr(imageFor(question.entry))}" alt="${escapeAttr(word)}" loading="lazy" />` : ''}<button class="button ${feedback.correct ? 'button-primary' : 'button-dark'} next-button" data-action="next-question">${practice.index + 1 === practice.questions.length ? 'See results' : 'Next word'} <span>→</span></button></div>`;
 }
 
 function renderResults() {
@@ -594,7 +594,7 @@ function renderVerbs() {
   const lessonSections = appData.chapters.map((chapter) => {
     const verbs = appData.entries.filter((entry) => entry.chapterId === chapter.id && entry.partOfSpeech === 'verb');
     if (!verbs.length) return '';
-    return `<section class="verb-lesson"><div class="section-heading"><div><div class="eyebrow">${escapeHtml(chapter.title)}</div><h2>${verbs.length} verbs</h2></div><span class="panel-count">Present tense</span></div><div class="verb-grid">${verbs.map((entry) => `<article class="verb-card panel"><div class="verb-card-heading"><div><span class="panel-kicker">Infinitive</span><h3>${escapeHtml(entry.word)}</h3></div><span class="verb-meaning">${escapeHtml(entry.translation)}</span></div>${entry.example ? `<p class="verb-example">“${escapeHtml(entry.example)}”</p>` : ''}${renderConjugation(entry.conjugation)}</article>`).join('')}</div></section>`;
+    return `<section class="verb-lesson"><div class="section-heading"><div><div class="eyebrow">${escapeHtml(chapter.title)}</div><h2>${verbs.length} verbs</h2></div><span class="panel-count">Present tense</span></div><div class="verb-grid">${verbs.map((entry) => `<article class="verb-card panel"><div class="verb-card-heading"><div><span class="panel-kicker">Infinitive</span><h3>${escapeHtml(entry.word)} <button class="speak-icon" data-action="speak" data-text="${escapeAttr(speechText(entry))}" aria-label="Hear pronunciation" title="Hear pronunciation">🔊</button></h3></div><span class="verb-meaning">${escapeHtml(entry.translation)}</span></div>${entry.example ? `<p class="verb-example">“${escapeHtml(entry.example)}” <button class="speak-icon" data-action="speak" data-text="${escapeAttr(entry.example)}" aria-label="Hear pronunciation" title="Hear pronunciation">🔊</button></p>` : ''}${renderConjugation(entry.conjugation)}</article>`).join('')}</div></section>`;
   }).join('');
   return `<section class="page-intro"><div><div class="eyebrow">German grammar bank</div><h1>Verb desk.</h1><p>Learn what each verb means, see it in context, and keep the present-tense forms close while you practice.</p></div><span class="source-note">${verbCount} verbs · present tense</span></section>${lessonSections}`;
 }
@@ -719,17 +719,40 @@ function nextQuestion() {
   setTimeout(() => document.querySelector('#spelling-answer, #conjugation-answer')?.focus(), 60);
 }
 
-function speakCurrent() {
-  if (!practice) return;
+function speechText(entry) {
+  // Nouns: read "der Apfel"; strip parenthetical/slash variants for cleaner audio.
+  return String(entry.word || '').replace(/\(.*?\)/g, '').split('/')[0].trim();
+}
+
+function pickVoice(lang) {
+  const voices = window.speechSynthesis.getVoices();
+  const base = lang.slice(0, 2).toLowerCase();
+  return voices.find((voice) => voice.lang.replace('_', '-').toLowerCase() === lang.toLowerCase())
+    || voices.find((voice) => voice.lang.toLowerCase().startsWith(base)) || null;
+}
+
+function speakText(text) {
+  if (!text) return;
   if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
     window.alert('Text-to-speech is not available in this browser.');
     return;
   }
-  const question = practice.questions[practice.index];
-  const utterance = new SpeechSynthesisUtterance(question.entry.word);
+  const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = appSettings.language;
-  window.speechSynthesis?.cancel();
-  window.speechSynthesis?.speak(utterance);
+  utterance.rate = 0.85;
+  const voice = pickVoice(appSettings.language);
+  if (voice) utterance.voice = voice;
+  else if (!window.speechSynthesis.getVoices().length) window.alert('This browser reports no speech voices at all. In Brave on Linux, install speech-dispatcher + espeak-ng and fully restart the browser.');
+  else window.alert('No German voice found on this device. Install one in your system/browser speech settings.');
+  utterance.onerror = (event) => console.warn('Speech error:', event.error);
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+}
+
+function speakCurrent(text) {
+  if (text) return speakText(text);
+  if (!practice) return;
+  speakText(speechText(practice.questions[practice.index].entry));
 }
 
 function importCsv() {
@@ -821,7 +844,7 @@ function handleAction(actionElement) {
   if (action === 'submit-conjugation') { answerQuestion(document.querySelector('#conjugation-answer')?.value || ''); return; }
   if (action === 'next-question') { nextQuestion(); return; }
   if (action === 'quit-session') { practice = null; activeView = 'home'; window.location.hash = '#home'; render(); return; }
-  if (action === 'speak') { speakCurrent(); return; }
+  if (action === 'speak') { speakCurrent(actionElement.dataset.text); return; }
   if (action === 'insert-char') { insertSpecialChar(actionElement.dataset.char); return; }
   if (action === 'insert-conjugation-char') { insertConjugationChar(actionElement.dataset.char); return; }
   if (action === 'clear-input') { const input = document.querySelector('#spelling-answer'); if (input) input.value = ''; input?.focus(); return; }
@@ -892,6 +915,7 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
+if ('speechSynthesis' in window) window.speechSynthesis.getVoices();
 window.addEventListener('hashchange', () => { activeView = (window.location.hash || '#home').slice(1) || 'home'; if (activeView !== 'practice') practice = activeView === 'results' ? null : practice; render(); });
 
 loadData().then(render).catch((error) => {
