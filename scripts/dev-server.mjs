@@ -10,6 +10,7 @@ const mime = {
   '.css': 'text/css; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
   '.webp': 'image/webp',
+  '.mp3': 'audio/mpeg',
   '.png': 'image/png',
   '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
@@ -18,7 +19,7 @@ const mime = {
 function safePath(urlPath) {
   const pathname = decodeURIComponent(urlPath.split('?')[0]);
   const relative = pathname === '/' ? 'index.html' : pathname.replace(/^\/+/, '');
-  const publicRelative = /^(data|images|manus-routes\.json)(\/|$)/.test(relative) ? join('public', relative) : relative;
+  const publicRelative = /^(data|images|audio|manus-routes\.json)(\/|$)/.test(relative) ? join('public', relative) : relative;
   const file = normalize(join(root, publicRelative));
   return file === root || file.startsWith(`${root}${sep}`) ? file : null;
 }
